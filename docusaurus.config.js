@@ -2,9 +2,9 @@ const OrgName = '4lch4'
 const ProjectName = 'Knowledge-Base'
 
 module.exports = {
-  title: `4lch4 - Knowledge Base`,
+  title: `${OrgName}/${ProjectName}`,
   tagline:
-    'My collection of "shared knowledge", which at the moment mostly consists of TIL snippets.',
+    'My public Knowledge Base containing various things I\'ve deemed worth learning or knowing at some point.',
   url: 'https://kba.4lch4.dev',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
