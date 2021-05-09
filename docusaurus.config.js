@@ -28,7 +28,6 @@ module.exports = {
           label: 'Cheatsheets',
           position: 'left'
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/4lch4/TILs',
           label: 'GitHub',
