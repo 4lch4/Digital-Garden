@@ -61,7 +61,6 @@ kubectl config set-context gce --user=cluster-admin --namespace=foo \
 kubectl config unset users.foo                       # delete user foo
 ```
 
-{: data-line="1"}
 
 Set which Kubernetes cluster `kubectl` communicates with and modifies configuration information. See [Authenticating Across Clusters with kubeconfig][0] documentation for detailed config file information.
 

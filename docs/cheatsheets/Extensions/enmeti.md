@@ -14,7 +14,6 @@ keywords:
 ---
 
 ## Defaults
-{: .-two-column}
 
 ### Default Keybindings
 

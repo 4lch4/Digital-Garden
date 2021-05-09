@@ -10,7 +10,6 @@ updated: 2017-08-26
 
 Jekyll
 ------
-{: .-one-column}
 
 * jekyll-avatar
 * jekyll-coffeescript
@@ -27,7 +26,6 @@ Jekyll
 * jekyll-sass-converter
 * jekyll-seo-tag
 * jekyll-sitemap
-{: .-four-column}
 
 As of github-pages v156. For an updated list, see: [Dependency versions](https://pages.github.com/versions/) _(pages.github.com)_
 
@@ -107,7 +105,6 @@ Just mention anyone in any page. Their names will be turned into links.
 
 Redirects
 ---------
-{: .-three-column}
 
 ### Configuration
 

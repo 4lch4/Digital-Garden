@@ -7,7 +7,6 @@ updated: 2018-03-17
 ---
 
 ## Reference
-{: .-three-column}
 
 ### Inheritance
 
@@ -88,6 +87,5 @@ that label-values can span multiple lines."
 ```
 
 ## See also
-{: .-one-column}
 
 - <https://docs.docker.com/engine/reference/builder/>

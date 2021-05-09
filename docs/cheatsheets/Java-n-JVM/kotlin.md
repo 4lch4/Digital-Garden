@@ -10,7 +10,6 @@ intro: |
 
 Variables
 ---------
-{: .-three-column}
 
 ### Mutability
 
@@ -60,7 +59,6 @@ val key = Person.NAME_KEY
 
 Null Safety
 -----------
-{: .-two-column}
 
 ### Nullable properties
 
@@ -107,7 +105,6 @@ val nullableCar: Car? = (input as? Car)
 
 Collections
 -----------
-{: .-two-column}
 
 ### Creation
 
@@ -174,7 +171,6 @@ Note: `it` is the [implicit name for a single parameter](https://kotlinlang.org/
 
 Functions
 ---------
-{: .-two-column}
 
 ### Parameters & Return Types
 
@@ -264,7 +260,6 @@ val fragment = Fragment.newInstance(args)
 
 Classes
 -------
-{: .-two-column}
 
 ### Primary Constructor
 
@@ -307,7 +302,6 @@ class Machine : Runner {
 
 Control Flow
 ------------
-{: .-two-column}
 
 ### If Statements
 
@@ -356,7 +350,6 @@ do {
 
 Destructuring Declarations
 --------------------------
-{: .-two-column}
 
 ### Objects & Lists
 
@@ -387,7 +380,6 @@ class Person(val name: String, val age: Int) {
 
 References
 ----------
-{: .-one-column}
 
 * [Defining Variables](https://kotlinlang.org/docs/reference/basic-syntax.html#defining-variables) _(kotlinlang.org)_
 * [Strings Documentation](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) _(kotlinlang.org)_

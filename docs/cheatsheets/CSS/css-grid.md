@@ -11,7 +11,6 @@ prism_languages: [css]
 ```css
 .grid-container {
 ```
-{: .-setup}
 
 ```css
   /* Display properties */
@@ -175,14 +174,12 @@ prism_languages: [css]
 ```css
 }
 ```
-{: .-setup}
 
 ### Child
 
 ```css
 .grid-child {
 ```
-{: .-setup}
 
 ```css
   /* Column position */
@@ -243,11 +240,9 @@ prism_languages: [css]
 ```css
 }
 ```
-{: .-setup}
 
 
 ## References
-{: .-one-column}
 
  * [GRID: A simple visual cheatsheet](http://grid.malven.co/)
  * [CSS Tricks: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)

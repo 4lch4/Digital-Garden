@@ -16,7 +16,6 @@ keywords:
 
 Getting started
 ---------------
-{: .-three-column}
 
 ### Example
 
@@ -62,7 +61,6 @@ git commit || echo "Commit failed"
 ```
 
 ### Functions
-{: id='functions-example'}
 
 ```bash
 get_name() {
@@ -75,7 +73,6 @@ echo "You are $(get_name)"
 See: [Functions](#functions)
 
 ### Conditionals
-{: id='conditionals-example'}
 
 ```bash
 if [[ -z "$string" ]]; then
@@ -111,7 +108,6 @@ See: [Brace expansion](http://wiki.bash-hackers.org/syntax/expansion/brace)
 
 Parameter expansions
 --------------------
-{: .-three-column}
 
 ### Basics
 
@@ -223,7 +219,6 @@ The `:` is optional (eg, `${FOO=word}` works)
 
 Loops
 -----
-{: .-three-column}
 
 ### Basic for loop
 
@@ -275,7 +270,6 @@ done
 
 Functions
 ---------
-{: .-three-column}
 
 ### Defining functions
 
@@ -338,7 +332,6 @@ See [Special parameters](http://wiki.bash-hackers.org/syntax/shellvars#special_p
 
 Conditionals
 ------------
-{: .-three-column}
 
 ### Conditions
 
@@ -475,7 +468,6 @@ done
 
 Dictionaries
 ------------
-{: .-three-column}
 
 ### Defining
 
@@ -754,7 +746,6 @@ fi
 ```
 
 ## Also see
-{: .-one-column}
 
 * [Bash-hackers wiki](http://wiki.bash-hackers.org/) _(bash-hackers.org)_
 * [Shell vars](http://wiki.bash-hackers.org/syntax/shellvars) _(bash-hackers.org)_

@@ -18,14 +18,12 @@ title: Command line stuff
 |  ---   |                                   |
 |  `-F`  | Add / after directories           |
 |  `-G`  | Color                             |
-{:.shortcuts}
 
 ### Options
 
 | `-R` | Recurse |
 | `-a` | Include hidden (dotfiles) |
 | `-A` | Include hidden (but not . and ..) |
-{:.shortcuts}
 
 ### Sorting
 
@@ -39,7 +37,6 @@ title: Command line stuff
 |  `-c`  | sort by time status was changed |
 |  ---   |                                 |
 |  `-h`  | Human-readable size (3k)        |
-{:.shortcuts}
 
 <br/
 
@@ -54,7 +51,6 @@ title: Command line stuff
 |  `-f`  | follow                                         |
 |  `-F`  | follow by filename (accounts for log rotation) |
 |  `-r`  | Reverse order                                  |
-{:.shortcuts}
 
 ### Options
 
@@ -64,7 +60,6 @@ title: Command line stuff
 | `-cN`  | N bytes           |
 | `-nN`  | N lines           |
 |  `+N`  | Start from line N |
-{:.shortcuts}
 
 <br/>
 
@@ -77,7 +72,6 @@ sudo [options] <command>
 ### Listing
 
 | `-l` | List allowed commands |
-{:.shortcuts}
 
 ### Options
 
@@ -90,17 +84,14 @@ sudo [options] <command>
 |  `-n`  | Don't prompt for password |
 |  `-P`  | Preserve group vector     |
 |  `-S`  | Read password from stdin  |
-{:.shortcuts}
 
 ### File descriptors
 
 | `-C fd` | Close all open file descriptors |
-{:.shortcuts}
 
 ### Prompt
 
 | `-p prompt` | Custom prompt (-p "%p password:") |
-{:.shortcuts}
 
 ### Interactive
 
@@ -111,7 +102,6 @@ sudo [options] <command>
 | ----       |                                     |
 | `-u user`  | run as this user                    |
 | `-g group` | run as this group                   |
-{:.shortcuts}
 
 ### Timestamp
 
@@ -120,7 +110,6 @@ sudo [options] <command>
 |  `-v`  | revalidate timestamp for 5 mins |
 |  `-k`  | invalidate timestamp            |
 |  `-K`  | just like -k                    |
-{:.shortcuts}
 
 <br/>
 
@@ -136,7 +125,6 @@ sudo [options] <command>
 |  `-l`  | Lines                        |
 |  `-m`  | Characters (incl multi-byte) |
 |  `-w`  | Words                        |
-{:.shortcuts}
 
 <br/>
 
@@ -174,7 +162,6 @@ grep [options] [pattern] [file ...]
 | `-r, -R`  | --recursive                                 |
 | `-v`      | --invert-match                              |
 | `-i`      | --ignore-case                               |
-{:.shortcuts}
 
 ### Synonyms
 

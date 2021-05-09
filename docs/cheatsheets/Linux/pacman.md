@@ -7,7 +7,6 @@ intro: |
 ---
 
 ## Commands
-{: .-three-column}
 
 ### Common commands
 
@@ -18,7 +17,6 @@ intro: |
 | `pacman -Rsc <pkg>`     | Uninstall                         |
 | `pacman -Ss <keywords>` | Search                            |
 | `pacman -Syu`           | Upgrade everything                |
-{: .-prime}
 
 ### Query
 

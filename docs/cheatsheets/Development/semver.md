@@ -8,7 +8,6 @@ weight: -3
 ### Semver
 
 Given a version number `MAJOR.MINOR.PATCH`:
-{: .-setup}
 
 | `MAJOR` | incompatible API changes                 |
 | `MINOR` | add functionality (backwards-compatible) |
@@ -45,7 +44,6 @@ Note that suffixed versions (`1.2.3-rc1`) are not matched.
 | ---      | ---                 | ---                |
 | `*`      | any version         |                    |
 | `x`      | same                |                    |
-{: .-shortcuts}
 
 ### Hyphenated ranges
 
@@ -87,10 +85,8 @@ When the left is partial (eg, `1.2`), missing pieces are assumed to be `0` (eg, 
 | `~` | means "reasonably close to" |
 | `0.x.x` | is for "initial development" |
 | `1.x.x` | means public API is defined |
-{: .-shortcuts}
 
 ## References
-{: .-one-column}
 
  * <http://semver.org/>
  * <https://docs.npmjs.com/misc/semver>

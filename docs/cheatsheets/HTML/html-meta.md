@@ -18,7 +18,6 @@ weight: -3
 <meta property='og:title'  content='···'>
 <meta name='twitter:title' content='···'>
 ```
-{: data-line="2"}
 
 ```html
 <!-- url -->
@@ -26,7 +25,6 @@ weight: -3
 <meta property='og:url'  content='http://···'>
 <meta name='twitter:url' content='http://···'>
 ```
-{: data-line="2"}
 
 ```html
 <!-- description -->
@@ -34,7 +32,6 @@ weight: -3
 <meta property='og:description'  content='···'>
 <meta name='twitter:description' content='···'>
 ```
-{: data-line="2"}
 
 ```html
 <!-- image -->
@@ -149,8 +146,6 @@ Chrome on Android recommends [192x192](https://developers.google.com/web/updates
 See: [Icons](https://developers.google.com/web/fundamentals/design-and-ui/browser-customization/)
 
 ## Reference
-{: .-one-column}
 
  * <https://dev.twitter.com/docs/cards>
  * <https://developers.facebook.com/docs/opengraphprotocol/#types>
-{: .-also-see}

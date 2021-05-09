@@ -46,7 +46,6 @@ docker-compose down
 ```
 
 ## Reference
-{: .-three-column}
 
 ### Building
 
@@ -149,7 +148,6 @@ web:
 ```
 
 ## Advanced features
-{: .-three-column}
 
 ### Labels
 
