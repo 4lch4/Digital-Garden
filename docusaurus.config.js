@@ -29,6 +29,11 @@ module.exports = {
           position: 'left'
         },
         {
+          label: 'About',
+          to: '/about',
+          position: 'left'
+        },
+        {
           href: 'https://github.com/4lch4/TILs',
           label: 'GitHub',
           position: 'right'
@@ -54,6 +59,10 @@ module.exports = {
         {
           title: 'More',
           items: [
+            {
+              label: 'About',
+              to: '/about'
+            },
             {
               label: 'GitHub',
               href: 'https://github.com/4lch4/knowledge-base'
