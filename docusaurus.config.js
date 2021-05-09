@@ -19,9 +19,13 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/doc1',
-          activeBasePath: 'tils',
+          to: '/tils/index',
           label: 'TILs',
+          position: 'left'
+        },
+        {
+          to: '/cheatsheets/index',
+          label: 'Cheatsheets',
           position: 'left'
         },
         { to: 'blog', label: 'Blog', position: 'left' },
@@ -71,15 +75,10 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           // Please change this to your repo.
           editUrl:
             'https://github.com/4lch4/knowledge-base/edit/master/website/'
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/4lch4/knowledge-base/edit/master/website/blog/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
