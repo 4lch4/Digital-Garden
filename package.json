@@ -1,19 +1,26 @@
 {
-  "name": "docusaurus-2",
+  "name": "@4lch4/knowledge-base",
+  "displayName": "@4lch4's KBA",
+  "description": "A site for my my collection of \"shared knowledge\".",
   "version": "0.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:4lch4/knowledge-base"
+  },
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy"
+    "deploy": "docusaurus deploy",
+    "pretty": "prettier --write ."
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.54",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.54",
-    "classnames": "^2.2.6",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "@docusaurus/core": "^2.0.0-alpha.75",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.75",
+    "classnames": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "browserslist": {
     "production": [
@@ -26,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
   }
 }
