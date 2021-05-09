@@ -40,15 +40,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'TILs',
+          title: 'Information',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1'
+              label: 'Index',
+              to: 'tils/index'
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2'
+              label: 'Cheatsheets',
+              to: 'cheatsheets/index'
             }
           ]
         },
@@ -56,12 +56,8 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog'
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/4lch4/TILs'
+              href: 'https://github.com/4lch4/knowledge-base'
             }
           ]
         }
