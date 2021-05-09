@@ -1,17 +1,11 @@
-# Docusaurus Example
+# @4lch4/knowledge-base
 
-This directory is a brief example of a [Docusaurus](https://v2.docusaurus.io) site that can be deployed with Vercel and zero configuration.
+This project serves as a collection of my "public knowledge", which consists of just about everything I learn. I'm just starting this repository out so as of writing this, I only have a couple TILs and some cheatsheets I've collected over the years.
 
-## Deploy Your Own
+## View Website
 
-Deploy your own Docusaurus project with Vercel.
+The actual website is [hosted here][KBA-Home] by [Vercel][Vercel-Home]. At some point I'll likely convert it so it runs on [GitHub Pages][GitHub-Pages] instead since that's what I use for my other SSG sites.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/main/docusaurus-2)
-
-### How We Created This Example
-
-To get started with Docusaurus on Vercel, you can use the [Docusaurus CLI](https://v2.docusaurus.io/docs/installation#scaffold-project-website) to initialize the project:
-
-```shell
-$ npx @docusaurus/init@next init my-website classic
-```
+[KBA-Home]: https://kba.4lch4.dev
+[Vercel-Home]: https://vercel.com
+[GitHub-Pages]: https://pages.github.com/
