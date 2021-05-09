@@ -324,6 +324,7 @@ $menu-items: home about services contact;
 ```
 
 ### Each loops (nested)
+
 ```scss
 $backgrounds: (home, 'home.jpg'), (about, 'about.jpg');
 
@@ -390,5 +391,5 @@ map-get($map, key1)
 
 ## See also
 
-- <http://sass-lang.com/documentation/Sass/Script/Functions.html>
-- <http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript>
+* <http://sass-lang.com/documentation/Sass/Script/Functions.html>
+* <http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript>

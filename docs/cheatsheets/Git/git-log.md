@@ -27,43 +27,43 @@ See [gitrevisions](./git-revisions).
 ```
 
 ```bash
-    --since="1 week ago"
-    --until="yesterday"
+--since="1 week ago"
+--until="yesterday"
 ```
 
 ```bash
-    --author="Rico"
-    --committer="Rico"
+--author="Rico"
+--committer="Rico"
 ```
 
 ### Search
 
 ```bash
-    --grep="Merge pull request"   # in commit messages
-    -S"console.log"               # in code
-    -G"foo.*"                     # in code (regex)
+--grep="Merge pull request"   # in commit messages
+-S"console.log"               # in code
+-G"foo.*"                     # in code (regex)
 ```
 
 ```bash
-    --invert-grep
-    --all-match                   # AND in multi --grep
+--invert-grep
+--all-match                   # AND in multi --grep
 ```
 
 ### Limiting
 
 ```bash
-    --merges
-    --no-merges
+--merges
+--no-merges
 ```
 
 ```bash
-    --first-parent          # no stuff from merged branches
+--first-parent          # no stuff from merged branches
 ```
 
 ```bash
-    --branches="feature/*"
-    --tags="v*"
-    --remotes="origin"
+--branches="feature/*"
+--tags="v*"
+--remotes="origin"
 ```
 
 ### Simplification
@@ -76,24 +76,24 @@ git log -- app/file.rb          # only file
 ### Ordering
 
 ```bash
-    --date-order
-    --author-date-order
-    --topo-order              # "smart" ordering
-    --reverse
+--date-order
+--author-date-order
+--topo-order              # "smart" ordering
+--reverse
 ```
 
 ### Formatting
 
 ```bash
-    --abbrev-commit
-    --oneline
-    --graph
+--abbrev-commit
+--oneline
+--graph
 ```
 
 ### Custom formats
 
 ```bash
-    --pretty="format:%H"
+--pretty="format:%H"
 ```
 
 See: [Git log format cheatsheet](./git-log-format)

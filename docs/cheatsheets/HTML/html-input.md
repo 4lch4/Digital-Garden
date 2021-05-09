@@ -9,21 +9,21 @@ weight: -3
 ### Input
 
 ```html
- <input ...
+<input ...
    disabled
    required
    checked
 ```
 
 ```html
-   autofocus
+autofocus
 ```
 
 ```html
-   autocomplete='off'        <!-- autocomplete -->
-   autocompletetype='cc-exp'
-   autocapitalize='off'      <!-- for mobiles -->
-   pattern='\d*'             <!-- force numeric input in iOS -->
+autocomplete='off'        <!-- autocomplete -->
+autocompletetype='cc-exp'
+autocapitalize='off'      <!-- for mobiles -->
+pattern='\d*'             <!-- force numeric input in iOS -->
 ```
 
 ### Input types
@@ -103,4 +103,4 @@ weight: -3
 
 ## Also see
 
- * <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input>
+* <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input>

@@ -116,7 +116,6 @@ Markup
 </title>
 ```
 
-
 ### Filters
 
 ```html
@@ -128,10 +127,10 @@ Markup
 ### Loops
 
 ```html
-  <a href="{{ post.url }}">
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.date | date_to_string }}</p>
-  </a>
+<a href="{{ post.url }}">
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.date | date_to_string }}</p>
+</a>
 ```
 
 ### Dates
@@ -154,9 +153,9 @@ Markup
 ### Case
 
 ```html
-       Arriving in 2-3 weeks
-       Arriving in 2-3 days
-       Thank you for your order!
+Arriving in 2-3 weeks
+Arriving in 2-3 days
+Thank you for your order!
 ```
 
 ### Includes (partials)
@@ -177,7 +176,6 @@ Markup
 ## Variables
 
 ### Top-level variables
-
 
 | `{{ site }}` | Data from `config.yml` |
 | `{{ page }}` | From frontmatter, and page-specific info |
@@ -240,19 +238,18 @@ Filters
 
 ### Preprocessors
 
-
 ```ruby
 {{ page.description | markdownify }}
 ```
 
-| Filter | Description |
-| --- | --- |
-| `textilize` | Textile |
-| `markdownify` | Markdown |
-| `jsonify` | JSON |
-| `sassify` | Sass |
-| `scssify` | SCSS |
-| `smartify` | Smartypants |
+| Filter        | Description |
+|---------------|-------------|
+| `textilize`   | Textile     |
+| `markdownify` | Markdown    |
+| `jsonify`     | JSON        |
+| `sassify`     | Sass        |
+| `scssify`     | SCSS        |
+| `smartify`    | Smartypants |
 
 ### Array filters
 
@@ -260,28 +257,28 @@ Filters
 {{ site.pages | where: "year", "2014" }}
 ```
 
-| Filter | Description |
-| --- | --- |
-| `where:` _"year", "2014"_ | |
-| `where_exp:` _"item", "item.year >= 2014"_ | |
-| --- | --- |
-| `group_by:` _"genre"_   | → `{name, items}` |
-| `group_by_exp:` _"item", "item.genre"_   | → `{name, items}` |
-| --- | --- |
-| `sort` | |
-| `sort:` _'author'_ | |
-| --- | --- |
-| `uniq` | |
-| --- | --- |
-| `first` | |
-| `last` | |
-| `join:` _','_ | |
-| `array_to_sentence_string` | → `"X, Y and Z"` |
-| --- | --- |
-| `map:` _'post'_ | Works like 'pluck' |
-| --- | --- |
-| `size` | |
-| `push:` _'xxx'_ | Adds an item |
+| Filter                                     | Description        |
+|--------------------------------------------|--------------------|
+| `where:` _"year", "2014"_                  |                    |
+| `where_exp:` _"item", "item.year >= 2014"_ |                    |
+| ---                                        | ---                |
+| `group_by:` _"genre"_                      | → `{name, items}`  |
+| `group_by_exp:` _"item", "item.genre"_     | → `{name, items}`  |
+| ---                                        | ---                |
+| `sort`                                     |                    |
+| `sort:` _'author'_                         |                    |
+| ---                                        | ---                |
+| `uniq`                                     |                    |
+| ---                                        | ---                |
+| `first`                                    |                    |
+| `last`                                     |                    |
+| `join:` _','_                              |                    |
+| `array_to_sentence_string`                 | → `"X, Y and Z"`   |
+| ---                                        | ---                |
+| `map:` _'post'_                            | Works like 'pluck' |
+| ---                                        | ---                |
+| `size`                                     |                    |
+| `push:` _'xxx'_                            | Adds an item       |
 
 ### String filters
 
@@ -290,7 +287,7 @@ Filters
 ```
 
 | Filter                             | Description |
-| ---                                | ---         |
+|------------------------------------|-------------|
 | `default:` _'xxx'_                 |             |
 | ---                                | ---         |
 | `upcase`                           |             |
@@ -328,14 +325,14 @@ See: [String filters](http://docs.shopify.com/themes/liquid-documentation/filter
 {{ page.excerpt | number_of_words }}
 ```
 
-| Filter | Description |
-| --- | --- |
-| `number_of_words` | |
-| `slugify` | |
-| --- | --- |
-| `xml_escape` | → `CDATA` |
-| `cgi_escape` | → `foo%2Cbar` |
-| `uri_escape` | → `foo,%20bar` |
+| Filter            | Description    |
+|-------------------|----------------|
+| `number_of_words` |                |
+| `slugify`         |                |
+| ---               | ---            |
+| `xml_escape`      | → `CDATA`      |
+| `cgi_escape`      | → `foo%2Cbar`  |
+| `uri_escape`      | → `foo,%20bar` |
 
 ### Numbers
 
@@ -343,17 +340,17 @@ See: [String filters](http://docs.shopify.com/themes/liquid-documentation/filter
 {{ site.posts.size | minus: 2 }}
 ```
 
-| Filter | Description |
-| --- | --- |
-| `minus:` _2_ | |
-| `plus:` _2_ | |
-| `times:` _2_ | |
-| `divided_by:` _2_ | |
-| `modulo:` _2_ | |
-| --- | --- |
-| `ceil` | |
-| `floor` | |
-| `round` | |
+| Filter            | Description |
+|-------------------|-------------|
+| `minus:` _2_      |             |
+| `plus:` _2_       |             |
+| `times:` _2_      |             |
+| `divided_by:` _2_ |             |
+| `modulo:` _2_     |             |
+| ---               | ---         |
+| `ceil`            |             |
+| `floor`           |             |
+| `round`           |             |
 
 ## Paginator
 
@@ -384,9 +381,9 @@ See: [Paginator](http://jekyllrb.com/docs/pagination/)
 
 ### Previous button
 
+```html
+<a href="{{ paginator.previous_page_path }}">Previous</a>
 ```
-      <a href="{{ paginator.previous_page_path }}">Previous</a>
-    ```
 
 ```
 {{ paginator.next_page }}     - page number
@@ -397,20 +394,26 @@ See: [Paginator](http://jekyllrb.com/docs/pagination/)
 
 ### Paths
 
-    _posts/YEAR-MONTH-DAY-title.md
+```
+_posts/YEAR-MONTH-DAY-title.md
+```
 
 See: [Blogging](http://jekyllrb.com/docs/posts/)
 
 ### Image paths
 
-    ![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+```
+![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+```
 
 See: [Image paths](http://jekyllrb.com/docs/posts/#including-images-and-resources)
 
 ### Drafts
 
-    vi _drafts/a-draft-post.md
-    jekyll build --drafts
+```
+vi _drafts/a-draft-post.md
+jekyll build --drafts
+```
 
 Posts in `_drafts` only show up in development, but not production.
 See: [Drafts](http://jekyllrb.com/docs/drafts/)
@@ -456,11 +459,13 @@ Alternatively, you can put excerpts inline in your post by defining `excerpt_sep
 
 ### Permalinks
 
+```
     # _config.yml
     permalink: date   # /:categories/:year/:month/:day/:title.html
     permalink: pretty # /:categories/:year/:month/:day/:title/
     permalink: none   # /:categories/:title.html
     permalink: "/:title"
+```
 
 See: [Permalinks](http://jekyllrb.com/docs/permalinks/)
 
@@ -521,10 +526,10 @@ Bundler.require :default
 
 ### Compass
 
-  * [Compass](https://gist.github.com/parkr/2874934)
-  * [Asset pipeline](https://github.com/matthodan/jekyll-asset-pipeline)
+* [Compass](https://gist.github.com/parkr/2874934)
+* [Asset pipeline](https://github.com/matthodan/jekyll-asset-pipeline)
 
-Also see
+See Also
 --------
 
 * [Jekyll docs](http://jekyllrb.com/docs/home/) _jekyllrb.com_

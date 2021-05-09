@@ -6,6 +6,7 @@ layout: 2017/sheet
 
 ### Structure
 
+```
     roles/
       common/
         tasks/
@@ -16,7 +17,8 @@ layout: 2017/sheet
         vars/
         defaults/
           main.yml
+```
 
 ### References
 
- * http://www.ansibleworks.com/docs/playbooks_roles.html
+* http://www.ansibleworks.com/docs/playbooks_roles.html

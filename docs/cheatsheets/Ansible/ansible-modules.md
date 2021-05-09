@@ -242,4 +242,3 @@ See: [template module](http://devdocs.io/ansible/template_module)
 ```
 
 See: [debug module](http://devdocs.io/ansible/debug_module)
-

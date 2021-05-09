@@ -31,7 +31,6 @@ weight: -3
 }
 ```
 
-
 Highlighted lines are required.
 
 ### Dependencies
@@ -90,5 +89,5 @@ Keys in `config` are exposed as env vars to scripts.
 
 ## References
 
- * <http://package.json.nodejitsu.com/>
- * `npm help package.json`
+* <http://package.json.nodejitsu.com/>
+* `npm help package.json`

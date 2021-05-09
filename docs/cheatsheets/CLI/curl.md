@@ -7,8 +7,6 @@ updated: 2017-09-20
 
 ## Options
 
-### Options
-
 ```bash
 -o <file>    # --output: write to file
 -u user:pass # --user: Authentication

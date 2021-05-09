@@ -6,7 +6,6 @@ tags: [WIP]
 updated: 2017-08-26
 ---
 
-
 Jekyll
 ------
 
@@ -46,9 +45,9 @@ See: [Repository metadata on GitHub pages](https://help.github.com/articles/repo
 ### Listing repos
 
 ```html
-  <a href='{{ repository.html_url }}'>
-    {{ repository.name }}
-  </a>
+<a href='{{ repository.html_url }}'>
+  {{ repository.name }}
+</a>
 ```
 
 ### Link to repo
@@ -98,7 +97,6 @@ Hey @rstacruz, what do you think of this?
 
 Just mention anyone in any page. Their names will be turned into links.
 
-
 Redirects
 ---------
 
@@ -133,5 +131,3 @@ redirect_to:
 
 Place on any page.
 See: [redirect to](https://github.com/jekyll/jekyll-redirect-from#redirect-to)
-
-

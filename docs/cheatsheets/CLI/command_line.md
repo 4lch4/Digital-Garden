@@ -4,7 +4,9 @@ title: Command line stuff
 
 ## List (ls)
 
-    ls [options] [paths]
+```bash
+ls [options] [paths]
+```
 
 ### Format
 
@@ -38,11 +40,11 @@ title: Command line stuff
 |  ---   |                                 |
 |  `-h`  | Human-readable size (3k)        |
 
-<br/>
-
 ## Tail
 
+```bash
     tail [-F | -f | -r] [-bN | -cN | -nN] [file ...]
+```
 
 ### Modes
 
@@ -60,8 +62,6 @@ title: Command line stuff
 | `-cN`  | N bytes           |
 | `-nN`  | N lines           |
 |  `+N`  | Start from line N |
-
-<br/>
 
 ## Sudo
 
@@ -111,8 +111,6 @@ sudo [options] <command>
 |  `-k`  | invalidate timestamp            |
 |  `-K`  | just like -k                    |
 
-<br/>
-
 ## wc (Word count)
 
 ```
@@ -126,13 +124,11 @@ sudo [options] <command>
 |  `-m`  | Characters (incl multi-byte) |
 |  `-w`  | Words                        |
 
-<br/>
-
 ## Search-and-replace in all files
 
+```bash
     perl -p -i -e 's/hello/HELLO/g' **/*
-
-<br/>
+```
 
 ## Grep
 
@@ -165,6 +161,7 @@ grep [options] [pattern] [file ...]
 
 ### Synonyms
 
-bash
+```bash
     egrep  =>  grep -E
     fgrep  =>  grep -F
+```

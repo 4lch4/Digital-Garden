@@ -19,7 +19,7 @@ gremlins.createHorde().unleash()
 </script>
 ```
 
-![](https://camo.githubusercontent.com/130e101ee69d4d9b6f065df0a0404c861eb5ce18/687474703a2f2f7374617469632e6d61726d656c61622e636f6d2f746f646f2e676966?q=99)
+![Img-Sample](https://camo+.githubusercontent.com/130e101ee69d4d9b6f065df0a0404c861eb5ce18/687474703a2f2f7374617469632e6d61726d656c61622e636f6d2f746f646f2e676966?q=99)
 
 ### Custom gremlins
 

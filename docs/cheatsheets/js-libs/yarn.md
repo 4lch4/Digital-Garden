@@ -10,15 +10,15 @@ tags: [Featurable]
 
 ### npm equivalents
 
-| npm | yarn |
-| --- | ---- |
-| `npm init` | `yarn init` |
-| `npm install` | `yarn` |
-| `npm install gulp --save` | `yarn add gulp` |
+| npm                                        | yarn                          |
+|--------------------------------------------|-------------------------------|
+| `npm init`                                 | `yarn init`                   |
+| `npm install`                              | `yarn`                        |
+| `npm install gulp --save`                  | `yarn add gulp`               |
 | `npm install gulp --save-dev --save-exact` | `yarn add gulp --dev --exact` |
-| `npm install -g gulp` | `yarn global add gulp` |
-| `npm update` | `yarn upgrade` |
-| `./node_modules/.bin/gulp` | `yarn run gulp` |
+| `npm install -g gulp`                      | `yarn global add gulp`        |
+| `npm update`                               | `yarn upgrade`                |
+| `./node_modules/.bin/gulp`                 | `yarn run gulp`               |
 
 ### yarn install
 

@@ -98,6 +98,7 @@ val nonNullDepartmentHead: String = person?.department?.head?.name.orEmpty()
 ```
 
 ### Safe Casts
+
 ```kotlin
 // Will not throw ClassCastException
 val nullableCar: Car? = (input as? Car)
@@ -368,13 +369,13 @@ val (x, y, z) = coordinates
 
 ```kotlin
 class Person(val name: String, val age: Int) {
-	operator fun component1(): String {
-		return name
-	}
+    operator fun component1(): String {
+        return name
+    }
 
-	operator fun component2(): Int {
-		return age
-	}
+    operator fun component2(): Int {
+        return age
+    }
 }
 ```
 

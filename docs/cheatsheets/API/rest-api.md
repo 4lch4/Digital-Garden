@@ -8,7 +8,7 @@ category: API
 ### Status codes
 
 | Code                  | Description                                  |
-| --------------------- | -------------------------------------------- |
+|-----------------------|----------------------------------------------|
 | `200 OK`              | Successful get, patch (return a JSON object) |
 | `201 Created`         | Successful post (return a JSON object)       |
 | `202 Accepted`        | Successful post, delete, path - async        |
@@ -18,7 +18,7 @@ category: API
 ### Error status
 
 | Code                       | Description                       |
-| -------------------------- | --------------------------------- |
+|----------------------------|-----------------------------------|
 | `401 Unauthorized`         | Not authenticated                 |
 | `403 Forbidden`            | Authenticated, but no permissions |
 | `422 Unprocessable entity` | Validation                        |
@@ -54,7 +54,7 @@ curl -is https://$TOKEN@api.service.com/
 ### Methods
 
 | Request              | Description                   |
-| -------------------- | ----------------------------- |
+|----------------------|-------------------------------|
 | `GET /articles/1`    | read, returns _200_           |
 | `PUT /articles/1`    | edit (or path), returns _200_ |
 | `DELETE /articles/1` | delete, returns _200_         |

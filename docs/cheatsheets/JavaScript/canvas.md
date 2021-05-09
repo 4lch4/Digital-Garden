@@ -46,7 +46,6 @@ c.restore()
 Saves: `strokeStyle` `fillStyle` `globalAlpha` `lineWidth` `lineCap` `lineJoin` `miterLimit` `shadowOffsetX` `shadowOffsetY` `shadowBlur` `shadowColor`
 `globalCompositeOperation`, Transformations (`translate` `rotate` `scale` `transform` `setTransform`), Clipping path
 
-
 ### Animation
 
 ```js
@@ -133,7 +132,7 @@ c.closePath()
 
 ### More resources
 
-  * [Canvas Cheatsheet PDF][pdf]
+* [Canvas Cheatsheet PDF][pdf]
 
 [pdf]: http://www.nihilogic.dk/labs/canvas_sheet/HTML5_Canvas_Cheat_Sheet.pdf
 [xform]: https://developer.mozilla.org/en-US/docs/Canvas_tutorial/Transformations

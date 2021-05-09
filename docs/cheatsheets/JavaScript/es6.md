@@ -84,33 +84,32 @@ class Circle extends Shape {
 #### Constructor
 
 ```js
-  constructor (radius) {
-    this.radius = radius
-  }
+constructor (radius) {
+  this.radius = radius
+}
 ```
 
 #### Methods
 
 ```js
-  getArea () {
-    return Math.PI * 2 * this.radius
-  }
+getArea () {
+  return Math.PI * 2 * this.radius
+}
 ```
 
 #### Calling superclass methods
 
 ```js
-  expand (n) {
-    return super.expand(n) * Math.PI
-  }
+expand (n) {
+  return super.expand(n) * Math.PI
+}
 ```
 
 #### Static methods
 
 ```js
-  static createFromDiameter(diameter) {
-    return new Circle(diameter / 2)
-  }
+static createFromDiameter(diameter) {
+  return new Circle(diameter / 2)
 }
 ```
 
@@ -147,7 +146,6 @@ promise
   .catch((error) => { ··· })
 ```
 
-
 ### Using promises with finally
 
 ```js
@@ -158,7 +156,6 @@ promise
 ```
 
 The handler is called when the promise is fulfilled or rejected.
-
 
 ### Promise functions
 
@@ -271,7 +268,6 @@ for (let {title, artist} of songs) {
 
 The assignment expressions work in loops, too.
 
-
 ### Object destructuring
 
 ```js
@@ -279,7 +275,6 @@ const { id, ...detail } = song;
 ```
 
 Extract some keys individually and remaining keys in the object using rest (...) operator
-
 
 Spread
 ------
@@ -365,8 +360,6 @@ See: [Function arguments](https://babeljs.io/learn-es2015/#default--rest--spread
 
 ### Fat arrows
 
-#### Fat arrows
-
 ```js
 setTimeout(() => {
   ···
@@ -382,6 +375,7 @@ readFile('text.txt', (err, data) => {
 ```
 
 #### Implicit return
+
 ```js
 numbers.map(n => n * 2)
 // No curly braces = implicit return
@@ -447,7 +441,6 @@ let handlers = {
 
 See: [Object literal enhancements](https://babeljs.io/learn-es2015/#enhanced-object-literals)
 
-
 ### Extract values
 
 ```js
@@ -458,8 +451,6 @@ Object.values(fatherJS)
 Object.entries(fatherJS)
 // [["age", 57], ["name", "Brendan Eich"]]
 ```
-
-
 
 Modules
 -------

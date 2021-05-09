@@ -12,7 +12,7 @@ updated: 2017-08-26
 ```
 The MIT License (MIT)
 
-Copyright (c) 2015 $NAME
+Copyright (c) 2021 4lch4 Industries, LLC.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -36,7 +36,7 @@ SOFTWARE.
 ### ISC
 
 ```
-Copyright (c) 2015, $NAME
+Copyright (c) 2021 4lch4 Industries, LLC.
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -54,7 +54,8 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ### BSD 2C
 
 ```
-Copyright (c) 2015, $NAME
+Copyright (c) 2021 4lch4 Industries, LLC.
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -82,7 +83,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ### BSD 3C
 
 ```
-Copyright (c) 2015, $NAME
+Copyright (c) 2021 4lch4 Industries, LLC.
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -109,4 +111,22 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+### Apache 2.0
+
+```
+Copyright 2021 4lch4 Industries, LLC.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 ```

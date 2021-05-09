@@ -121,4 +121,4 @@ deploy:
 
 ## Further reading
 
- * [isaacs's Makefile](https://gist.github.com/isaacs/62a2d1825d04437c6f08)
+* [isaacs's Makefile](https://gist.github.com/isaacs/62a2d1825d04437c6f08)

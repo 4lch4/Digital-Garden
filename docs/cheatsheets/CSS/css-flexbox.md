@@ -90,7 +90,6 @@ weight: -3
 }
 ```
 
-
 ## Tricks
 
 ### Vertical center
@@ -131,7 +130,6 @@ weight: -3
 
 ### Mobile layout
 
-
 ```css
 .container {
   display: flex;
@@ -167,7 +165,6 @@ to the circumstances.
 
 ### Vertical
 
-
 ```css
 .container {
   align-items: center;
@@ -185,5 +182,5 @@ Vertically-center all items.
 
 ## References
 
- * [MDN: Using CSS flexbox](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes)
- * [Ultimate flexbox cheatsheet](http://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
+* [MDN: Using CSS flexbox](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes)
+* [Ultimate flexbox cheatsheet](http://www.sketchingwithcss.com/samplechapter/cheatsheet.html)

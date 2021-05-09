@@ -80,7 +80,6 @@ it.only(···) // alias: fit()
 
 See: [test.only](http://facebook.github.io/jest/docs/en/api.html#testonlyname-fn)
 
-
 ### Skipping tests
 
 ```js

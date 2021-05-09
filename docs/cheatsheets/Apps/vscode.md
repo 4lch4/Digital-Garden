@@ -18,14 +18,14 @@ intro: |
 ### Command palette
 
 | Key   | Description       |
-| ----- | ----------------- |
+|-------|-------------------|
 | `⇧⌘P` | Show all commands |
 | `⌘P`  | Show files        |
 
 ### Sidebars
 
 | Key   | Description    |
-| ----- | -------------- |
+|-------|----------------|
 | `⌘B`  | Toggle sidebar |
 | ----  | ----           |
 | `⇧⌘E` | Explorer       |
@@ -37,7 +37,7 @@ intro: |
 ### Search
 
 | Key   | Description      |
-| ----- | ---------------- |
+|-------|------------------|
 | `⌘F`  | Find             |
 | `⌥⌘F` | Replace          |
 | ----  | ----             |
@@ -46,19 +46,19 @@ intro: |
 
 ### Panel
 
-| Key                        | Description   |
-| -------------------------- | ------------- |
-| `⌘J`                       | Toggle panel  |
-| ----                       | ----          |
-| `⇧⌘M`                      | Problems      |
-| `⇧⌘U`                      | Output        |
-| `⇧⌘Y`                      | Debug console |
-| <code>^`</code>            | Terminal      |
+| Key                                   | Description   |
+|---------------------------------------|---------------|
+| `⌘J`                                  | Toggle panel  |
+| ----                                  | ----          |
+| `⇧⌘M`                                 | Problems      |
+| `⇧⌘U`                                 | Output        |
+| `⇧⌘Y`                                 | Debug console |
+| <code>^`</code>                       | Terminal      |
 
 ### View
 
 | Key      | Description      |
-| -------- | ---------------- |
+|----------|------------------|
 | `⌘k` `z` | Zen mode         |
 | ----     | ----             |
 | `⌘k` `u` | Close unmodified |
@@ -67,7 +67,7 @@ intro: |
 ### Debug
 
 | Key    | Description             |
-| ------ | ----------------------- |
+|--------|-------------------------|
 | `F5`   | Start                   |
 | `⇧F5`  | Stop                    |
 | `⇧⌘F5` | Restart                 |

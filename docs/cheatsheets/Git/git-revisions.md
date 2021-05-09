@@ -20,7 +20,7 @@ The 3rd argument in each of these commands is a `gitrevision`. These gitrevision
 ### Common git revisions
 
 | Reference                    | Description                                     |
-| ---                          | ---                                             |
+|------------------------------|-------------------------------------------------|
 | _`git show`_ `dae68e1`       | sha1                                            |
 | _`git show`_ `HEAD`          | reference                                       |
 | _`git show`_ `v1.0.0`        | tag                                             |
@@ -44,7 +44,7 @@ These are just the common ones, there's a lot more below! (These work in many ot
 ### References
 
 | Example                          | Description                       |
-| ---                              | ---                               |
+|----------------------------------|-----------------------------------|
 | _`git checkout`_ `HEAD`          | reference                         |
 | _`git checkout`_ `master`        | branch                            |
 | _`git checkout`_ `v1.0.0`        | tag                               |
@@ -55,7 +55,7 @@ These are just the common ones, there's a lot more below! (These work in many ot
 ### Searching back
 
 | Example                               | Description                              |
-| ---                                   | ---                                      |
+|---------------------------------------|------------------------------------------|
 | _`git checkout`_ `master@{yesterday}` | also *1 day ago*, etc                    |
 | _`git checkout`_ `master@{2}`         | 2nd prior value                          |
 | _`git checkout`_ `master@{push}`      | where *master* would push to             |
@@ -76,8 +76,6 @@ These are just the common ones, there's a lot more below! (These work in many ot
 | `0:README`    | (0 to 3) ... |
 
 ## Ranges
-
-### Ranges
 
 | _`git log`_ `master`       | reachable parents from master                   |
 | _`git log`_ `^master`      | exclude reachable parents from master           |

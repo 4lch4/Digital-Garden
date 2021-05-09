@@ -8,13 +8,13 @@ intro: |
 
 ### In place replacements
 
-#### In GNU sed: use `-i` without arg.
+#### In GNU sed: use `-i` without arg
 
 ```bash
 sed -i -e 's/foo/bar/' example.md
 ```
 
-#### In OSX, `-i ''` is required.
+#### In OSX, `-i ''` is required
 
 ```bash
 sed -i '' -e 's/foo/bar/' example.md

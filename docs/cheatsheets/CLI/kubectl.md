@@ -16,14 +16,14 @@ tags:
 ### Autocomplete
 
 #### Bash
-  
+
   ```bash
   source <(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first.
   echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanently to your bash shell.
   ```
 
 #### Zsh
-  
+
   ```bash
   alias k=kubectl
   complete -F __start_kubectl k
@@ -60,7 +60,6 @@ kubectl config set-context gce --user=cluster-admin --namespace=foo \
 
 kubectl config unset users.foo                       # delete user foo
 ```
-
 
 Set which Kubernetes cluster `kubectl` communicates with and modifies configuration information. See [Authenticating Across Clusters with kubeconfig][0] documentation for detailed config file information.
 

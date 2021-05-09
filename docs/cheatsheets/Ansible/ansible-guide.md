@@ -9,8 +9,8 @@ description: |
 ### Install Ansible
 
 ```bash
-$ brew install ansible            # OSX
-$ [sudo] apt install ansible      # elsewhere
+brew install ansible            # OSX
+[sudo] apt install ansible      # elsewhere
 ```
 
 Ansible is available as a package in most OS's.

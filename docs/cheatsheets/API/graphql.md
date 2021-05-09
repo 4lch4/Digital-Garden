@@ -88,6 +88,7 @@ GraphQL queries look the same for both single items or lists of items.
 ### Operation names and variables
 
 #### Query
+
 ```js
 query FindHero($id: String!) {
   hero(id: $id) { name }
@@ -137,7 +138,6 @@ Mutations are just fields that do something when queried.
 ```
 
 Great for searching.
-
 
 Over HTTP
 ---------

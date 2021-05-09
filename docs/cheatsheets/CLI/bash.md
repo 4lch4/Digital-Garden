@@ -105,7 +105,6 @@ echo {A,B}.js
 
 See: [Brace expansion](http://wiki.bash-hackers.org/syntax/expansion/brace)
 
-
 Parameter expansions
 --------------------
 
@@ -206,7 +205,6 @@ STR="hello world!"
 echo ${STR^}   #=> "Hello world!" (uppercase 1st letter)
 echo ${STR^^}  #=> "HELLO WORLD!" (all uppercase)
 ```
-
 
 ### Default values
 
@@ -572,7 +570,6 @@ History
 | `!!:n-$` | Expand `n`th token to last from most recent command |
 
 `!!` can be replaced with any valid expansion i.e. `!cat`, `!-2`, `!42`, etc.
-
 
 Miscellaneous
 -------------

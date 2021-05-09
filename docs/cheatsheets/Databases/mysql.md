@@ -246,11 +246,11 @@ ENUM ('value1', 'value2', ...) -- (default NULL, or '' if NOT NULL)
 ### Reset Root Password
 
 ```bash
-$ /etc/init.d/mysql stop
+/etc/init.d/mysql stop
 ```
 
 ```bash
-$ mysqld_safe --skip-grant-tables
+mysqld_safe --skip-grant-tables
 ```
 
 ```bash

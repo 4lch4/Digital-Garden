@@ -25,7 +25,7 @@ prism_languages: [css]
   grid-template-columns: 25% 50% 25%; /* Percentage units */
   grid-template-columns: 1rem auto 1rem 2fr; /* Fill remaining widths with auto or fr units */
   grid-template-columns: repeat(12, 1fr); /* Repeat columns without needing to write them */
-  
+
   grid-template-rows: 1rem 10% auto repeat(5, 10px); /* Mix any group, same rules work for rows */
 ```
 
@@ -241,10 +241,8 @@ prism_languages: [css]
 }
 ```
 
-
 ## References
 
- * [GRID: A simple visual cheatsheet](http://grid.malven.co/)
- * [CSS Tricks: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
- * [Browser support](https://caniuse.com/#feat=css-grid)
- 
+* [GRID: A simple visual cheatsheet](http://grid.malven.co/)
+* [CSS Tricks: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [Browser support](https://caniuse.com/#feat=css-grid)

@@ -147,5 +147,5 @@ See: [Icons](https://developers.google.com/web/fundamentals/design-and-ui/browse
 
 ## Reference
 
- * <https://dev.twitter.com/docs/cards>
- * <https://developers.facebook.com/docs/opengraphprotocol/#types>
+- <https://dev.twitter.com/docs/cards>
+- <https://developers.facebook.com/docs/opengraphprotocol/#types>

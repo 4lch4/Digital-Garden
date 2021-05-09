@@ -5,11 +5,12 @@ category: Python
 
 ### Lists
 
+```python
     list = []
     list[i:j]  # returns list subset
     list[-1]   # returns last element
     list[:-1]  # returns all but the last element
-    
+
     list[i] = val
     list[i:j] = otherlist  # replace ith to jth-1 elements with otherlist
     del list[i:j]
@@ -31,27 +32,33 @@ category: Python
     list.sort()        # sorts in-place, returns None
     sorted(list)       # returns sorted copy of list
     ",".join(list)     # returns a string with list elements seperated by comma
+```
 
 ### Dict
 
+```python
     dict.keys()
     dict.values()
     "key" in dict    # let's say this returns False, then...
     dict["key"]      # ...this raises KeyError
     dict.get("key")  # ...this returns None
     dict.setdefault("key", 1)
+```
 
 ### Iteration
 
+```python
     for item in ["a", "b", "c"]:
     for i in range(4):        # 0 to 3
     for i in range(4, 8):     # 4 to 7
     for i in range(1, 9, 2):  # 1, 3, 5, 7
     for key, val in dict.items():
     for index, item in enumerate(list):
+```
 
 ### [String](https://docs.python.org/2/library/stdtypes.html#string-methods)
 
+```python
     str[0:4]
     len(str)
 
@@ -72,25 +79,31 @@ category: Python
     str.strip()
 
     str.islower()
+```
 
 ### Casting
 
+```python
     int(str)
     float(str)
     str(int)
     str(float)
     'string'.encode()
+```
 
 ### Comprehensions
 
+```python
     [fn(i) for i in list]            # .map
     map(fn, list)                    # .map, returns iterator
     
     filter(fn, list)                 # .filter, returns iterator
     [fn(i) for i in list if i > 0]   # .filter.map
+```
 
 ### Regex
 
+```python
     import re
 
     re.match(r'^[aeiou]', str)
@@ -100,4 +113,4 @@ category: Python
     expr = re.compile(r'^...$')
     expr.match(...)
     expr.sub(...)
-
+```
