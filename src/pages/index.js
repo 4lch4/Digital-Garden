@@ -62,7 +62,7 @@ function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="My collection of shared knowledge."
     >
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
@@ -74,9 +74,9 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={useBaseUrl('docs/doc1')}
+              to={useBaseUrl('cheatsheets/index')}
             >
-              Get Started
+              Check out Cheatsheets
             </Link>
           </div>
         </div>

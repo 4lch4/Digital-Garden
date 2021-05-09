@@ -30,6 +30,7 @@ weight: -3
   },
 }
 ```
+
 {: data-line="2,3,4,5"}
 
 Highlighted lines are required.
@@ -52,7 +53,7 @@ Highlighted lines are required.
 "optionalDependencies": { ··· },
 ```
 
-See [Semver cheatsheet](./semver) for explanation of version ranges.
+See [Semver cheatsheet](/cheatsheets/development/semver) for explanation of version ranges.
 
 ### Scripts
 
