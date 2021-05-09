@@ -38,7 +38,7 @@ title: Command line stuff
 |  ---   |                                 |
 |  `-h`  | Human-readable size (3k)        |
 
-<br/
+<br/>
 
 ## Tail
 
