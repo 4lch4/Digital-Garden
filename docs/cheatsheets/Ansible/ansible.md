@@ -3,7 +3,6 @@ title: Ansible
 category: Ansible
 ---
 
-{% raw %}
 
 ## Getting started
 
@@ -96,4 +95,3 @@ category: Ansible
   * [Intro](http://www.ansibleworks.com/docs/intro_configuration.html)
   * [Modules](http://www.ansibleworks.com/docs/modules.html)
 
-{% endraw %}

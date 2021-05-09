@@ -7,7 +7,6 @@ category: Jekyll
 updated: 2017-09-01
 ---
 
-{% raw %}
 
 ### Installation
 
@@ -129,12 +128,10 @@ Markup
 ### Loops
 
 ```html
-{% for post in site.posts %}
   <a href="{{ post.url }}">
     <h2>{{ post.title }}</h2>
     <p>{{ post.date | date_to_string }}</p>
   </a>
-{% endfor %}
 ```
 
 ### Dates
@@ -146,51 +143,35 @@ Markup
 ### Conditionals
 
 ```html
-{% if page.image.feature %}
   ...
-{% elsif xyz %}
   ...
-{% else %}
   ...
-{% endif %}
 ```
 
 ```html
-{% if page.category == 'React' %}
-{% if page.category == 'React' or page.featured %}
-{% if page.tags contains 'Featured' %}
 ```
 
 ### Case
 
 ```html
-{% case shipping.title %}
-  {% when 'international' %}
-     Arriving in 2-3 weeks
-  {% when 'Domestic' %}
-     Arriving in 2-3 days
-  {% else %}
-     Thank you for your order!
-{% endcase %}
+       Arriving in 2-3 weeks
+       Arriving in 2-3 days
+       Thank you for your order!
 ```
 
 ### Includes (partials)
 
 ```
-{% include header.html %}
 ```
 
 ```html
 <!-- Including local vars -->
-{% include header.html page=page %}
 ```
 
 ### Comments
 
 ```html
-{% comment %}
   This is a comment!
-{% endcomment %}
 ```
 
 ## Variables
@@ -399,19 +380,13 @@ See: [Paginator](http://jekyllrb.com/docs/pagination/)
 ### Iterating through posts
 
 ```
-{% for post in paginator.posts %} ... {% endfor %}
 ```
 
 ### Previous button
 
 ```
-{% if paginator.total_pages > 1 %}
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}">Previous</a>
-  {% else %}
-  {% endif %}
-{% endif %}
-```
+      <a href="{{ paginator.previous_page_path }}">Previous</a>
+    ```
 
 ```
 {{ paginator.next_page }}     - page number
@@ -498,9 +473,7 @@ _data/members.yml
 ```
 
 ```
-{% for member in site.data.members %}
   ...
-{% endfor %}
 ```
 
 See: [Data](http://jekyllrb.com/docs/datafiles/)
@@ -522,7 +495,6 @@ real_name: Anne Rice
 ```
 
 ```
-{% for author in site.authors %}
 ```
 
 See: [Collections](http://jekyllrb.com/docs/collections/)
@@ -530,11 +502,9 @@ See: [Collections](http://jekyllrb.com/docs/collections/)
 ### Code highlighter
 
 ```html
-{% highlight ruby linenos %}
 def show
   ...
 end
-{% endhighlight %}
 ```
 
 Integration
@@ -565,4 +535,3 @@ Also see
 * [Liquid: filters](http://docs.shopify.com/themes/liquid-documentation/filters) _shopify.com_
 * [Liquid for designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) _github.com/Shopify_
 
-{% endraw %}

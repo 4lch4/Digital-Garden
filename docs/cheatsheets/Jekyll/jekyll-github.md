@@ -6,7 +6,6 @@ tags: [WIP]
 updated: 2017-08-26
 ---
 
-{% raw %}
 
 Jekyll
 ------
@@ -47,11 +46,9 @@ See: [Repository metadata on GitHub pages](https://help.github.com/articles/repo
 ### Listing repos
 
 ```html
-{% for repository in site.github.public_repositories %}
   <a href='{{ repository.html_url }}'>
     {{ repository.name }}
   </a>
-{% endfor %}
 ```
 
 ### Link to repo
@@ -77,7 +74,6 @@ See: [jekyll-gist](https://github.com/jekyll/jekyll-gist)
 ### Usage
 
 ```js
-{% gist parkr/c08ee0f2726fd0e3909d %}
 ```
 
 This places a Gist in your page.
@@ -138,5 +134,4 @@ redirect_to:
 Place on any page.
 See: [redirect to](https://github.com/jekyll/jekyll-redirect-from#redirect-to)
 
-{% endraw %}
 

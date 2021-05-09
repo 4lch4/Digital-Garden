@@ -6,7 +6,6 @@ prism_languages: [yaml]
 updated: 2017-10-03
 ---
 
-{% raw %}
 
 ## Format
 
@@ -243,5 +242,4 @@ See: [template module](http://devdocs.io/ansible/template_module)
 ```
 
 See: [debug module](http://devdocs.io/ansible/debug_module)
-{% endraw %}
 
