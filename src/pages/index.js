@@ -33,9 +33,13 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        This project initially started as a way to share my TIL snippets, but
-        while looking for a framework to use, I found Docusaurus and think I can
-        do much more with this.
+        This project initially started as a way to share my TIL snippets, based
+        off{' '}
+        <a href="https://news.ycombinator.com/item?id=22908044">
+          this Hacker News post
+        </a>{' '}
+        about writing TILs. However, while looking for a framework to use, I
+        found Docusaurus and think I can do much more with this.
       </>
     )
   }
@@ -60,10 +64,7 @@ function Home() {
   const context = useDocusaurusContext()
   const { siteConfig = {} } = context
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="My collection of shared knowledge."
-    >
+    <Layout description={siteConfig.tagline}>
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -77,6 +78,18 @@ function Home() {
               to={useBaseUrl('cheatsheets/index')}
             >
               Check out Cheatsheets
+            </Link>
+          </div>
+          <br/>
+          <div className={styles.buttons}>
+            <Link
+              className={classnames(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted
+              )}
+              to={useBaseUrl('tils/index')}
+            >
+              Check out TILs
             </Link>
           </div>
         </div>
