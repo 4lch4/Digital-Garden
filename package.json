@@ -2,7 +2,7 @@
   "name": "@4lch4/knowledge-base",
   "displayName": "@4lch4's KBA",
   "description": "A site for my my collection of \"shared knowledge\".",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "repository": {
     "type": "git",
