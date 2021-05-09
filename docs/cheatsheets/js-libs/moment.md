@@ -61,6 +61,5 @@ m.startOf('hour')
 
 ### Also see
 
-* [Datetime cheatsheet](./datetime) _(devhints.io)_
 * [Moment website](http://momentjs.com/) _(momentjs.com)_
 * [Moment docs](http://momentjs.com/docs/) _(momentjs.com)_
