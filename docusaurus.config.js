@@ -42,7 +42,7 @@ module.exports = {
           title: 'Information',
           items: [
             {
-              label: 'Index',
+              label: 'TILs',
               to: 'tils/index'
             },
             {

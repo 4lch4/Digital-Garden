@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        I'm using the <a href="https://docusaurus.io/">Docusaurus framework</a>
+        I'm using the <a href="https://docusaurus.io/">Docusaurus framework</a>{' '}
         to build this site as it seems pretty easy to extend out of the box.
       </>
     )
