@@ -4,7 +4,7 @@ const ProjectName = 'Knowledge-Base'
 module.exports = {
   title: `${OrgName}/${ProjectName}`,
   tagline:
-    'My public Knowledge Base containing various things I\'ve deemed worth learning or knowing at some point.',
+    "My public Knowledge Base containing various things I've deemed worth learning or knowing at some point.",
   url: 'https://kba.4lch4.dev',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -26,6 +26,11 @@ module.exports = {
         {
           to: '/cheatsheets/index',
           label: 'Cheatsheets',
+          position: 'left'
+        },
+        {
+          to: '/finds/index',
+          label: 'Finds',
           position: 'left'
         },
         {
@@ -53,6 +58,11 @@ module.exports = {
             {
               label: 'Cheatsheets',
               to: 'cheatsheets/index'
+            },
+            {
+              to: '/finds/index',
+              label: 'Finds',
+              position: 'left'
             }
           ]
         },
