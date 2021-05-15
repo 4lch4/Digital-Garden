@@ -70,7 +70,7 @@ typeof console&&console&&console.warn("Possible Unhandled Promise Rejection:",p)
 this[","]="%2C"}}()),hg={},pd,Fc={},Ke,Jd=(Ke={},Ke.l="Lax",Ke.s="Strict",Ke.n="None",Ke),Lh=!1,oj=Ga.postMessage,Mh=Ga.Worker&&Ga.Worker.prototype.postMessage,cf=Ga.parent.postMessage,df=Ga.top.postMessage,zi=Ga.Worker,Dg=Ga.Blob,ge=Ga.URL&&Ga.URL.createObjectURL,Pf,jg,eh,Cg,ig=!1,Qf,Nh=[],Dd=[],fh,gh,xf,Ed={},Kd,ff,kg,Oh=6E8,lg="rxec",Sf="rxvisitid",Rf=/([A-Z]+)-([0-9]+)/,mg=[],gf,ng,Oe=!1,Eg,Fe=!1,hf=[],rd=[],og=[],pg=[],nc=[],we=!1,Bi,Fg,jf;(function(p){var D,K;p=p||0>(null===(D=navigator.userAgent)||
 void 0===D?void 0:D.indexOf("RuxitSynthetic"));if(!Ga.dT_||!Ga.dT_.cfg||"string"!==typeof Ga.dT_.cfg||"initialized"in Ga.dT_&&Ga.dT_.initialized)null===(K=Ga.console)||void 0===K?void 0:K.log("InitConfig not found or agent already initialized! This is an injection issue."),Ga.dT_&&(Ga.dT_.di=3);else if(p&&!$b()){try{delete Ga.dT_}catch(pa){Ga.dT_=void 0}jb()&&Ga.console.log("JsAgent initCode initialization failed!")}})(!1)})();}).call(this);
 `
-    document.body.appendChild(script)
+    document.body.prepend(script)
 
     return () => {
       document.body.removeChild(script)
