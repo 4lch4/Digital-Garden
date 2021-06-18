@@ -7,6 +7,8 @@ module.exports = {
     "My public Knowledge Base containing various things I've deemed worth learning or knowing at some point.",
   url: 'https://kba.4lch4.dev',
   baseUrl: '/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: OrgName, // Usually your GitHub org/user name.
   projectName: ProjectName, // Usually your repo name.
@@ -18,6 +20,7 @@ module.exports = {
         src: 'img/prime-logo.svg'
       },
       items: [
+        // Left Side
         {
           to: '/tils/index',
           label: 'TILs',
@@ -38,6 +41,7 @@ module.exports = {
           to: '/about',
           position: 'left'
         },
+        // Right Side
         {
           href: 'https://github.com/4lch4/TILs',
           label: 'GitHub',
