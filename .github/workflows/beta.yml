@@ -30,17 +30,13 @@ jobs:
         run: echo IMAGE_NAME=$(echo "$DOCKER_REPO/$APP_NAME") >> $GITHUB_ENV
         shell: bash
 
-      - run: echo "$APP_NAME"
-        shell: bash
-
-      - run: echo "$APP_NAMESPACE"
-        shell: bash
-
-      - run: echo "$IMAGE_NAME"
-        shell: bash
-
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: '16'
 
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v1
@@ -48,6 +44,12 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 'Install Dependencies'
+        run: npm i
+
+      - name: 'Build Static Files'
+        run: npm run build
 
       - name: Build and push
         uses: docker/build-push-action@v2
@@ -84,6 +86,7 @@ jobs:
           APP_NAMESPACE: ${{ env.APP_NAMESPACE }}
           IMAGE_NAME: ${{ env.IMAGE_NAME }}
           RUN_ID: ${{ github.RUN_ID }}
+          DNS_ADDRESS: ${{ secrets.DNS_ADDRESS }}
         with:
           files: manifest.yml
 
