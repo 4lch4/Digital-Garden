@@ -1,0 +1,59 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: "#{APP_NAMESPACE}#"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "#{APP_NAME}#"
+  namespace: "#{APP_NAMESPACE}#"
+spec:
+  selector:
+    matchLabels:
+      app: "#{APP_NAME}#"
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "#{APP_NAME}#"
+    spec:
+      containers:
+      - name: "#{IMAGE_NAME}#:#{RUN_ID}#"
+        resources:
+          limits:
+            cpu: "100m"
+            memory: "250Mi"
+          requests:
+            cpu: "64m"
+            memory: "100Mi"
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: "#{APP_NAME}#"
+  namespace: "#{APP_NAMESPACE}#"
+  labels:
+    app: "#{APP_NAME}#"
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    name: web
+  selector:
+    app: "#{APP_NAME}#"
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: "#{APP_NAME}#"
+  namespace: "#{APP_NAMESPACE}#"
+spec:
+  rules:
+  - host: "#{DNS_ADDRESS}#"
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: "#{APP_NAME}#"
+          servicePort: 80

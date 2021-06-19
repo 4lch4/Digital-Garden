@@ -6,6 +6,9 @@ on:
   pull_request:
     branches: [develop]
 
+env:
+  DOCKER_REPO: "ghcr.io/${{ github.repository_owner }}"
+
 jobs:
   build:
     name: Build & Push Docker Image
@@ -14,6 +17,27 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Set APP_NAME Variable
+        run: echo ::set-env name=APP_NAME::$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}')
+        shell: bash
+
+      - name: Set APP_NAMESPACE Variable
+        run: echo ::set-env name=APP_NAMESPACE::$(echo "$GITHUB_REPOSITORY-beta")
+        shell: bash
+
+      - name: Set IMAGE_NAME Variable
+        run: echo ::set-env name=IMAGE_NAME::$(echo "$DOCKER_REPO/$GITHUB_REPOSITORY")
+        shell: bash
+
+      - run: echo "$APP_NAME"
+        shell: bash
+
+      - run: echo "$APP_NAMESPACE"
+        shell: bash
+
+      - run: echo "$IMAGE_NAME"
+        shell: bash
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
@@ -30,8 +54,8 @@ jobs:
         with:
           push: true
           tags: |
-            "ghcr.io/${{ github.repository_owner }}/bot:${{ github.RUN_ID }}"
-            "ghcr.io/${{ github.repository_owner }}/bot:beta"
+            "${{ env.IMAGE_NAME }}:${{ github.RUN_ID }}"
+            "${{ env.IMAGE_NAME }}:latest"
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
@@ -50,15 +74,15 @@ jobs:
         with:
           personalAccessToken: '${{ secrets.DO_ACCESS_TOKEN }}'
           clusterName: '${{ secrets.DO_CLUSTER_NAME }}'
-          namespace: '${{ secrets.APP_NAMESPACE }}'
+          namespace: '${{ env.APP_NAMESPACE }}'
           version: '1.21.1'
 
       - name: Replace tokens
         uses: cschleiden/replace-tokens@v1.0
         env:
-          APP_NAME: ${{ secrets.APP_NAME }}
-          APP_NAMESPACE: ${{ secrets.APP_NAMESPACE }}
-          DB_CONNECTION_STRING: ${{ secrets.DB_CONNECTION_STRING }}
+          APP_NAME: ${{ env.APP_NAME }}
+          APP_NAMESPACE: ${{ env.APP_NAMESPACE }}
+          IMAGE_NAME: ${{ env.IMAGE_NAME }}
           RUN_ID: ${{ github.RUN_ID }}
         with:
           files: manifest.yml
