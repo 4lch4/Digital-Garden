@@ -1,4 +1,4 @@
-FROM nginx:stable-alpine
+FROM nginx:stable
 
 WORKDIR /usr/share/nginx/html
 
