@@ -1,11 +1,12 @@
-const OrgName = '4lch4'
-const ProjectName = 'Knowledge-Base'
+const package = require('./package.json')
+
+const OrgName = package.author.name
+const ProjectName = package.displayName
 
 module.exports = {
   title: `${OrgName}/${ProjectName}`,
-  tagline:
-    "My public Knowledge Base containing various things I've deemed worth learning or knowing at some point.",
-  url: 'https://kba.4lch4.dev',
+  tagline: 'Welcome to my Digital Garden!',
+  url: 'https://garden.4lch4.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
@@ -14,9 +15,9 @@ module.exports = {
   projectName: ProjectName, // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: `@4lch4/knowledge-base`,
+      title: `${ProjectName}`,
       logo: {
-        alt: "4lch4's Knowledge Base Logo",
+        alt: `${ProjectName} Logo`,
         src: 'img/prime-logo.svg'
       },
       items: [
@@ -43,7 +44,7 @@ module.exports = {
         },
         // Right Side
         {
-          href: 'https://github.com/4lch4/TILs',
+          href: 'https://github.com/4lch4/Digital-Garden',
           label: 'GitHub',
           position: 'right'
         }
@@ -79,7 +80,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/4lch4/knowledge-base'
+              href: package.homepage
             }
           ]
         }
@@ -96,7 +97,7 @@ module.exports = {
           routeBasePath: '/',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/4lch4/knowledge-base/edit/master/website/'
+            'https://github.com/4lch4/Digital-Garden/edit/master/website/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
