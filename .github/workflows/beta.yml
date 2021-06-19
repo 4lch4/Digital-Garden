@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set APP_NAME Variable
-        run: echo APP_NAME=$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}') >> $GITHUB_ENV
+        run: echo APP_NAME=$(echo "$GITHUB_REPOSITORY" | awk -F / '{print tolower($2)}') >> $GITHUB_ENV
         shell: bash
 
       - name: Set APP_NAMESPACE Variable
