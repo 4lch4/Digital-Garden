@@ -3,7 +3,7 @@
   "displayName": "Digital Garden",
   "description": "This project is my \"Digital Garden\", which means this site is a collection of all sorts of information that I've gathered during my years online.",
   "publisher": "4lch4 Industries, LLC.",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "private": true,
   "license": "GPL-3.0-only",
   "author": {
@@ -21,7 +21,11 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "pretty": "prettier --write ."
+    "pretty": "prettier --write .",
+    "docker:build": "docker build -t ghcr.io/4lch4/digital-garden:latest .",
+    "docker:start": "docker run -d -p 80:80 -p 443:443 --name garden ghcr.io/4lch4/digital-garden:latest && docker logs garden --follow",
+    "docker:stop": "docker stop garden && docker rm garden",
+    "docker:refresh": "yarn docker:stop && yarn docker:build && yarn docker:start"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.1",
