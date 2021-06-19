@@ -1,13 +1,13 @@
 FROM nginx:stable
 
 # Set working directory to server home.
-WORKDIR /usr/share/nginx/html
+# WORKDIR 
 
 # Copy nginx config to server.
 COPY ./.nginx/ /etc/nginx/
 
 # Copy source files to server.
-COPY ./build /usr/share/nginx/html/
+COPY ./build /usr/share/nginx/html
 
 # Pipe the server logs to container output.
 RUN ln -sf /dev/stdout /var/log/nginx/access.log && \

@@ -22,8 +22,8 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "pretty": "prettier --write .",
-    "docker:build": "docker build -t ghcr.io/4lch4/digital-garden:beta",
-    "docker:start": "docker run -d -p 80:80 -p 443:443 --name=garden ghcr.io/4lch4/digital-garden:beta && docker logs garden --follow",
+    "docker:build": "docker build -t ghcr.io/4lch4/digital-garden:latest .",
+    "docker:start": "docker run -d -p 80:80 -p 443:443 --name garden ghcr.io/4lch4/digital-garden:latest && docker logs garden --follow",
     "docker:stop": "docker stop garden && docker rm garden",
     "docker:refresh": "yarn docker:stop && yarn docker:build && yarn docker:start"
   },
