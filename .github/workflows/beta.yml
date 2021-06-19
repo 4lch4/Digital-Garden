@@ -23,11 +23,11 @@ jobs:
         shell: bash
 
       - name: Set APP_NAMESPACE Variable
-        run: echo APP_NAMESPACE=$(echo "$GITHUB_REPOSITORY-beta") >> $GITHUB_ENV
+        run: echo APP_NAMESPACE=$(echo "$APP_NAME-beta") >> $GITHUB_ENV
         shell: bash
 
       - name: Set IMAGE_NAME Variable
-        run: echo IMAGE_NAME=$(echo "$DOCKER_REPO/$GITHUB_REPOSITORY") >> $GITHUB_ENV
+        run: echo IMAGE_NAME=$(echo "$DOCKER_REPO/$APP_NAME") >> $GITHUB_ENV
         shell: bash
 
       - run: echo "$APP_NAME"
