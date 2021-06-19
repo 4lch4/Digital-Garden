@@ -7,6 +7,7 @@ keywords:
 date: 2021-06-19T01:02:19.801Z
 lastmod: 2021-06-19T01:44:33.021Z
 slug: custom-path-aliases-javascript-typescript
+image: https://i.imgur.com/fGgVbRR.jpg
 ---
 
 I was browsing YouTube the other day and came across [this Short][0] from the [Fireship channel][2] that mentioned how to use "Path Aliases" to avoid ridiculously long import paths like `../../../../lib/utils/GitUtil.ts`. I thought it was a great idea and began playing around with it. After a day or so of that, I'd like to share what I've learned.
