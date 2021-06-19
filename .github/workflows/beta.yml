@@ -1,0 +1,73 @@
+name: Digital Garden Beta Build & Release
+
+on:
+  push:
+    branches: [develop]
+  pull_request:
+    branches: [develop]
+
+jobs:
+  build:
+    name: Build & Push Docker Image
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v2
+        with:
+          push: true
+          tags: |
+            "ghcr.io/${{ github.repository_owner }}/bot:${{ github.RUN_ID }}"
+            "ghcr.io/${{ github.repository_owner }}/bot:beta"
+
+      - name: Image digest
+        run: echo ${{ steps.docker_build.outputs.digest }}
+
+  release:
+    name: Deploy Image to Kubernetes
+    runs-on: ubuntu-20.04
+    needs: ['build']
+    environment: 'beta'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: DigitalOcean Kubernetes
+        uses: matootie/dokube@v1.3.4
+        with:
+          personalAccessToken: '${{ secrets.DO_ACCESS_TOKEN }}'
+          clusterName: '${{ secrets.DO_CLUSTER_NAME }}'
+          namespace: '${{ secrets.APP_NAMESPACE }}'
+          version: '1.21.1'
+
+      - name: Replace tokens
+        uses: cschleiden/replace-tokens@v1.0
+        env:
+          APP_NAME: ${{ secrets.APP_NAME }}
+          APP_NAMESPACE: ${{ secrets.APP_NAMESPACE }}
+          DB_CONNECTION_STRING: ${{ secrets.DB_CONNECTION_STRING }}
+          RUN_ID: ${{ github.RUN_ID }}
+        with:
+          files: manifest.yml
+
+      - name: Apply Manifest
+        run: kubectl apply -f manifest.yml
+
+      - uses: sarisia/actions-status-discord@v1
+        if: always()
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          # description: 'If successful, the new latest image is ${{ github.RUN_ID }}'

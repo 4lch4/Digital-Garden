@@ -1,0 +1,9 @@
+.docusaurus
+.git
+.github
+coverage
+node_modules
+.gitignore
+.prettierignore
+.prettierrc
+yarn.lock
