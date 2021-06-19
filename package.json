@@ -1,13 +1,21 @@
 {
-  "name": "@4lch4/knowledge-base",
-  "displayName": "@4lch4's KBA",
-  "description": "A site for my my collection of \"shared knowledge\".",
+  "name": "@4lch4/digital-garden",
+  "displayName": "Digital Garden",
+  "description": "This project is my \"Digital Garden\", which means this site is a collection of all sorts of information that I've gathered during my years online.",
+  "publisher": "4lch4 Industries, LLC.",
   "version": "0.4.3",
   "private": true,
+  "license": "GPL-3.0-only",
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://alcha.org"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:4lch4/knowledge-base"
+    "url": "git@github.com:4lch4/Digital-Garden"
   },
+  "homepage": "https://github.com/4lch4/Digital-Garden",
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
