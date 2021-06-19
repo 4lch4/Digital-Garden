@@ -1,13 +1,21 @@
 {
-  "name": "@4lch4/knowledge-base",
-  "displayName": "@4lch4's KBA",
-  "description": "A site for my my collection of \"shared knowledge\".",
+  "name": "@4lch4/digital-garden",
+  "displayName": "Digital Garden",
+  "description": "This project is my \"Digital Garden\", which means this site is a collection of all sorts of information that I've gathered during my years online.",
+  "publisher": "4lch4 Industries, LLC.",
   "version": "0.4.3",
   "private": true,
+  "license": "GPL-3.0-only",
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://alcha.org"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:4lch4/knowledge-base"
+    "url": "git@github.com:4lch4/Digital-Garden"
   },
+  "homepage": "https://github.com/4lch4/Digital-Garden",
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -18,9 +26,13 @@
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.1",
     "@docusaurus/preset-classic": "2.0.0-beta.1",
+    "@mdx-js/react": "^1.6.22",
     "classnames": "^2.3.1",
+    "clsx": "^1.1.1",
+    "file-loader": "^6.2.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "url-loader": "^4.1.1"
   },
   "browserslist": {
     "production": [
