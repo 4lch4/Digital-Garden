@@ -22,6 +22,7 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "pretty": "prettier --write .",
+    "gh:publish": "np",
     "docker:build": "docker build -t ghcr.io/4lch4/digital-garden:latest .",
     "docker:start": "docker run -d -p 80:80 -p 443:443 --name garden ghcr.io/4lch4/digital-garden:latest && docker logs garden --follow",
     "docker:stop": "docker stop garden && docker rm garden",
@@ -51,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "np": "^7.5.0",
     "prettier": "^2.3.1"
   }
 }
