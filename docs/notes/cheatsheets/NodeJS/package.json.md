@@ -51,7 +51,7 @@ Highlighted lines are required.
 "optionalDependencies": { ··· },
 ```
 
-See [Semver cheatsheet](/cheatsheets/development/semver) for explanation of version ranges.
+See [Semver cheatsheet](/notes/cheatsheets/development/semver) for explanation of version ranges.
 
 ### Scripts
 

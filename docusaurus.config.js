@@ -71,10 +71,6 @@ module.exports = {
               to: 'tils/index'
             },
             {
-              label: 'Cheatsheets',
-              to: 'cheatsheets/index'
-            },
-            {
               label: 'Notes',
               to: 'notes/index'
             },

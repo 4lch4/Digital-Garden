@@ -78,7 +78,7 @@ This section serves as a table of contents for the various sections that make up
 - [Infrastructure][54]
   - [Blogging][55]
 
-[0]: /notes/cheatsheets/Ansible/ansible-md
+[0]: /notes/cheatsheets/Ansible/ansible.md
 [1]: /notes/cheatsheets/API/graphql.md
 [2]: /notes/cheatsheets/API/http-status.md
 [3]: /notes/cheatsheets/API/rest-api.md
