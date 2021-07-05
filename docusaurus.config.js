@@ -6,7 +6,7 @@ const ProjectName = package.displayName
 module.exports = {
   title: `${OrgName}/${ProjectName}`,
   tagline: 'Welcome to my Digital Garden!',
-  url: 'https://garden.4lch4.dev',
+  url: 'https://4lch4.garden',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
