@@ -111,7 +111,7 @@ module.exports = {
           routeBasePath: '/',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/4lch4/Digital-Garden/edit/master/'
+            'https://github.com/4lch4/Digital-Garden/edit/main/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')
