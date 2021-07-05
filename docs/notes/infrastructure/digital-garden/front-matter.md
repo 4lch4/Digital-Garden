@@ -1,9 +1,8 @@
 ---
 title: Available Front Matter for Digital Garden (DG) Entries
-sidebar_label: DG Front Matter
+sidebar_label: Front Matter
 keywords: ['Docusaurus', 'Front-Matter', 'Meta']
-description: |
-An overview of all the front matter properties that are available to every entry in my Digital Garden (DG).
+description: An overview of all the front matter properties that are available to every entry in my Digital Garden (DG).
 ---
 
 When creating a new entry in the Digital Garden (DG) we first need to provide some Front Matter data so the site knows what the entry is about. The following table lists all of the properties that can be set in the Front Matter.
@@ -20,9 +19,9 @@ When creating a new entry in the Digital Garden (DG) we first need to provide so
 | `parse_number_prefixes`  | When a document has a number prefix (001 - My Doc.md, 2. MyDoc.md...), it is automatically parsed and extracted by the plugin numberPrefixParser, and the number prefix is used as sidebar_position. Use parse_number_prefixes: false to disable number prefix parsing on this doc. | parse_number_prefixes plugin option                  |
 | `custom_edit_url`        | The URL for editing this document.                                                                                                                                                                                                                                                  | computed using the editUrl plugin options            |
 | `keywords`               | Keywords meta tag for the document page, for search engines                                                                                                                                                                                                                         |                                                      |
-| `description`            | The description of your document, which will become the <meta name="description" content="..."/> and <meta property="og:description" content="..."/> in <head>, used by search engines.                                                                                             | the first line of Markdown content                   |
+| `description`            | The description of your document, which will become the `<meta name="description" content="..."/>` and `<meta property="og:description" content="..."/>` in `<head>`, used by search engines.                                                                                             | the first line of Markdown content                   |
 | `image`                  | Cover or thumbnail image that will be used when displaying the link to your post.                                                                                                                                                                                                   |                                                      |
-| `slug`                   | Allows to customize the document url (/<routeBasePath>/<slug>). Support multiple patterns: slug: my-doc, slug: /my/path/myDoc, slug: /.                                                                                                                                             |                                                      |
+| `slug`                   | Allows to customize the document url (`/<routeBasePath>/<slug>`). Support multiple patterns: slug: my-doc, slug: /my/path/myDoc, slug: /.                                                                                                                                             |                                                      |
 
 ## Example
 
