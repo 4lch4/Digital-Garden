@@ -1,6 +1,7 @@
 ---
 title: Ansible
 category: Ansible
+sidebar_position: 0
 ---
 
 ## Getting started

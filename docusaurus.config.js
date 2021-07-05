@@ -28,7 +28,12 @@ module.exports = {
           position: 'left'
         },
         {
-          to: '/cheatsheets/index',
+          to: '/notes/index',
+          label: 'Notes',
+          position: 'left'
+        },
+        {
+          to: '/notes/cheatsheets/index',
           label: 'Cheatsheets',
           position: 'left'
         },
@@ -41,6 +46,11 @@ module.exports = {
           label: 'About',
           to: '/about',
           position: 'left'
+        },
+        {
+          to: 'https://4lch4.blog',
+          label: 'Blog',
+          position: 'right'
         },
         // Right Side
         {
@@ -63,6 +73,14 @@ module.exports = {
             {
               label: 'Cheatsheets',
               to: 'cheatsheets/index'
+            },
+            {
+              label: 'Notes',
+              to: 'notes/index'
+            },
+            {
+              label: 'Cheatsheets',
+              to: 'notes/cheatsheets/index'
             },
             {
               to: '/finds/index',

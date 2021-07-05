@@ -1,7 +1,7 @@
 {
   "name": "@4lch4/digital-garden",
   "displayName": "Digital Garden",
-  "description": "This project is my \"Digital Garden\", which means this site is a collection of all sorts of information that I've gathered during my years online.",
+  "description": "This project is my Digital Garden, which means this site is a collection of all sorts of information that I've gathered during my years online.",
   "publisher": "4lch4 Industries, LLC.",
   "version": "0.6.0",
   "private": true,
