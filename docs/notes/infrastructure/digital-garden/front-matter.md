@@ -23,3 +23,27 @@ When creating a new entry in the Digital Garden (DG) we first need to provide so
 | `description`            | The description of your document, which will become the <meta name="description" content="..."/> and <meta property="og:description" content="..."/> in <head>, used by search engines.                                                                                             | the first line of Markdown content                   |
 | `image`                  | Cover or thumbnail image that will be used when displaying the link to your post.                                                                                                                                                                                                   |                                                      |
 | `slug`                   | Allows to customize the document url (/<routeBasePath>/<slug>). Support multiple patterns: slug: my-doc, slug: /my/path/myDoc, slug: /.                                                                                                                                             |                                                      |
+
+## Example
+
+```markdown
+---
+id: doc-markdown
+title: Docs Markdown Features
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Markdown
+sidebar_position: 3
+pagination_label: Markdown features
+custom_edit_url: https://github.com/facebook/docusaurus/edit/master/docs/api-doc-markdown.md
+description: How do I find you when I cannot solve this problem
+keywords:
+  - docs
+  - docusaurus
+image: https://i.imgur.com/mErPwqL.png
+slug: /myDoc
+---
+# Markdown Features
+
+My Document Markdown content
+```
