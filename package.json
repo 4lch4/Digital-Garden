@@ -15,11 +15,16 @@
     "type": "git",
     "url": "git@github.com:4lch4/Digital-Garden"
   },
+  "bugs": {
+    "url": "https://github.com/4lch4/Digital-Garden/issues",
+    "email": "bugs@4lch4.email"
+  },
   "homepage": "https://github.com/4lch4/Digital-Garden",
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
+    "serve": "docusaurus serve",
     "deploy": "docusaurus deploy",
     "pretty": "prettier --write .",
     "gh:publish": "np",
@@ -29,8 +34,8 @@
     "docker:refresh": "yarn docker:stop && yarn docker:build && yarn docker:start"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.1",
-    "@docusaurus/preset-classic": "2.0.0-beta.1",
+    "@docusaurus/core": "2.0.0-beta.6",
+    "@docusaurus/preset-classic": "2.0.0-beta.6",
     "@mdx-js/react": "^1.6.22",
     "classnames": "^2.3.1",
     "clsx": "^1.1.1",
@@ -38,6 +43,10 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "url-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "np": "^7.5.0",
+    "prettier": "^2.4.1"
   },
   "browserslist": {
     "production": [
@@ -50,9 +59,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "np": "^7.5.0",
-    "prettier": "^2.3.1"
   }
 }
