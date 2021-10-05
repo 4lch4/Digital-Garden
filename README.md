@@ -6,8 +6,7 @@
 ![GitHub deployments](https://img.shields.io/github/deployments/4lch4/Digital-Garden/production?label=vercel&logo=vercel)
 ![GitHub](https://img.shields.io/github/license/4lch4/Digital-Garden)
 
-
-What's a Digital Garden and why do I have one? Well, stumbled upon an article
+What's a Digital Garden and why do I have one? Well, I stumbled upon an article that discussed "Learning in Public" and how to use a Digital Garden to cultivate learning over time.
 
 ## Purpose
 
