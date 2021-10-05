@@ -1,6 +1,7 @@
 ---
 id: development-badges
 title: Badges
+modifiedDate: '2021-10-05 @ 10:40:58'
 ---
 
 Here be a collection of badges to use in a project README. The vast majority are lifted from shields.io and [ForTheBadge][0] whereas the others come from a smattering of source.
@@ -86,6 +87,10 @@ Here be a collection of badges to use in a project README. The vast majority are
   - `![PowerShell Gallery Version](https://img.shields.io/powershellgallery/v/Gamgee)`
 
 ## "Other"
+
+- Powered By DigitalOcean
+  - Serves as a referral link as well.
+  - [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=ae0d8b2c003f&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 - GitHub `package.json` Dynamic
   - `package.json#keywords`
