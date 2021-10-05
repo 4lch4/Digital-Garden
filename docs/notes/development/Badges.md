@@ -1,7 +1,6 @@
 ---
 id: development-badges
 title: Badges
-modifiedDate: '2021-10-05 @ 10:40:58'
 ---
 
 Here be a collection of badges to use in a project README. The vast majority are lifted from shields.io and [ForTheBadge][0] whereas the others come from a smattering of source.
@@ -10,18 +9,18 @@ Here be a collection of badges to use in a project README. The vast majority are
 
 - GitHub All Contributors
 - Last Commit (`main`)
-  - ![GitHub last commit](https://img.shields.io/github/last-commit/4lch4/Tron)
-  - `![GitHub last commit](https://img.shields.io/github/last-commit/4lch4/Tron)`
+  - ![GitHub last commit](https://img.shields.io/github/last-commit/4lch4/Digital-Garden)
+  - `![GitHub last commit](https://img.shields.io/github/last-commit/4lch4/Digital-Garden)`
 - Last Commit (`develop`)
-  - ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/4lch4/Tron/develop)
-  - `![GitHub last commit (branch)](https://img.shields.io/github/last-commit/4lch4/Tron/develop)`
+  - ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/4lch4/Digital-Garden/develop)
+  - `![GitHub last commit (branch)](https://img.shields.io/github/last-commit/4lch4/Digital-Garden/develop)`
 - Commit Activity
-  - ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/4lch4/Tron)
-  - `![GitHub commit activity](https://img.shields.io/github/commit-activity/w/4lch4/Tron)`
-  - ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/4lch4/Tron)
-  - `![GitHub commit activity](https://img.shields.io/github/commit-activity/m/4lch4/Tron)`
-  - ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/4lch4/Tron)
-  - `![GitHub commit activity](https://img.shields.io/github/commit-activity/y/4lch4/Tron)`
+  - ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/4lch4/Digital-Garden)
+  - `![GitHub commit activity](https://img.shields.io/github/commit-activity/w/4lch4/Digital-Garden)`
+  - ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/4lch4/Digital-Garden)
+  - `![GitHub commit activity](https://img.shields.io/github/commit-activity/m/4lch4/Digital-Garden)`
+  - ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/4lch4/Digital-Garden)
+  - `![GitHub commit activity](https://img.shields.io/github/commit-activity/y/4lch4/Digital-Garden)`
 
 ## Chat
 
@@ -38,14 +37,14 @@ Here be a collection of badges to use in a project README. The vast majority are
 ## Dependencies
 
 - David
-  - ![David](https://img.shields.io/david/4lch4/Tron)
-  - `![David](https://img.shields.io/david/4lch4/Tron)`
+  - ![David](https://img.shields.io/david/4lch4/Digital-Garden)
+  - `![David](https://img.shields.io/david/4lch4/Digital-Garden)`
 
 ## Licensing
 
 - GitHub License
-  - ![GitHub](https://img.shields.io/github/license/4lch4/Tron)
-  - `![GitHub](https://img.shields.io/github/license/4lch4/Tron)`
+  - ![GitHub](https://img.shields.io/github/license/4lch4/Digital-Garden)
+  - `![GitHub](https://img.shields.io/github/license/4lch4/Digital-Garden)`
 - NPM License
   - ![NPM](https://img.shields.io/npm/l/@4lch4/pblib)
   - `![NPM](https://img.shields.io/npm/l/@4lch4/pblib)`
@@ -56,29 +55,29 @@ Here be a collection of badges to use in a project README. The vast majority are
   - [![npm bundle size](https://img.shields.io/bundlephobia/min/@4lch4/pblib)](https://bundlephobia.com/package/@4lch4/pblib@0.2.1)
   - `![[npm bundle size](https://img.shields.io/bundlephobia/min/@4lch4/pblib)](https://bundlephobia.com/package/@4lch4/pblib@0.2.1)`
 - Code Size
-  - ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/4lch4/Tron)
-  - `![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/4lch4/Tron)`
+  - ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/4lch4/Digital-Garden)
+  - `![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/4lch4/Digital-Garden)`
 - GitHub Repo Size
-  - ![GitHub repo size](https://img.shields.io/github/repo-size/4lch4/Tron)
-  - `![GitHub repo size](https://img.shields.io/github/repo-size/4lch4/Tron)`
+  - ![GitHub repo size](https://img.shields.io/github/repo-size/4lch4/Digital-Garden)
+  - `![GitHub repo size](https://img.shields.io/github/repo-size/4lch4/Digital-Garden)`
 - Lines of Code
-  - ![Lines of code](https://img.shields.io/tokei/lines/github/4lch4/Tron)
-  - `![Lines of code](https://img.shields.io/tokei/lines/github/4lch4/Tron)`
+  - ![Lines of code](https://img.shields.io/tokei/lines/github/4lch4/Digital-Garden)
+  - `![Lines of code](https://img.shields.io/tokei/lines/github/4lch4/Digital-Garden)`
 
 ## Social
 
 - Repo Stars
-  - ![GitHub Repo stars](https://img.shields.io/github/stars/4lch4/Tron?style=social)
-  - `![GitHub Repo stars](https://img.shields.io/github/stars/4lch4/Tron?style=social)`
+  - ![GitHub Repo stars](https://img.shields.io/github/stars/4lch4/Digital-Garden?style=social)
+  - `![GitHub Repo stars](https://img.shields.io/github/stars/4lch4/Digital-Garden?style=social)`
 - Repo Watchers
-  - ![GitHub watchers](https://img.shields.io/github/watchers/4lch4/Tron?style=social)
-  - `![GitHub watchers](https://img.shields.io/github/watchers/4lch4/Tron?style=social)`
+  - ![GitHub watchers](https://img.shields.io/github/watchers/4lch4/Digital-Garden?style=social)
+  - `![GitHub watchers](https://img.shields.io/github/watchers/4lch4/Digital-Garden?style=social)`
 
 ## Versioning
 
 - GitHub `package.json`
-  - ![GitHub package.json version](https://img.shields.io/github/package-json/v/4lch4/Tron)
-  - `![GitHub package.json version](https://img.shields.io/github/package-json/v/4lch4/Tron)`
+  - ![GitHub package.json version](https://img.shields.io/github/package-json/v/4lch4/Digital-Garden)
+  - `![GitHub package.json version](https://img.shields.io/github/package-json/v/4lch4/Digital-Garden)`
 - NPM Scoped
   - ![npm (scoped)](https://img.shields.io/npm/v/@4lch4/pblib)
   - `![npm (scoped)](https://img.shields.io/npm/v/@4lch4/pblib)`
@@ -140,4 +139,5 @@ Here be a collection of badges to use in a project README. The vast majority are
   - `[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)`
 - [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
   - `[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)`
+
 [0]: https://forthebadge.com
