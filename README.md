@@ -1,8 +1,11 @@
 # @4lch4/Digital-Garden
 
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=ae0d8b2c003f&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 ![GitHub deployments](https://img.shields.io/github/deployments/4lch4/Digital-Garden/production?label=vercel&logo=vercel)
 ![GitHub](https://img.shields.io/github/license/4lch4/Digital-Garden)
+
 
 What's a Digital Garden and why do I have one? Well, stumbled upon an article
 
