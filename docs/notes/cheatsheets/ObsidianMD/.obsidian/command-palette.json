@@ -1,0 +1,10 @@
+{
+  "pinned": [
+    "templater-obsidian:insert-templater",
+    "workspace:toggle-pin",
+    "table-editor-obsidian:delete-column",
+    "obsidian-plugin-prettier:format-note",
+    "editor:insert-tag",
+    "calendar:open-weekly-note"
+  ]
+}
