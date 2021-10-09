@@ -3,6 +3,8 @@ created: '2021-10-08T22:03:25.000-05:00'
 tags:
   - Node.js
   - TypeScript
+  - fs-extra
+  - fs
 ---
 
 # `getAllFiles`

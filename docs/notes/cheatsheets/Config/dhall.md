@@ -9,7 +9,7 @@ intro: |
   that you can think of as: JSON + functions + types + imports.
 ---
 
-> Ramp up quickly with a cheat sheet if you're already familiar with functional programming
+> Dhall is a [programmable configuration language][0] that you can think of as: JSON + functions + types + imports.
 
 ## Command line
 
@@ -346,3 +346,5 @@ intro: |
 ## Copyright/Licensing
 
 © Copyright 2021, Dhall Contributors
+
+[0]: https://docs.dhall-lang.org/discussions/Programmable-configuration-files.html#
