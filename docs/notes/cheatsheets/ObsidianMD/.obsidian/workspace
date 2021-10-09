@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4b25503c0e8e1165",
+        "id": "a3457e811a0f9a44",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Templater/Modules/2021-10-08.md",
+            "file": "Templater/Modules/Date.md",
             "mode": "source"
           }
         }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templater/Modules/2021-10-08.md",
+                "file": "Templater/Modules/Date.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templater/Modules/2021-10-08.md",
+                "file": "Templater/Modules/Date.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templater/Modules/2021-10-08.md"
+                "file": "Templater/Modules/Date.md"
               }
             }
           },
@@ -166,17 +166,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4b25503c0e8e1165",
+  "active": "a3457e811a0f9a44",
   "lastOpenFiles": [
     "Templater/Modules/Date.md",
-    "Testing/Dates.md",
+    "Testing/Created.md",
     "Testing/Untitled.md",
     "Templater/Modules/File.md",
+    "Testing/Dates.md",
     "Development/4lch4/Projects/Digital-Garden/Templater-Addition.md",
     "Development/4lch4/Projects/Digital-Garden/Index - MOC.md",
     "Development/4lch4/Projects/Digital-Garden/Untitled.md",
     "Templates/MOC.md",
-    "Daily-Notes/2021-10-08.md",
-    "Glossary.md"
+    "Daily-Notes/2021-10-08.md"
   ]
 }
