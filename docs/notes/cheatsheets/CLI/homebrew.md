@@ -8,7 +8,7 @@ category: CLI
 ### Commands
 
 | Command                    | Description                |
-|----------------------------|----------------------------|
+| -------------------------- | -------------------------- |
 | `brew install git`         | Install a package          |
 | `brew upgrade git`         | Upgrade a package          |
 | ---                        | ---                        |
@@ -21,7 +21,7 @@ category: CLI
 ### More package commands
 
 | Command            | Description                 |
-|--------------------|-----------------------------|
+| ------------------ | --------------------------- |
 | `brew info git`    | List versions, caveats, etc |
 | `brew cleanup git` | Remove old versions         |
 | `brew edit git`    | Edit this formula           |
@@ -31,7 +31,7 @@ category: CLI
 ### Global commands
 
 | Command         | Description              |
-|-----------------|--------------------------|
+| --------------- | ------------------------ |
 | `brew update`   | Update brew and cask     |
 | `brew list`     | List installed           |
 | `brew outdated` | What's due for upgrades? |
@@ -39,7 +39,7 @@ category: CLI
 ### Brew Cask commands
 
 | Command                     | Description                 |
-|-----------------------------|-----------------------------|
+| --------------------------- | --------------------------- |
 | `brew cask install firefox` | Install the Firefox browser |
 | `brew cask list`            | List installed applications |
 
@@ -47,5 +47,5 @@ Cask commands are used for interacting with graphical applications.
 
 ## Also see
 
-* [Homebrew homepage](https://brew.sh/) _brew.sh_
-* [Homebrew docs](https://docs.brew.sh) _docs.brew.sh_
+- [Homebrew homepage](https://brew.sh/) _brew.sh_
+- [Homebrew docs](https://docs.brew.sh) _docs.brew.sh_

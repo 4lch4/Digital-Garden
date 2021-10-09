@@ -31,7 +31,7 @@ var child = exec('cat *.js bad_file | wc -l',
 info = require('../package.json')
 info.version
 
-process.stdout.write(util.inspect(objekt, false, Infinity, true) + '\n');
+process.stdout.write(util.inspect(objekt, false, Infinity, true) + '\n')
 ```
 
 ## Spawn - passthru the in/out

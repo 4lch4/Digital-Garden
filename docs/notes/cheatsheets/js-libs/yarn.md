@@ -11,7 +11,7 @@ tags: [Featurable]
 ### npm equivalents
 
 | npm                                        | yarn                          |
-|--------------------------------------------|-------------------------------|
+| ------------------------------------------ | ----------------------------- |
 | `npm init`                                 | `yarn init`                   |
 | `npm install`                              | `yarn`                        |
 | `npm install gulp --save`                  | `yarn add gulp`               |

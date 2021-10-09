@@ -5,7 +5,7 @@ layout: 2017/sheet
 updated: 2017-10-27
 weight: -1
 intro: |
-  [ShellJS](https://github.com/shelljs/shelljs) is a portable (Windows/Linux/OS X) implementation of Unix shell commands on top of the Node.js API. 
+  [ShellJS](https://github.com/shelljs/shelljs) is a portable (Windows/Linux/OS X) implementation of Unix shell commands on top of the Node.js API.
 ---
 
 ### Example
@@ -79,7 +79,7 @@ sh.rm('-rf', 'file')
 
 ```js
 sh.mv('src', 'dest')
-sh.mv(['src1','src2'], 'dest')
+sh.mv(['src1', 'src2'], 'dest')
 ```
 
 ```js
@@ -91,11 +91,11 @@ sh.chmod('u+x', 'file')
 ### Tests
 
 ```js
-sh.test('-b', 'path')  // block device
-sh.test('-d', 'path')  // dir
-sh.test('-e', 'path')  // exists
-sh.test('-f', 'path')  // file
-sh.test('-L', 'path')  // symlink
+sh.test('-b', 'path') // block device
+sh.test('-d', 'path') // dir
+sh.test('-e', 'path') // exists
+sh.test('-f', 'path') // file
+sh.test('-L', 'path') // symlink
 ```
 
 ### Cat and output
@@ -141,9 +141,9 @@ sh.tempdir()
 ```
 
 ```js
-sh.error()  // null if no error
+sh.error() // null if no error
 ```
 
 ## Also see
 
-* <https://github.com/shelljs/shelljs>
+- <https://github.com/shelljs/shelljs>

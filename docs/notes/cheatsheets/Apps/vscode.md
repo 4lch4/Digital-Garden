@@ -5,10 +5,10 @@ layout: 2017/sheet
 updated: 2018-02-03
 weight: -5
 keywords:
-  - "⌘P: Show files"
-  - "⌘B: Toggle sidebar"
-  - "⌘J: Toggle panel"
-  - "F5: Debug"
+  - '⌘P: Show files'
+  - '⌘B: Toggle sidebar'
+  - '⌘J: Toggle panel'
+  - 'F5: Debug'
 intro: |
   [Visual Studio Code](https://code.visualstudio.com/), or VSCode, is an open-source code editor. This guide targets VSCode v1.19.
 ---
@@ -18,14 +18,14 @@ intro: |
 ### Command palette
 
 | Key   | Description       |
-|-------|-------------------|
+| ----- | ----------------- |
 | `⇧⌘P` | Show all commands |
 | `⌘P`  | Show files        |
 
 ### Sidebars
 
 | Key   | Description    |
-|-------|----------------|
+| ----- | -------------- |
 | `⌘B`  | Toggle sidebar |
 | ----  | ----           |
 | `⇧⌘E` | Explorer       |
@@ -37,7 +37,7 @@ intro: |
 ### Search
 
 | Key   | Description      |
-|-------|------------------|
+| ----- | ---------------- |
 | `⌘F`  | Find             |
 | `⌥⌘F` | Replace          |
 | ----  | ----             |
@@ -46,19 +46,19 @@ intro: |
 
 ### Panel
 
-| Key                                   | Description   |
-|---------------------------------------|---------------|
-| `⌘J`                                  | Toggle panel  |
-| ----                                  | ----          |
-| `⇧⌘M`                                 | Problems      |
-| `⇧⌘U`                                 | Output        |
-| `⇧⌘Y`                                 | Debug console |
-| <code>^`</code>                       | Terminal      |
+| Key             | Description   |
+| --------------- | ------------- |
+| `⌘J`            | Toggle panel  |
+| ----            | ----          |
+| `⇧⌘M`           | Problems      |
+| `⇧⌘U`           | Output        |
+| `⇧⌘Y`           | Debug console |
+| <code>^`</code> | Terminal      |
 
 ### View
 
 | Key      | Description      |
-|----------|------------------|
+| -------- | ---------------- |
 | `⌘k` `z` | Zen mode         |
 | ----     | ----             |
 | `⌘k` `u` | Close unmodified |
@@ -67,7 +67,7 @@ intro: |
 ### Debug
 
 | Key    | Description             |
-|--------|-------------------------|
+| ------ | ----------------------- |
 | `F5`   | Start                   |
 | `⇧F5`  | Stop                    |
 | `⇧⌘F5` | Restart                 |
@@ -85,6 +85,6 @@ intro: |
 
 ## References
 
-* [Keyboard shortcuts (MacOS)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) _(code.visualstudio.com)_
-* [Keyboard shortcuts (Windows)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) _(code.visualstudio.com)_
-* [Keyboard shortcuts (Linux)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) _(code.visualstudio.com)_
+- [Keyboard shortcuts (MacOS)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf) _(code.visualstudio.com)_
+- [Keyboard shortcuts (Windows)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) _(code.visualstudio.com)_
+- [Keyboard shortcuts (Linux)](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf) _(code.visualstudio.com)_

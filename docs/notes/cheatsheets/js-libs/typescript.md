@@ -27,7 +27,11 @@ never  /* unreachable */
 ```
 
 ```ts
-enum Color {Red, Green, Blue = 4}
+enum Color {
+  Red,
+  Green,
+  Blue = 4
+}
 let c: Color = Color.Green
 ```
 
@@ -53,20 +57,20 @@ function add (a: number, b: number) { ... }
 
 ```ts
 let len: number = (input as string).length
-let len: number = (<string> input).length  /* not allowed in JSX */
+let len: number = (<string>input).length /* not allowed in JSX */
 ```
 
 #### Functions
 
 ```ts
-function object(this: {a: number, b: number}, a: number, b: number) {
-  this.a = a;
-  this.b = b;
-  return this;
+function object(this: { a: number; b: number }, a: number, b: number) {
+  this.a = a
+  this.b = b
+  return this
 }
 
 // this is used only for type declaration
-let a = object(1,2);
+let a = object(1, 2)
 // a has type {a: number, b: number}
 ```
 
@@ -75,13 +79,12 @@ let a = object(1,2);
 ### Inline
 
 ```ts
-function printLabel (options: { label: string }) {
+function printLabel(options: { label: string }) {
   console.log(options.label)
 }
 
 // Note the semicolon
-function getUser (): { name: string; age?: number } {
-}
+function getUser(): { name: string; age?: number } {}
 ```
 
 ### Explicit
@@ -98,7 +101,7 @@ function printLabel(options: LabelOptions) { ... }
 
 ```ts
 interface User {
-  name: string,
+  name: string
   age?: number
 }
 ```
@@ -165,11 +168,8 @@ class Pixel extends Point implements Colored {...}
 
 ```ts
 class Point {
-  static instances = 0;
-  constructor(
-    public x: number,
-    public y: number,
-  ){}
+  static instances = 0
+  constructor(public x: number, public y: number) {}
 }
 ```
 
@@ -206,10 +206,10 @@ export interface User { ... }
 ```ts
 interface Building {
   room: {
-    door: string,
-    walls: string[],
-  };
+    door: string
+    walls: string[]
+  }
 }
 
-type Walls = Building['room']['walls']; // string[]
+type Walls = Building['room']['walls'] // string[]
 ```

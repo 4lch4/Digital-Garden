@@ -10,17 +10,20 @@ updated: 2017-09-04
 Facebook:
 
 ```html
-<a href='https://www.facebook.com/sharer/sharer.php?u=URL' target='share'>
+<a href="https://www.facebook.com/sharer/sharer.php?u=URL" target="share"></a>
 ```
 
 Twitter:
 
 ```html
-<a href='https://twitter.com/intent/tweet?text=DESCRIPTION+URL' target='share'>
+<a
+  href="https://twitter.com/intent/tweet?text=DESCRIPTION+URL"
+  target="share"
+></a>
 ```
 
 Google Plus:
 
 ```html
-<a href='https://plus.google.com/share?url=URL' target='share'>
+<a href="https://plus.google.com/share?url=URL" target="share"></a>
 ```

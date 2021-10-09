@@ -1,67 +1,67 @@
 .templater_div {
-    border-top: 1px solid var(--background-modifier-border);
+  border-top: 1px solid var(--background-modifier-border);
 }
 
 .templater_div > .setting-item {
-    border-top: none !important;
-    align-self: center;
+  border-top: none !important;
+  align-self: center;
 }
 
 .templater_div > .setting-item > .setting-item-control {
-    justify-content: space-around;
-    padding: 0;
-    width: 100%;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
 }
 
-.templater_div > .setting-item > .setting-item-control > .setting-editor-extra-setting-button {
-    align-self: center;
+.templater_div
+  > .setting-item
+  > .setting-item-control
+  > .setting-editor-extra-setting-button {
+  align-self: center;
 }
 
 .templater_title {
-    margin: 0;
-    padding: 0;
-    margin-top: 5px;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  text-align: center;
 }
 
 .templater_template {
-    align-self: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    width: 70%;
+  align-self: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 70%;
 }
 
 .templater_cmd {
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 14px;
-    width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  width: 100%;
 }
 
 .templater_div2 > .setting-item {
-    align-content: center;
-    justify-content: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .templater_button:hover {
-    background-color: #00496A !important;
+  background-color: #00496a !important;
 }
 
 .templater-prompt-div {
-    display: flex;
+  display: flex;
 }
 
 .templater-prompt-form {
-    display: flex;
-    flex-grow: 1;
+  display: flex;
+  flex-grow: 1;
 }
 
 .templater-prompt-input {
-    flex-grow: 1;
+  flex-grow: 1;
 }
-
-
-
 
 .cm-s-obsidian .templater-command-bg {
   left: 0px;
@@ -69,7 +69,7 @@
   background-color: var(--background-primary-alt);
 }
 
-.cm-s-obsidian .cm-templater-command{
+.cm-s-obsidian .cm-templater-command {
   color: #d4d4d4;
   font-size: 0.85em;
   font-family: var(--font-monospace);
@@ -81,166 +81,138 @@
 }
 
 .cm-s-obsidian .cm-templater-command.cm-templater-opening-tag {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .cm-s-obsidian .cm-templater-command.cm-templater-closing-tag {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .cm-s-obsidian .cm-templater-command.cm-templater-interpolation-tag {
-    color: #008BFF;
+  color: #008bff;
 }
 
 .cm-s-obsidian .cm-templater-command.cm-templater-execution-tag {
-    color: #C0D700;
+  color: #c0d700;
 }
 
 .cm-s-obsidian .cm-templater-command.cm-templater-raw-tag {
-    color: green;
+  color: green;
 }
 
 .cm-s-obsidian .cm-templater-command.cm-keyword {
-  color: #00A7AA;
+  color: #00a7aa;
   font-weight: normal;
 }
 
-
 .cm-s-obsidian .cm-templater-command.cm-atom {
-  color: #F39B35;
+  color: #f39b35;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-number {
-  color: #A06FCA;
+  color: #a06fca;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-type {
-  color: #A06FCA;
+  color: #a06fca;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-def {
-  color: #98E342;
+  color: #98e342;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-property {
-  color: #D4D4D4;
+  color: #d4d4d4;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-variable {
-  color: #D4D4D4;
+  color: #d4d4d4;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-variable-2 {
   color: #da7dae;
 }
 
-
 .cm-s-obsidian .cm-templater-command.cm-variable-3 {
-  color: #A06FCA;
+  color: #a06fca;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-type.cm-def {
-  color: #FC4384;
+  color: #fc4384;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-property.cm-def {
-  color: #FC4384;
+  color: #fc4384;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-callee {
-  color: #FC4384;
+  color: #fc4384;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-operator {
-  color: #FC4384;
+  color: #fc4384;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-qualifier {
-  color: #FC4384;
+  color: #fc4384;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-tag {
-  color: #FC4384;
+  color: #fc4384;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-tag.cm-bracket {
-  color: #D4D4D4;
+  color: #d4d4d4;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-attribute {
-  color: #A06FCA;
+  color: #a06fca;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-comment {
   color: #696d70;
 }
 
-
 .cm-s-obsidian .cm-templater-command.cm-comment.cm-tag {
-  color: #FC4384;
+  color: #fc4384;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-comment.cm-attribute {
-  color: #D4D4D4;
+  color: #d4d4d4;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-string {
-  color: #E6DB74;
+  color: #e6db74;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-string-2 {
-  color: #F39B35;
+  color: #f39b35;
 }
 
-
 .cm-s-obsidian .cm-templater-command.cm-meta {
-  color: #D4D4D4;
+  color: #d4d4d4;
   background: inherit;
 }
 
-
 .cm-s-obsidian .cm-templater-command.cm-builtin {
-  color: #FC4384;
+  color: #fc4384;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-header {
   color: #da7dae;
 }
 
-
 .cm-s-obsidian .cm-templater-command.cm-hr {
-  color: #98E342;
+  color: #98e342;
 }
-
 
 .cm-s-obsidian .cm-templater-command.cm-link {
   color: #696d70;
 }
 
-
 .cm-s-obsidian .cm-templater-command.cm-error {
-  border-bottom: 1px solid #C42412;
+  border-bottom: 1px solid #c42412;
 }
-
 
 .cm-s-obsidian pre.HyperMD-codeblock .cm-keyword {
   font-weight: normal;
@@ -252,5 +224,5 @@
 
 .cm-s-obsidian .cm-templater-command.CodeMirror-matchingbracket {
   outline: 1px solid grey;
-  color: #D4D4D4 !important;
+  color: #d4d4d4 !important;
 }

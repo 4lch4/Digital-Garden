@@ -7,7 +7,6 @@ category: Jekyll
 updated: 2017-09-01
 ---
 
-
 ### Installation
 
 ```bash
@@ -97,31 +96,26 @@ In `_config.yml`:
 source: .
 destination: _site
 exclude:
-- Gemfile
-- Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
 include: ['.htaccess']
 ```
 
 All config keys are optional.
 See: [Configuration](http://jekyllrb.com/docs/configuration/)
 
-Markup
-------
+## Markup
 
 ### Page variables
 
 ```html
-<title>
-  {{ page.title }}
-</title>
+<title>{{ page.title }}</title>
 ```
 
 ### Filters
 
 ```html
-<p>
-  {{ page.description | truncate_words: 20 }}
-</p>
+<p>{{ page.description | truncate_words: 20 }}</p>
 ```
 
 ### Loops
@@ -142,25 +136,23 @@ Markup
 ### Conditionals
 
 ```html
-  ...
-  ...
-  ...
+... ... ...
 ```
 
 ```html
+
 ```
 
 ### Case
 
 ```html
-Arriving in 2-3 weeks
-Arriving in 2-3 days
-Thank you for your order!
+Arriving in 2-3 weeks Arriving in 2-3 days Thank you for your order!
 ```
 
 ### Includes (partials)
 
 ```
+
 ```
 
 ```html
@@ -170,7 +162,7 @@ Thank you for your order!
 ### Comments
 
 ```html
-  This is a comment!
+This is a comment!
 ```
 
 ## Variables
@@ -201,28 +193,20 @@ See: [Variables](http://jekyllrb.com/docs/variables/)
 ### Page
 
 ```html
-{{ page.content }}  - un-rendered content
-{{ page.title }}
-{{ page.excerpt }}  - un-rendered excerpt
-{{ page.url }}
-{{ page.date }}
-{{ page.id }}       - unique id for RSS feeds
-{{ page.categories }}
-{{ page.tags }}
-{{ page.path }}
-{{ page.dir }}
-{{ page.excerpt | remove: '<p>' | remove: '</p>' }}
-{{ page.excerpt | strip_html }}
+{{ page.content }} - un-rendered content {{ page.title }} {{ page.excerpt }} -
+un-rendered excerpt {{ page.url }} {{ page.date }} {{ page.id }} - unique id for
+RSS feeds {{ page.categories }} {{ page.tags }} {{ page.path }} {{ page.dir }}
+{{ page.excerpt | remove: '
+<p>' | remove: '</p>
+' }} {{ page.excerpt | strip_html }}
 ```
 
 ```html
 <!-- blog pagination: -->
-{{ page.next }}
-{{ page.previous }}
+{{ page.next }} {{ page.previous }}
 ```
 
-Filters
--------
+## Filters
 
 ### Dates
 
@@ -234,7 +218,7 @@ Filters
 | `date_to_rfc822` | → `Mon, 07 Nov 2008 13:07:54 -0800` |
 | `date_to_string` | → `07 Nov 2008` |
 | `date_to_long_string` | → `07 November 2008` |
-| `date:` _'%Y %m %d'_ | → `2017 Nov  7` |
+| `date:` _'%Y %m %d'_ | → `2017 Nov 7` |
 
 ### Preprocessors
 
@@ -243,7 +227,7 @@ Filters
 ```
 
 | Filter        | Description |
-|---------------|-------------|
+| ------------- | ----------- |
 | `textilize`   | Textile     |
 | `markdownify` | Markdown    |
 | `jsonify`     | JSON        |
@@ -258,7 +242,7 @@ Filters
 ```
 
 | Filter                                     | Description        |
-|--------------------------------------------|--------------------|
+| ------------------------------------------ | ------------------ |
 | `where:` _"year", "2014"_                  |                    |
 | `where_exp:` _"item", "item.year >= 2014"_ |                    |
 | ---                                        | ---                |
@@ -287,7 +271,7 @@ Filters
 ```
 
 | Filter                             | Description |
-|------------------------------------|-------------|
+| ---------------------------------- | ----------- |
 | `default:` _'xxx'_                 |             |
 | ---                                | ---         |
 | `upcase`                           |             |
@@ -326,7 +310,7 @@ See: [String filters](http://docs.shopify.com/themes/liquid-documentation/filter
 ```
 
 | Filter            | Description    |
-|-------------------|----------------|
+| ----------------- | -------------- |
 | `number_of_words` |                |
 | `slugify`         |                |
 | ---               | ---            |
@@ -341,7 +325,7 @@ See: [String filters](http://docs.shopify.com/themes/liquid-documentation/filter
 ```
 
 | Filter            | Description |
-|-------------------|-------------|
+| ----------------- | ----------- |
 | `minus:` _2_      |             |
 | `plus:` _2_       |             |
 | `times:` _2_      |             |
@@ -360,7 +344,7 @@ Add this to `_config.yml`:
 
 ```yml
 paginate: 5
-paginate_path: "blog/:num"
+paginate_path: 'blog/:num'
 ```
 
 See: [Paginator](http://jekyllrb.com/docs/pagination/)
@@ -377,6 +361,7 @@ See: [Paginator](http://jekyllrb.com/docs/pagination/)
 ### Iterating through posts
 
 ```
+
 ```
 
 ### Previous button
@@ -439,8 +424,9 @@ See: [Excerpts](http://jekyllrb.com/docs/posts/#post-excerpts)
 ```
 
 ```html
-{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-{{ post.excerpt | strip_html }}
+{{ post.excerpt | remove: '
+<p>' | remove: '</p>
+' }} {{ post.excerpt | strip_html }}
 ```
 
 ### Excerpt separator
@@ -500,6 +486,7 @@ real_name: Anne Rice
 ```
 
 ```
+
 ```
 
 See: [Collections](http://jekyllrb.com/docs/collections/)
@@ -507,13 +494,10 @@ See: [Collections](http://jekyllrb.com/docs/collections/)
 ### Code highlighter
 
 ```html
-def show
-  ...
-end
+def show ... end
 ```
 
-Integration
------------
+## Integration
 
 ### Bundler
 
@@ -526,17 +510,15 @@ Bundler.require :default
 
 ### Compass
 
-* [Compass](https://gist.github.com/parkr/2874934)
-* [Asset pipeline](https://github.com/matthodan/jekyll-asset-pipeline)
+- [Compass](https://gist.github.com/parkr/2874934)
+- [Asset pipeline](https://github.com/matthodan/jekyll-asset-pipeline)
 
-See Also
---------
+## See Also
 
-* [Jekyll docs](http://jekyllrb.com/docs/home/) _jekyllrb.com_
-* [CloudCannon Jekyll cheatsheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/) _cloudcannon.com_
-* [Jekyll: templates](http://jekyllrb.com/docs/templates/) _jekyllrb.com_
-* [Liquid: output](http://docs.shopify.com/themes/liquid-basics/output) _shopify.com_
-* [Liquid: logic](http://docs.shopify.com/themes/liquid-basics/logic) _shopify.com_
-* [Liquid: filters](http://docs.shopify.com/themes/liquid-documentation/filters) _shopify.com_
-* [Liquid for designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) _github.com/Shopify_
-
+- [Jekyll docs](http://jekyllrb.com/docs/home/) _jekyllrb.com_
+- [CloudCannon Jekyll cheatsheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/) _cloudcannon.com_
+- [Jekyll: templates](http://jekyllrb.com/docs/templates/) _jekyllrb.com_
+- [Liquid: output](http://docs.shopify.com/themes/liquid-basics/output) _shopify.com_
+- [Liquid: logic](http://docs.shopify.com/themes/liquid-basics/logic) _shopify.com_
+- [Liquid: filters](http://docs.shopify.com/themes/liquid-documentation/filters) _shopify.com_
+- [Liquid for designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) _github.com/Shopify_

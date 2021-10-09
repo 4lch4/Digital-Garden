@@ -11,7 +11,7 @@ updated: 2018-03-06
 ### Device Basics
 
 | Command                 | Description                                 |
-|-------------------------|---------------------------------------------|
+| ----------------------- | ------------------------------------------- |
 | `adb devices`           | Lists connected devices                     |
 | `adb devices -l`        | Lists connected devices and kind            |
 | ---                     | ---                                         |
@@ -43,7 +43,7 @@ $ adb -s somedevice-1234 root
 ### Logcat
 
 | Command                    | Description                            |
-|----------------------------|----------------------------------------|
+| -------------------------- | -------------------------------------- |
 | `adb logcat`               | Starts printing log messages to stdout |
 | `adb logcat -g`            | Displays current log buffer sizes      |
 | `adb logcat -G <size>`     | Sets the buffer size (K or M)          |
@@ -61,7 +61,7 @@ adb logcat *:V > output.log
 ### File Management
 
 | Command                     | Description                                |
-|-----------------------------|--------------------------------------------|
+| --------------------------- | ------------------------------------------ |
 | `adb push <local> <remote>` | Copies the local to the device at remote   |
 | `adb pull <remote> <local>` | Copies the remote from the device to local |
 
@@ -76,7 +76,7 @@ adb pull /sdcard/test.txt pulledTest.txt
 ### Remote Shell
 
 | Command                                | Description                                                         |
-|----------------------------------------|---------------------------------------------------------------------|
+| -------------------------------------- | ------------------------------------------------------------------- |
 | `adb shell <command>`                  | Runs the specified command on device (most unix commands work here) |
 | `adb shell wm size`                    | Displays the current screen resolution                              |
 | `adb shell wm size WxH`                | Sets the resolution to WxH                                          |

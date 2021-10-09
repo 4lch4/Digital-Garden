@@ -20,66 +20,68 @@ autofocus
 ```
 
 ```html
-autocomplete='off'        <!-- autocomplete -->
-autocompletetype='cc-exp'
-autocapitalize='off'      <!-- for mobiles -->
-pattern='\d*'             <!-- force numeric input in iOS -->
+autocomplete='off'
+<!-- autocomplete -->
+autocompletetype='cc-exp' autocapitalize='off'
+<!-- for mobiles -->
+pattern='\d*'
+<!-- force numeric input in iOS -->
 ```
 
 ### Input types
 
 #### Text
 
-* email
-* hidden
-* **password**
-* tel
-* **text**
-* search
+- email
+- hidden
+- **password**
+- tel
+- **text**
+- search
 
 #### Time
 
-* date
-* time
+- date
+- time
 
 #### Time (not widely supported)
 
-* month
-* week
-* datetime
-* datetime-local
+- month
+- week
+- datetime
+- datetime-local
 
 #### Etc
 
-* **file**
-* **radio**
-* **checkbox**
+- **file**
+- **radio**
+- **checkbox**
 
 #### Buttons
 
-* button
-* reset
-* submit
-* image
+- button
+- reset
+- submit
+- image
 
 #### Numeric
 
-* number
-* range
+- number
+- range
 
 ## Examples
 
 ### Dates
 
 | Type          | Example               |
-|---------------|-----------------------|
+| ------------- | --------------------- |
 | `type='date'` | `<input type='date'>` |
 | `type='time'` | `<input type='time'>` |
 
 ### Datetime
 
 | Type                    | Example                         |
-|-------------------------|---------------------------------|
+| ----------------------- | ------------------------------- |
 | `type='datetime'`       | `<input type='datetime'>`       |
 | `type='datetime-local'` | `<input type='datetime-local'>` |
 
@@ -88,14 +90,14 @@ pattern='\d*'             <!-- force numeric input in iOS -->
 ### Numbers
 
 | Type            | Example                 |
-|-----------------|-------------------------|
+| --------------- | ----------------------- |
 | `type='number'` | `<input type='number'>` |
 | `type='range'`  | `<input type='range'>`  |
 
 ### Text
 
 | Type              | Example                   |
-|-------------------|---------------------------|
+| ----------------- | ------------------------- |
 | `type='text'`     | `<input type='text'>`     |
 | `type='password'` | `<input type='password'>` |
 | `type='search'`   | `<input type='search'>`   |
@@ -103,4 +105,4 @@ pattern='\d*'             <!-- force numeric input in iOS -->
 
 ## Also see
 
-* <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input>
+- <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input>

@@ -85,4 +85,4 @@ Print options:
 
 ### References
 
-* <https://github.com/jakubroztocil/httpie>
+- <https://github.com/jakubroztocil/httpie>

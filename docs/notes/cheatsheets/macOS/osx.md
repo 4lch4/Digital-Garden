@@ -66,4 +66,4 @@ category: macOS
 - `/usr/libexec/airportd`
 - `scutil`
 
-__INFO: `brew` ([link](https://brew.sh)) is highly recommended utility__
+**INFO: `brew` ([link](https://brew.sh)) is highly recommended utility**

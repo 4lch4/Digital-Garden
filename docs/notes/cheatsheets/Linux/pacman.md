@@ -11,7 +11,7 @@ intro: |
 ### Common commands
 
 | Command                 | Description                       |
-|-------------------------|-----------------------------------|
+| ----------------------- | --------------------------------- |
 | `pacman -Syu <pkg>`     | Install (and update package list) |
 | `pacman -S <pkg>`       | Install only                      |
 | `pacman -Rsc <pkg>`     | Uninstall                         |
@@ -21,7 +21,7 @@ intro: |
 ### Query
 
 | Command              | Description                            |
-|----------------------|----------------------------------------|
+| -------------------- | -------------------------------------- |
 | `pacman -Qe`         | List explictly-installed packages      |
 | ---                  | ---                                    |
 | `pacman -Ql <pkg>`   | What files does this package have?     |
@@ -34,7 +34,7 @@ intro: |
 ### Orphans
 
 | Command                       | Description                 |
-|-------------------------------|-----------------------------|
+| ----------------------------- | --------------------------- |
 | `pacman -Qdt`                 | List unneeded packages      |
 | `pacman -Rns $(pacman -Qdtq)` | Uninstall unneeded packages |
 
@@ -43,10 +43,10 @@ Avoid orphans by using `pacman -Rsc` to remove packages, which will remove unnee
 ### Other
 
 | Command            | Description                |
-|--------------------|----------------------------|
+| ------------------ | -------------------------- |
 | `pactree <pkg>`    | What does _pkg_ depend on? |
 | `pactree -r <pkg>` | What depends on _pkg_?     |
 
 ### References
 
-* [Pacman tips and tricks](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks) _(wiki.archlinux.org)_
+- [Pacman tips and tricks](https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks) _(wiki.archlinux.org)_

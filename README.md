@@ -39,24 +39,24 @@ To expand on that, my personal goal with this **DG** is two-fold:
 
 > Now, take the above scenario and imagine you're doing it with the plan to "learn in public." Once
 > you get to building the demo, you would make an effort to perform small commits that follow the
-> [conventional commits specification][Conventional-Commits].
+> [conventional commits specification][conventional-commits].
 >
 > Once you get the demo app working and in a good enough state that you'd be willing to show it to someone, you push the code to a public repository with your GitHub account. You add some extra files such as the `CONTRIBUTING.md` and some issue templates if someone manages to find a bug.
 
 ## Origin
 
-One day I was browsing [dev.to][Dev-To] for stuff to read when I came across an article by [Josh Branchaud][JBranchaud] called ["The Digital Garden"][Digital-Garden]. This sent me down a rabbit hole of sorts that exposed me to not just the concept of a Digital Garden, maintaining an investment mindset, learning in public, and a few other things. Because of this rabbit hole, I have created this site and intend on growing it over a long period of time.
+One day I was browsing [dev.to][dev-to] for stuff to read when I came across an article by [Josh Branchaud][jbranchaud] called ["The Digital Garden"][digital-garden]. This sent me down a rabbit hole of sorts that exposed me to not just the concept of a Digital Garden, maintaining an investment mindset, learning in public, and a few other things. Because of this rabbit hole, I have created this site and intend on growing it over a long period of time.
 
 That said, the simplest way I can think of to describe this project is it serves as a collection of my "public knowledge," which consists of just about everything I learn. I'm just starting this repository out, so as of writing this, I only have a couple of TILs and some cheatsheets I've collected over the years.
 
 ## View Website
 
-The actual website is [hosted here][Garden-Home] by [Vercel][Vercel-Home]. At some point, I'll likely convert it so it runs on [GitHub Pages][GitHub-Pages] instead since that's what I use for my other SSG sites.
+The actual website is [hosted here][garden-home] by [Vercel][vercel-home]. At some point, I'll likely convert it so it runs on [GitHub Pages][github-pages] instead since that's what I use for my other SSG sites.
 
-[Garden-Home]: https://kba.4lch4.dev
-[Vercel-Home]: https://vercel.com
-[GitHub-Pages]: https://pages.github.com/
-[Dev-To]: https://dev.to
-[Digital-Garden]: https://dev.to/jbranchaud/the-digital-garden-l10
-[JBranchaud]: https://dev.to/jbranchaud
-[Conventional-Commits]: https://www.conventionalcommits.org/en/v1.0.0/
+[garden-home]: https://kba.4lch4.dev
+[vercel-home]: https://vercel.com
+[github-pages]: https://pages.github.com/
+[dev-to]: https://dev.to
+[digital-garden]: https://dev.to/jbranchaud/the-digital-garden-l10
+[jbranchaud]: https://dev.to/jbranchaud
+[conventional-commits]: https://www.conventionalcommits.org/en/v1.0.0/

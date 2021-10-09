@@ -13,7 +13,7 @@ intro: |
 #### Let
 
 ```js
-function fn () {
+function fn() {
   let x = 0
   if (true) {
     let x = 1 // only inside this `if`
@@ -64,13 +64,13 @@ See: [Binary and octal literals](https://babeljs.io/learn-es2015/#binary-and-oct
 #### New string methods
 
 ```js
-"hello".repeat(3)
-"hello".includes("ll")
-"hello".startsWith("he")
-"hello".padStart(8) // "   hello"
-"hello".padEnd(8) // "hello   " 
-"hello".padEnd(8, '!') // hello!!!
-"\u1E9B\u0323".normalize("NFC")
+'hello'.repeat(3)
+'hello'.includes('ll')
+'hello'.startsWith('he')
+'hello'.padStart(8) // "   hello"
+'hello'.padEnd(8) // "hello   "
+'hello'.padEnd(8, '!') // hello!!!
+'\u1E9B\u0323'.normalize('NFC')
 ```
 
 See: [New methods](https://babeljs.io/learn-es2015/#math--number--string--object-apis)
@@ -123,15 +123,17 @@ const byte = 2 ** 8
 // Same as: Math.pow(2, 8)
 ```
 
-Promises
---------
+## Promises
 
 ### Making promises
 
 ```js
 new Promise((resolve, reject) => {
-  if (ok) { resolve(result) }
-  else { reject(error) }
+  if (ok) {
+    resolve(result)
+  } else {
+    reject(error)
+  }
 })
 ```
 
@@ -169,7 +171,7 @@ Promise.resolve(···)
 ### Async-await
 
 ```js
-async function run () {
+async function run() {
   const user = await getUser()
   const tweets = await getTweets(user)
   return [user, tweets]
@@ -180,8 +182,7 @@ async function run () {
 
 See: [async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 
-Destructuring
--------------
+## Destructuring
 
 ### Destructuring assignment
 
@@ -194,7 +195,7 @@ const [first, last] = ['Nikola', 'Tesla']
 #### Objects
 
 ```js
-let {title, author} = {
+let { title, author } = {
   title: 'The Silkworm',
   author: 'R. Galbraith'
 }
@@ -234,8 +235,8 @@ Destructuring of objects and arrays can also be done in function arguments.
 ### Default values
 
 ```js
-function greet({ name = 'Rauno' } = {}) {
-  console.log(`Hi ${name}!`);
+function greet({ name = 'Rauno' } = {}) {
+  console.log(`Hi ${name}!`)
 }
 ```
 
@@ -271,13 +272,12 @@ The assignment expressions work in loops, too.
 ### Object destructuring
 
 ```js
-const { id, ...detail } = song;
+const { id, ...detail } = song
 ```
 
 Extract some keys individually and remaining keys in the object using rest (...) operator
 
-Spread
-------
+## Spread
 
 ### Object spread
 
@@ -293,9 +293,7 @@ const options = {
 #### without Object spread
 
 ```js
-const options = Object.assign(
-  {}, defaults,
-  { visible: true })
+const options = Object.assign({}, defaults, { visible: true })
 ```
 
 The Object spread operator lets you build new objects from other objects.
@@ -307,34 +305,27 @@ See: [Object spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Ref
 #### with Array spread
 
 ```js
-const users = [
-  ...admins,
-  ...editors,
-  'rstacruz'
-]
+const users = [...admins, ...editors, 'rstacruz']
 ```
 
 #### without Array spread
 
 ```js
-const users = admins
-  .concat(editors)
-  .concat([ 'rstacruz' ])
+const users = admins.concat(editors).concat(['rstacruz'])
 ```
 
 The spread operator lets you build new arrays in the same way.
 
 See: [Spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
-Functions
----------
+## Functions
 
 ### Function arguments
 
 #### Default arguments
 
 ```js
-function greet (name = 'Jerry') {
+function greet(name = 'Jerry') {
   return `Hello ${name}`
 }
 ```
@@ -389,8 +380,7 @@ numbers.map(n => ({
 Like functions but with `this` preserved.
 See: [Fat arrows](https://babeljs.io/learn-es2015/#arrows-and-lexical-this)
 
-Objects
--------
+## Objects
 
 ### Shorthand syntax
 
@@ -405,7 +395,7 @@ See: [Object literal enhancements](https://babeljs.io/learn-es2015/#enhanced-obj
 
 ```js
 const App = {
-  start () {
+  start() {
     console.log('running')
   }
 }
@@ -418,10 +408,10 @@ See: [Object literal enhancements](https://babeljs.io/learn-es2015/#enhanced-obj
 
 ```js
 const App = {
-  get closed () {
+  get closed() {
     return this.status === 'closed'
   },
-  set closed (value) {
+  set closed(value) {
     this.status = value ? 'closed' : 'open'
   }
 }
@@ -444,7 +434,7 @@ See: [Object literal enhancements](https://babeljs.io/learn-es2015/#enhanced-obj
 ### Extract values
 
 ```js
-const fatherJS = { age: 57, name: "Brendan Eich" }
+const fatherJS = { age: 57, name: 'Brendan Eich' }
 
 Object.values(fatherJS)
 // [57, "Brendan Eich"]
@@ -452,8 +442,7 @@ Object.entries(fatherJS)
 // [["age", 57], ["name", "Brendan Eich"]]
 ```
 
-Modules
--------
+## Modules
 
 ### Imports
 
@@ -505,23 +494,24 @@ export const pi = 3.14159
 `export` is the new `module.exports`.
 See: [Module exports](https://babeljs.io/learn-es2015/#modules)
 
-Generators
-----------
+## Generators
 
 ### Generators
 
 ```js
-function* idMaker () {
+function* idMaker() {
   let id = 0
-  while (true) { yield id++ }
+  while (true) {
+    yield id++
+  }
 }
 ```
 
 ```js
 let gen = idMaker()
-gen.next().value  // → 0
-gen.next().value  // → 1
-gen.next().value  // → 2
+gen.next().value // → 0
+gen.next().value // → 1
+gen.next().value // → 2
 ```
 
 It's complicated.

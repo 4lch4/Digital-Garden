@@ -21,7 +21,7 @@ category: Python
     list.pop()        # returns and removes last element from the list
     list.pop(i)       # returns and removes i-th element from the list
     list.remove(i)    # removes the first item from the list whose value is i
-    list1 + list2     # combine two list    
+    list1 + list2     # combine two list
     set(list)         # remove duplicate elements from a list
 
     list.reverse()    # reverses the elements of the list in-place
@@ -96,7 +96,7 @@ category: Python
 ```python
     [fn(i) for i in list]            # .map
     map(fn, list)                    # .map, returns iterator
-    
+
     filter(fn, list)                 # .filter, returns iterator
     [fn(i) for i in list if i > 0]   # .filter.map
 ```

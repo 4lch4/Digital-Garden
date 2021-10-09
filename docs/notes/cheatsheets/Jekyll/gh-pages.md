@@ -26,6 +26,7 @@ Subdomain (like www):
 ```
 
 Apex domains:
+
 ```
      ALIAS => username.github.io
 ```

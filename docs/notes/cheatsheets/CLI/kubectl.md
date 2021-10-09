@@ -17,17 +17,17 @@ tags:
 
 #### Bash
 
-  ```bash
-  source <(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first.
-  echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanently to your bash shell.
-  ```
+```bash
+source <(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first.
+echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanently to your bash shell.
+```
 
 #### Zsh
 
-  ```bash
-  alias k=kubectl
-  complete -F __start_kubectl k
-  ```
+```bash
+alias k=kubectl
+complete -F __start_kubectl k
+```
 
 ### Context and Configuration
 
@@ -44,7 +44,7 @@ kubectl config view -o jsonpath='{.users[?(@.name == "e2e")].user.password}'
 
 kubectl config view -o jsonpath='{.users[].name}'    # display the first user
 kubectl config view -o jsonpath='{.users[*].name}'   # get a list of users
-kubectl config get-contexts                          # display list of contexts 
+kubectl config get-contexts                          # display list of contexts
 kubectl config current-context                       # display the current-context
 kubectl config use-context my-cluster-name           # set the default context to my-cluster-name
 

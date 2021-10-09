@@ -4,10 +4,10 @@ category: CSS
 layout: 2017/sheet
 weight: -1
 keywords:
-  - "margin, padding, border"
-  - "div, .class, #id, [attr]"
-  - "font, background"
-  - "display: block, inline, flex"
+  - 'margin, padding, border'
+  - 'div, .class, #id, [attr]'
+  - 'font, background'
+  - 'display: block, inline, flex'
   - Selectors
   - Properties
 ---
@@ -23,11 +23,11 @@ keywords:
 ```
 
 | ----------------- | ----------- |
-| `div`             | Element     |
-| `.class`          | Class       |
-| `#id`             | ID          |
-| `[disabled]`      | Attribute   |
-| `[role="dialog"]` | Attribute   |
+| `div` | Element |
+| `.class` | Class |
+| `#id` | ID |
+| `[disabled]` | Attribute |
+| `[role="dialog"]` | Attribute |
 
 ### Combinators
 
@@ -40,14 +40,14 @@ keywords:
 
 ### Attribute selectors
 
-| Selector           | Description                         |
-| ------------------ | ----------------------------------- |
-| `[role="dialog"]`  | `=` Exact                           |
-| `[class~="box"]`   | `~=` Has word                       |
-| `[class|="box"]`   | `|=` Exact or prefix (eg, `value-`) |
-| `[href$=".doc"]`   | `$=` Ends in                        |
-| `[href^="/index"]` | `^=` Begins with                    |
-| `[class*="-is-"]`  | `*=` Contains                       |
+| Selector           | Description      |
+| ------------------ | ---------------- | --- | ------------------------------- |
+| `[role="dialog"]`  | `=` Exact        |
+| `[class~="box"]`   | `~=` Has word    |
+| `[class            | ="box"]`         | `   | =`Exact or prefix (eg,`value-`) |
+| `[href$=".doc"]`   | `$=` Ends in     |
+| `[href^="/index"]` | `^=` Begins with |
+| `[class*="-is-"]`  | `*=` Contains    |
 
 ### Pseudo-classes
 
@@ -82,26 +82,28 @@ keywords:
 | `:only-child`     |
 
 ## Fonts
+
 ### Properties
 
 | ------------------ | ------------------------------------ |
-| `font-family:`     | `<font>, <fontN>`                    |
-| `font-size:`       | `<size>`                             |
-| `letter-spacing:`  | `<size>`                             |
-| `line-height:`     | `<number>`                           |
-| ---                | ---                                  |
-| `font-weight:`     | `bold` `normal`                      |
-| `font-style:`      | `italic` `normal`                    |
-| `text-decoration:` | `underline` `none`                   |
-| ---                | ---                                  |
-| `text-align:`      | `left` `right` `center` `justify`    |
-| `text-transform:`  | `capitalize` `uppercase` `lowercase` |
+| `font-family:` | `<font>, <fontN>` |
+| `font-size:` | `<size>` |
+| `letter-spacing:` | `<size>` |
+| `line-height:` | `<number>` |
+| --- | --- |
+| `font-weight:` | `bold` `normal` |
+| `font-style:` | `italic` `normal` |
+| `text-decoration:` | `underline` `none` |
+| --- | --- |
+| `text-align:` | `left` `right` `center` `justify` |
+| `text-transform:` | `capitalize` `uppercase` `lowercase` |
 
 ### Shorthand
 
-|         | style    | weight | size (required) |     | line-height | family            |
-| `font:` | `italic` | `400`  | `14px`          | `/` | `1.5`       | `sans-serif`      |
-|         | style    | weight | size (required) |     | line-height | family (required) |
+| | style | weight | size (required) | | line-height | family |
+| `font:` | `italic` | `400` | `14px` | `/` | `1.5` | `sans-serif` |
+| | style | weight | size (required) | | line-height | family (required) |
+
 ### Example
 
 ```css
@@ -141,6 +143,7 @@ text-transform: lowercase; /* hello */
 | `background:` | `#ff0` | `url(bg.jpg)` | `left`    | `top`     | `/` | `100px` `auto` | `no-repeat` | `fixed;`   |
 | `background:` | `#abc` | `url(bg.png)` | `center`  | `center`  | `/` | `cover`        | `repeat-x`  | `local;`   |
 |               | color  | image         | positionX | positionY |     | size           | repeat      | attachment |
+
 ### Multiple backgrounds
 
 ```css
@@ -149,6 +152,7 @@ background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 ```
 
 ## Animation
+
 ### Properties
 
 | Property                     | Value                                                    |
@@ -180,4 +184,7 @@ animation: bounce 300ms linear 2s infinite alternate-reverse forwards normal;
 ### Event
 
 .one('webkitAnimationEnd oanimationend msAnimationEnd animationend')
+
+```
+
 ```

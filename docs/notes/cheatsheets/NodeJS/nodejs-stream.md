@@ -9,7 +9,7 @@ updated: 2017-08-30
 ### Types
 
 | Stream      | Description                        |
-| ---         | ---                                |
+| ----------- | ---------------------------------- |
 | `Readable`  | Data emitter                       |
 | `Writable`  | Data receiver                      |
 | `Transform` | Emitter and receiver               |
@@ -28,27 +28,35 @@ const Transform = require('stream').Transform
 ### Piping
 
 ```js
-clock()              // Readable stream
-  .pipe(xformer())   // Transform stream
-  .pipe(renderer())  // Writable stream
+clock() // Readable stream
+  .pipe(xformer()) // Transform stream
+  .pipe(renderer()) // Writable stream
 ```
 
 ### Methods
 
 ```js
-stream.push(/*...*/)         // Emit a chunk
-stream.emit('error', error)  // Raise an error
-stream.push(null)            // Close a stream
+stream.push(/*...*/) // Emit a chunk
+stream.emit('error', error) // Raise an error
+stream.push(null) // Close a stream
 ```
 
 ### Events
 
 ```js
 const st = source()
-st.on('data', (data) => { console.log('<-', data) })
-st.on('error', (err) => { console.log('!', err.message) })
-st.on('close', () => { console.log('** bye') })
-st.on('finish', () => { console.log('** bye') })
+st.on('data', data => {
+  console.log('<-', data)
+})
+st.on('error', err => {
+  console.log('!', err.message)
+})
+st.on('close', () => {
+  console.log('** bye')
+})
+st.on('finish', () => {
+  console.log('** bye')
+})
 ```
 
 Assuming `source()` is a readable stream.
@@ -63,16 +71,15 @@ st.pause()
 
 ```js
 // Automatically turns on flowing mode
-st.on('data', /*...*/)
+st.on('data' /*...*/)
 ```
 
-Stream types
-------------
+## Stream types
 
 ### Readable
 
 ```js
-function clock () {
+function clock() {
   const stream = new Readable({
     objectMode: true,
     read() {}
@@ -94,7 +101,7 @@ Readable streams are generators of data. Write data using `stream.push()`.
 ### Transform
 
 ```js
-function xformer () {
+function xformer() {
   let count = 0
 
   return new Transform({
@@ -111,7 +118,7 @@ Pass the updated chunk to `done(null, chunk)`.
 ### Writable
 
 ```js
-function renderer () {
+function renderer() {
   return new Writable({
     objectMode: true,
     write: (data, _, done) => {
@@ -125,9 +132,9 @@ function renderer () {
 ### All together now
 
 ```js
-clock()              // Readable stream
-  .pipe(xformer())   // Transform stream
-  .pipe(renderer())  // Writable stream
+clock() // Readable stream
+  .pipe(xformer()) // Transform stream
+  .pipe(renderer()) // Writable stream
 ```
 
 ## Also see

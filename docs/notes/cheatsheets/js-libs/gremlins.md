@@ -13,9 +13,9 @@ intro: |
 ### Simple example
 
 ```html
-<script src='https://cdn.jsdelivr.net/npm/gremlins/dist/gremlins.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/gremlins/dist/gremlins.js"></script>
 <script>
-gremlins.createHorde().unleash()
+  gremlins.createHorde().unleash()
 </script>
 ```
 
@@ -24,7 +24,8 @@ gremlins.createHorde().unleash()
 ### Custom gremlins
 
 ```js
-gremlins.createHorde()
+gremlins
+  .createHorde()
   .allGremlins()
   .gremlin(function () {
     document.activeElement.blur()
@@ -58,7 +59,8 @@ See: [Specifying gremlins](https://github.com/marmelab/gremlins.js#setting-greml
 ### Before and after
 
 ```js
-gremlins.createHorde()
+gremlins
+  .createHorde()
   .before(function () {
     this.log('sync')
     console.profile('gremlins')
@@ -72,13 +74,12 @@ gremlins.createHorde()
 ### Asynchronous
 
 ```js
-gremlins.createHorde()
-  .before(function (done) {
-    setTimeout(() => {
-      this.log('async')
-      done()
-    }, 500)
-  })
+gremlins.createHorde().before(function (done) {
+  setTimeout(() => {
+    this.log('async')
+    done()
+  }, 500)
+})
 ```
 
 ## References

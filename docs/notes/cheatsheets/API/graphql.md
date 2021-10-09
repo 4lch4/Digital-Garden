@@ -8,16 +8,21 @@ category: API
 ## Intro
 
 ## Queries
+
 ### Basic query
 
 ```js
-{ status }
+{
+  status
+}
 ```
 
 #### ↓
 
 ```js
-{ status: 'available' }
+{
+  status: 'available'
+}
 ```
 
 ### Nesting
@@ -43,10 +48,9 @@ category: API
 #### ↓
 
 ```js
-{ friends:
-    [ { name: "Luke Skywalker" },
-      { name: "Han Solo" },
-      { name: "R2D2" } ] }
+{
+  friends: [{ name: 'Luke Skywalker' }, { name: 'Han Solo' }, { name: 'R2D2' }]
+}
 ```
 
 GraphQL queries look the same for both single items or lists of items.
@@ -100,7 +104,9 @@ Just to make things less ambiguous. Also, to use variables, you need an operatio
 #### Variables
 
 ```js
-{ id: '1000' }
+{
+  id: '1000'
+}
 ```
 
 ### Mutations
@@ -114,13 +120,21 @@ Just to make things less ambiguous. Also, to use variables, you need an operatio
 #### Variables
 
 ```js
-{ review: { stars: 5 } }
+{
+  review: {
+    stars: 5
+  }
+}
 ```
 
 #### ↓
 
 ```js
-{ createReview: { id: 5291 } }
+{
+  createReview: {
+    id: 5291
+  }
+}
 ```
 
 Mutations are just fields that do something when queried.
@@ -139,8 +153,7 @@ Mutations are just fields that do something when queried.
 
 Great for searching.
 
-Over HTTP
----------
+## Over HTTP
 
 #### GET
 
@@ -160,8 +173,7 @@ fetch('http://myapi/graphql', {
 })
 ```
 
-Schema
-------
+## Schema
 
 ### Basic schemas
 
@@ -253,8 +265,7 @@ type Query {
 }
 ```
 
-References
-----------
+## References
 
 - <http://graphql.org/learn/queries/>
 - <http://graphql.org/learn/serving-over-http/>

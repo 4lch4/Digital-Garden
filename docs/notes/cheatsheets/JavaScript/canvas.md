@@ -58,7 +58,7 @@ onframe: function() {
 
 ```js
 c.translate(0, 0)
-c.rotate(Math.PI*2/5)
+c.rotate((Math.PI * 2) / 5)
 c.scale(1.0, 1.0)
 ```
 
@@ -73,9 +73,9 @@ c.translate(-ox, -oy)
 To scale along origin:
 
 ```js
-c.translate(-ox*x, -oy*y)
+c.translate(-ox * x, -oy * y)
 c.scale(x, y)
-c.translate(ox/x, oy/y)
+c.translate(ox / x, oy / y)
 ```
 
 See [MDN: Transformations][xform].
@@ -83,7 +83,7 @@ See [MDN: Transformations][xform].
 ### Image drawing
 
 ```js
-c.drawImage(image, dx, dy, [dw, dh]);
+c.drawImage(image, dx, dy, [dw, dh])
 /* `image` can be HTML Image/Canvas/Video */
 ```
 
@@ -92,15 +92,15 @@ See [MDN: Images][images].
 ### Colors, styles shadows
 
 ```js
-c.strokeStyle = '#ff00ff';
-c.fillStyle = '#ff00ff';
+c.strokeStyle = '#ff00ff'
+c.fillStyle = '#ff00ff'
 ```
 
 ```js
-c.shadowOffsetX = 0;
-c.shadowOffsetY = 0;
-c.shadowOffsetBlur = 3.0;
-c.shadowColor = 'rgba(0,0,0,0.2)';
+c.shadowOffsetX = 0
+c.shadowOffsetY = 0
+c.shadowOffsetBlur = 3.0
+c.shadowColor = 'rgba(0,0,0,0.2)'
 ```
 
 See [MDN: Styles][styles]
@@ -108,8 +108,8 @@ See [MDN: Styles][styles]
 ### Gradients
 
 ```js
-gr = c.createLinearGradient(x0,y0,x1,y1)
-gr = c.createRadialGradient(x0,y0,r0,x1,y1,r1)
+gr = c.createLinearGradient(x0, y0, x1, y1)
+gr = c.createRadialGradient(x0, y0, r0, x1, y1, r1)
 pat = c.createPattern(image, 'repeat-x')
 ```
 
@@ -132,7 +132,7 @@ c.closePath()
 
 ### More resources
 
-* [Canvas Cheatsheet PDF][pdf]
+- [Canvas Cheatsheet PDF][pdf]
 
 [pdf]: http://www.nihilogic.dk/labs/canvas_sheet/HTML5_Canvas_Cheat_Sheet.pdf
 [xform]: https://developer.mozilla.org/en-US/docs/Canvas_tutorial/Transformations

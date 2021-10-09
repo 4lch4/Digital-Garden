@@ -11,7 +11,7 @@ ls [options] [paths]
 ### Format
 
 | Switch | Description                       |
-|:------:|-----------------------------------|
+| :----: | --------------------------------- |
 |  `-1`  | One entry per line                |
 |  `-l`  | Long view                         |
 |  `-o`  | Long view (without groups)        |
@@ -30,7 +30,7 @@ ls [options] [paths]
 ### Sorting
 
 | Switch | Description                     |
-|:------:|---------------------------------|
+| :----: | ------------------------------- |
 |  `-r`  | reverse order                   |
 |  `-S`  | sort by size                    |
 |  `-t`  | sort by time modified           |
@@ -49,7 +49,7 @@ ls [options] [paths]
 ### Modes
 
 | Switch | Description                                    |
-|:------:|------------------------------------------------|
+| :----: | ---------------------------------------------- |
 |  `-f`  | follow                                         |
 |  `-F`  | follow by filename (accounts for log rotation) |
 |  `-r`  | Reverse order                                  |
@@ -57,8 +57,8 @@ ls [options] [paths]
 ### Options
 
 | Switch | Description       |
-|:------:|-------------------|
-| `-bN`  | N*512 bytes       |
+| :----: | ----------------- |
+| `-bN`  | N\*512 bytes      |
 | `-cN`  | N bytes           |
 | `-nN`  | N lines           |
 |  `+N`  | Start from line N |
@@ -76,7 +76,7 @@ sudo [options] <command>
 ### Options
 
 | Switch | Description               |
-|:------:|---------------------------|
+| :----: | ------------------------- |
 |  `-A`  | Use $SUDO_ASKPASS         |
 |  `-b`  | Run in background         |
 |  `-E`  | Preserve environment      |
@@ -96,7 +96,7 @@ sudo [options] <command>
 ### Interactive
 
 | Switch     | Description                         |
-|------------|-------------------------------------|
+| ---------- | ----------------------------------- |
 | `-i [cmd]` | Interactive shell without variables |
 | `-s [cmd]` | Interactive shell                   |
 | ----       |                                     |
@@ -106,7 +106,7 @@ sudo [options] <command>
 ### Timestamp
 
 | Switch | Description                     |
-|:------:|---------------------------------|
+| :----: | ------------------------------- |
 |  `-v`  | revalidate timestamp for 5 mins |
 |  `-k`  | invalidate timestamp            |
 |  `-K`  | just like -k                    |
@@ -118,7 +118,7 @@ sudo [options] <command>
 ```
 
 | Switch | Description                  |
-|:------:|------------------------------|
+| :----: | ---------------------------- |
 |  `-c`  | Bytes                        |
 |  `-l`  | Lines                        |
 |  `-m`  | Characters (incl multi-byte) |
@@ -139,7 +139,7 @@ grep [options] [pattern] [file ...]
 ### Options
 
 | Switch    | Description                                 |
-|-----------|---------------------------------------------|
+| --------- | ------------------------------------------- |
 | `-A num`  | Print `num` lines of training context       |
 | ----      |                                             |
 | `-G`      | --basic-regexp (default)                    |

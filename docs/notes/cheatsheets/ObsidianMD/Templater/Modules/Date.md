@@ -7,7 +7,7 @@ This module contains every internal variable / function related to dates.
 
 ## Documentation
 
-> Function documentation is using a specific syntax. More informations [here](../../syntax.md#function-documentation-syntax).
+> Function documentation is using a specific syntax.
 
 > Templater gives you access to the `moment` object, with all of its functionalities.
 
@@ -39,4 +39,3 @@ This module contains every internal variable / function related to dates.
 | File's title Monday                   | `<% tp.date.weekday("YYYY-MM-DD", 0, tp.file.title, "YYYY-MM-DD") %>` | 2021-10-03                   |
 | File's title next Monday              | `<% tp.date.weekday("YYYY-MM-DD", 7, tp.file.title, "YYYY-MM-DD") %>` | 2021-10-10                   |
 | Date yesterday with format            | `<% tp.date.yesterday("Do MMMM YYYY") %>`                             | 7th October 2021             |
-

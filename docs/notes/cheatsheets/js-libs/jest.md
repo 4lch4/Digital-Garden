@@ -9,8 +9,7 @@ intro: |
   A quick overview to [Jest](https://facebook.github.io/jest/), a test framework for Node.js. This guide targets Jest v20.
 ---
 
-Testing
--------
+## Testing
 
 ### Quick start
 
@@ -89,17 +88,12 @@ it.skip(···) // alias: xit()
 
 See: [test.skip](http://facebook.github.io/jest/docs/en/api.html#testskipname-fn)
 
-Expect
-------
+## Expect
 
 ### Basic expectations
 
 ```js
-expect(value)
-  .not
-  .toBe(value)
-  .toEqual(value)
-  .toBeTruthy()
+expect(value).not.toBe(value).toEqual(value).toBeTruthy()
 ```
 
 Note that `toEqual` is a deep equality check.
@@ -108,27 +102,19 @@ See: [expect()](http://facebook.github.io/jest/docs/en/expect.html#expectvalue)
 ### Snapshots
 
 ```js
-expect(value)
-  .toMatchSnapshot()
+expect(value).toMatchSnapshot()
 ```
 
 ### Errors
 
 ```js
-expect(value)
-  .toThrow(error)
-  .toThrowErrorMatchingSnapshot()
+expect(value).toThrow(error).toThrowErrorMatchingSnapshot()
 ```
 
 ### Booleans
 
 ```js
-expect(value)
-  .toBeFalsy()
-  .toBeNull()
-  .toBeTruthy()
-  .toBeUndefined()
-  .toBeDefined()
+expect(value).toBeFalsy().toBeNull().toBeTruthy().toBeUndefined().toBeDefined()
 ```
 
 ### Numbers
@@ -154,17 +140,13 @@ expect(value)
 ### Objects
 
 ```js
-expect(value)
-  .toContain(item)
-  .toContainEqual(item)
-  .toHaveLength(number)
+expect(value).toContain(item).toContainEqual(item).toHaveLength(number)
 ```
 
 ### Strings
 
 ```js
-expect(value)
-  .toMatch(regexpOrString)
+expect(value).toMatch(regexpOrString)
 ```
 
 ### Others
@@ -177,8 +159,7 @@ expect.addSnapshotSerializer(serializer)
 expect.assertions(1)
 ```
 
-More features
--------------
+## More features
 
 ### Asynchronous tests
 
@@ -220,9 +201,9 @@ import renderer from 'react-test-renderer'
 
 ```jsx
 it('works', () => {
-  const tree = renderer.create(
-    <Link page="http://www.facebook.com">Facebook</Link>
-  ).toJSON()
+  const tree = renderer
+    .create(<Link page="http://www.facebook.com">Facebook</Link>)
+    .toJSON()
 
   expect(tree).toMatchSnapshot()
 })
@@ -275,7 +256,7 @@ expect(fn)
 expect(fn)
   .toHaveBeenCalledWith(expect.anything())
   .toHaveBeenCalledWith(expect.any(constructor))
-  .toHaveBeenCalledWith(expect.arrayContaining([ values ]))
+  .toHaveBeenCalledWith(expect.arrayContaining([values]))
   .toHaveBeenCalledWith(expect.objectContaining({ props }))
   .toHaveBeenCalledWith(expect.stringContaining(string))
   .toHaveBeenCalledWith(expect.stringMatching(regexp))
@@ -306,9 +287,9 @@ fn(456)
 ```
 
 ```js
-fn.mock.calls.length   // → 2
-fn.mock.calls[0][0]    // → 123
-fn.mock.calls[1][0]    // → 456
+fn.mock.calls.length // → 2
+fn.mock.calls[0][0] // → 123
+fn.mock.calls[1][0] // → 456
 ```
 
 See: [.mock property](http://facebook.github.io/jest/docs/en/mock-functions.html#mock-property)
@@ -329,14 +310,15 @@ jest.fn().mockReturnValueOnce('hello')
 ### Mock implementations
 
 ```js
-const fn = jest.fn()
+const fn = jest
+  .fn()
   .mockImplementationOnce(() => 1)
   .mockImplementationOnce(() => 2)
 ```
 
 ```js
-fn()    // → 1
-fn()    // → 2
+fn() // → 1
+fn() // → 2
 ```
 
 ## References

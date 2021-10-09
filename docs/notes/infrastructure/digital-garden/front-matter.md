@@ -19,9 +19,9 @@ When creating a new entry in the Digital Garden (DG) we first need to provide so
 | `parse_number_prefixes`  | When a document has a number prefix (001 - My Doc.md, 2. MyDoc.md...), it is automatically parsed and extracted by the plugin numberPrefixParser, and the number prefix is used as sidebar_position. Use parse_number_prefixes: false to disable number prefix parsing on this doc. | parse_number_prefixes plugin option                  |
 | `custom_edit_url`        | The URL for editing this document.                                                                                                                                                                                                                                                  | computed using the editUrl plugin options            |
 | `keywords`               | Keywords meta tag for the document page, for search engines                                                                                                                                                                                                                         |                                                      |
-| `description`            | The description of your document, which will become the `<meta name="description" content="..."/>` and `<meta property="og:description" content="..."/>` in `<head>`, used by search engines.                                                                                             | the first line of Markdown content                   |
+| `description`            | The description of your document, which will become the `<meta name="description" content="..."/>` and `<meta property="og:description" content="..."/>` in `<head>`, used by search engines.                                                                                       | the first line of Markdown content                   |
 | `image`                  | Cover or thumbnail image that will be used when displaying the link to your post.                                                                                                                                                                                                   |                                                      |
-| `slug`                   | Allows to customize the document url (`/<routeBasePath>/<slug>`). Support multiple patterns: slug: my-doc, slug: /my/path/myDoc, slug: /.                                                                                                                                             |                                                      |
+| `slug`                   | Allows to customize the document url (`/<routeBasePath>/<slug>`). Support multiple patterns: slug: my-doc, slug: /my/path/myDoc, slug: /.                                                                                                                                           |                                                      |
 
 ## Example
 
@@ -42,6 +42,7 @@ keywords:
 image: https://i.imgur.com/mErPwqL.png
 slug: /myDoc
 ---
+
 # Markdown Features
 
 My Document Markdown content

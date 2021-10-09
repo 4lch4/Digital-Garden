@@ -17,8 +17,7 @@ This parses the given date using the given format. Returns a moment object.
 ### Formatting
 
 ```js
-m
-  .format()
+m.format()
   .format('dddd')
   .format('MMM Do YY') // → "Sep 2nd 07"
   .fromNow() // → "31 minutes ago"
@@ -55,9 +54,9 @@ m.startOf('hour')
 
 ### Alternatives
 
-* [You don't need Moment.js](https://github.com/you-dont-need/You-Dont-Need-Momentjs) _(github.com)_
+- [You don't need Moment.js](https://github.com/you-dont-need/You-Dont-Need-Momentjs) _(github.com)_
 
 ### Also see
 
-* [Moment website](http://momentjs.com/) _(momentjs.com)_
-* [Moment docs](http://momentjs.com/docs/) _(momentjs.com)_
+- [Moment website](http://momentjs.com/) _(momentjs.com)_
+- [Moment docs](http://momentjs.com/docs/) _(momentjs.com)_

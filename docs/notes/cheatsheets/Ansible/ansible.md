@@ -71,7 +71,7 @@ tasks:
   tasks:
     - name: Create the SSH directory.
       file: state=directory path=${project_root}/home/.ssh/
-      only_if: "$vm == 0"
+      only_if: '$vm == 0'
 ```
 
 ## Roles
@@ -82,7 +82,6 @@ tasks:
     - db
     - { role:ruby, sudo_user:$user }
     - web
-
 # Uses:
 # roles/db/tasks/*.yml
 # roles/db/handlers/*.yml
@@ -98,7 +97,7 @@ tasks:
 
   ignore_errors: yes
 
-  changed_when: "result.rc != 2"
+  changed_when: 'result.rc != 2'
 ```
 
 ### Env vars
@@ -110,5 +109,5 @@ vars:
 
 ## References
 
-* [Intro](http://www.ansibleworks.com/docs/intro_configuration.html)
-* [Modules](http://www.ansibleworks.com/docs/modules.html)
+- [Intro](http://www.ansibleworks.com/docs/intro_configuration.html)
+- [Modules](http://www.ansibleworks.com/docs/modules.html)

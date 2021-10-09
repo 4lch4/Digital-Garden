@@ -10,9 +10,9 @@ keywords:
   - mixins
   - darken()
   - adjust-color()
-  - "@for @each @while @if @else"
-  - "$list: (a b c)"
-  - "$map: (a: b, c: d)"
+  - '@for @each @while @if @else'
+  - '$list: (a b c)'
+  - '$map: (a: b, c: d)'
 ---
 
 ## Basics
@@ -296,10 +296,10 @@ feature-exists(global-variable-shadowing)
 
 ### Features
 
-* global-variable-shadowing
-* extend-selector-pseudoclass
-* units-level-3
-* at-error
+- global-variable-shadowing
+- extend-selector-pseudoclass
+- units-level-3
+- at-error
 
 ## Loops
 
@@ -307,7 +307,9 @@ feature-exists(global-variable-shadowing)
 
 ```scss
 @for $i from 1 through 4 {
-  .item-#{$i} { left: 20px * $i; }
+  .item-#{$i} {
+    left: 20px * $i;
+  }
 }
 ```
 
@@ -340,7 +342,9 @@ $backgrounds: (home, 'home.jpg'), (about, 'about.jpg');
 ```scss
 $i: 6;
 @while $i > 0 {
-  .item-#{$i} { width: 2em * $i; }
+  .item-#{$i} {
+    width: 2em * $i;
+  }
   $i: $i - 2;
 }
 ```
@@ -351,11 +355,10 @@ $i: 6;
 
 ```scss
 @if $position == 'left' {
-   position: absolute;
-   left: 0;
-}
-@else {
-   position: static;
+  position: absolute;
+  left: 0;
+} @else {
+  position: static;
 }
 ```
 
@@ -391,5 +394,5 @@ map-get($map, key1)
 
 ## See also
 
-* <http://sass-lang.com/documentation/Sass/Script/Functions.html>
-* <http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript>
+- <http://sass-lang.com/documentation/Sass/Script/Functions.html>
+- <http://sass-lang.com/documentation/file.SASS_REFERENCE.html#sassscript>

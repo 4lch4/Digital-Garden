@@ -1,1 +1,11 @@
-{"showWords":true,"wordsPrefix":"","wordsSuffix":" words ","showCharacters":true,"charactersPrefix":"","charactersSuffix":" characters ","showSentences":true,"sentencesPrefix":"","sentencesSuffix":" sentences"}
+{
+  "showWords": true,
+  "wordsPrefix": "",
+  "wordsSuffix": " words ",
+  "showCharacters": true,
+  "charactersPrefix": "",
+  "charactersSuffix": " characters ",
+  "showSentences": true,
+  "sentencesPrefix": "",
+  "sentencesSuffix": " sentences"
+}

@@ -100,7 +100,7 @@ See `message-command-style` in the man page.
 ### Attribute/colors
 
 |     Attribute     | Color          |
-|:-----------------:|----------------|
+| :---------------: | -------------- |
 |     `#[fg=1]`     | standard color |
 |  `#[fg=yellow]`   | yellow         |
 |     `#[bold]`     | bold           |
@@ -111,19 +111,19 @@ See `message-command-style` in the man page.
 
 ### Colors
 
-* `black` `red` `green` `yellow` `blue` `magenta` `cyan` `white`
-* `brightred` (and so on)
-* `colour0` ... `colour255`
-* `#333` (rgb hex)
+- `black` `red` `green` `yellow` `blue` `magenta` `cyan` `white`
+- `brightred` (and so on)
+- `colour0` ... `colour255`
+- `#333` (rgb hex)
 
 ### Attributes
 
-* `bold` `underscore` `blink` `noreverse` `hidden` `dim` `italics`
+- `bold` `underscore` `blink` `noreverse` `hidden` `dim` `italics`
 
 ### Variables
 
 |   Name    | Purpose         |
-|:---------:|-----------------|
+| :-------: | --------------- |
 | `#(date)` | shell command   |
 |   `#I`    | window index    |
 |   `#S`    | session name    |

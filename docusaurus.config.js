@@ -110,8 +110,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/4lch4/Digital-Garden/edit/main/'
+          editUrl: 'https://github.com/4lch4/Digital-Garden/edit/main/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css')

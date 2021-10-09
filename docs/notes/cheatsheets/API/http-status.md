@@ -9,14 +9,14 @@ description: |
 ### Informational Responses
 
 | Code  | Name                | ?                                 |
-|-------|---------------------|-----------------------------------|
+| ----- | ------------------- | --------------------------------- |
 | `100` | Continue            | [?](https://httpstatuses.com/100) |
 | `101` | Switching Protocols | [?](https://httpstatuses.com/101) |
 
 ### Success Responses
 
 | Code  | Name                        | ?                                 |
-|-------|-----------------------------|-----------------------------------|
+| ----- | --------------------------- | --------------------------------- |
 | `200` | OK                          | [?](https://httpstatuses.com/200) |
 | `201` | Created                     | [?](https://httpstatuses.com/201) |
 | `202` | Accepted                    | [?](https://httpstatuses.com/202) |
@@ -29,21 +29,21 @@ description: |
 ### Redirection Responses
 
 | Code  | Name               | ?                                                |
-|-------|--------------------|--------------------------------------------------|
+| ----- | ------------------ | ------------------------------------------------ |
 | `300` | Multiple Choices   | [?](https://httpstatuses.com/300)                |
 | `301` | Moved Permanently  | [?](https://httpstatuses.com/301)                |
 | `302` | Found              | [?](https://httpstatuses.com/302)                |
 | `303` | See Other          | [?](https://httpstatuses.com/303)                |
 | `304` | Not Modified       | [?](https://httpstatuses.com/304)                |
 | `305` | Use Proxy          | [?](https://httpstatuses.com/305)                |
-| `306` | *Switch Proxy*     | [?](https://httpstatusdogs.com/306-switch-proxy) |
+| `306` | _Switch Proxy_     | [?](https://httpstatusdogs.com/306-switch-proxy) |
 | `307` | Temporary Redirect | [?](https://httpstatuses.com/307)                |
 | `308` | Permanent Redirect | [?](https://httpstatuses.com/308)                |
 
 ### Client Error Responses
 
 | Code  | Name                            | ?                                 |
-|-------|---------------------------------|-----------------------------------|
+| ----- | ------------------------------- | --------------------------------- |
 | `400` | Bad Request                     | [?](https://httpstatuses.com/400) |
 | `401` | Unauthorized                    | [?](https://httpstatuses.com/401) |
 | `402` | Payment Required                | [?](https://httpstatuses.com/402) |
@@ -73,7 +73,7 @@ description: |
 ### Server Error Responses
 
 | Code  | Name                            | ?                                 |
-|-------|---------------------------------|-----------------------------------|
+| ----- | ------------------------------- | --------------------------------- |
 | `500` | Internal Server Error           | [?](https://httpstatuses.com/500) |
 | `501` | Not Implemented                 | [?](https://httpstatuses.com/501) |
 | `502` | Bad Gateway                     | [?](https://httpstatuses.com/502) |
@@ -86,12 +86,12 @@ description: |
 
 ## WebDAV Status Codes
 
-WebDAV is an extension of HTTP that allows clients to perform remote Web content authoring operations. It provides a framework for users to create, change and move documents on a server. It adds the following status codes on top of HTTP. 
+WebDAV is an extension of HTTP that allows clients to perform remote Web content authoring operations. It provides a framework for users to create, change and move documents on a server. It adds the following status codes on top of HTTP.
 
 [Read more.](https://en.wikipedia.org/wiki/WebDAV)
 
 | Code  | Name                 | ?                                                                |
-|-------|----------------------|------------------------------------------------------------------|
+| ----- | -------------------- | ---------------------------------------------------------------- |
 | `102` | Processing           | [?](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#102) |
 | `207` | Multi-Status         | [?](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#207) |
 | `208` | Already Reported     | [?](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#208) |
@@ -103,6 +103,6 @@ WebDAV is an extension of HTTP that allows clients to perform remote Web content
 
 ## Also see
 
-* <https://en.wikipedia.org/wiki/List_of_HTTP_status_codes>
-* <https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html>
-* <https://httpstatuses.com/>
+- <https://en.wikipedia.org/wiki/List_of_HTTP_status_codes>
+- <https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html>
+- <https://httpstatuses.com/>

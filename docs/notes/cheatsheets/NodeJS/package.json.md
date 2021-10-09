@@ -27,7 +27,7 @@ weight: -3
   "repository": {
     "type": "git",
     "url": "https://github.com/rstacruz/___.git"
-  },
+  }
 }
 ```
 
@@ -60,7 +60,7 @@ See [Semver cheatsheet](/notes/cheatsheets/development/semver) for explanation o
   "start": "node ./bin/xxx",       /* npm start */
   "test": "vows --spec --isolate", /* npm test */
   "postinstall": "...",
-  "prepublish": "grunt build",     /* after 'npm install' and before 'npm 
+  "prepublish": "grunt build",     /* after 'npm install' and before 'npm
                                       publish' */
 }
 ```
@@ -89,5 +89,5 @@ Keys in `config` are exposed as env vars to scripts.
 
 ## References
 
-* <http://package.json.nodejitsu.com/>
-* `npm help package.json`
+- <http://package.json.nodejitsu.com/>
+- `npm help package.json`

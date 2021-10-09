@@ -23,7 +23,7 @@ Here are the primary badges to be used across my projects.
 
 - Codacy
   - The easiest way to get a badge for Codacy is to [set up the project][1] in Codacy, and go to the project settings (`https://app.codacy.com/manual/4lch4/<ProjectName Here>/settings`).
-  - [![Codacy Badge](https://api.codacy.com/project/badge/Grade/78b7e6d1f9214e7a870cd4d96f3ebf53)](https://www.codacy.com/manual/4lch4/Rinzler?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=4lch4/Rinzler&amp;utm_campaign=Badge_Grade)
+  - [![Codacy Badge](https://api.codacy.com/project/badge/Grade/78b7e6d1f9214e7a870cd4d96f3ebf53)](https://www.codacy.com/manual/4lch4/Rinzler?utm_source=github.com&utm_medium=referral&utm_content=4lch4/Rinzler&utm_campaign=Badge_Grade)
   - `[![Codacy Badge](https://api.codacy.com/project/badge/Grade/78b7e6d1f9214e7a870cd4d96f3ebf53)](https://www.codacy.com/manual/4lch4/Rinzler?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=4lch4/Rinzler&amp;utm_campaign=Badge_Grade)`
 
 ### Etc

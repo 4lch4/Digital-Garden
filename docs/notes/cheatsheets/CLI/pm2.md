@@ -2,7 +2,7 @@
 title: pm2
 category: CLI
 layout: 2017/sheet
-authors: { github: "4lch4" }
+authors: { github: '4lch4' }
 updated: 2020-07-14
 ---
 
@@ -11,13 +11,13 @@ updated: 2020-07-14
 ### Fork mode
 
 | Command                          | Description              |
-|----------------------------------|--------------------------|
+| -------------------------------- | ------------------------ |
 | `pm2 start app.js --name my-api` | Start and name a process |
 
 ### Cluster mode
 
 | Command                   | Description                                                      |
-|---------------------------|------------------------------------------------------------------|
+| ------------------------- | ---------------------------------------------------------------- |
 | `pm2 start app.js -i 0`   | Will start maximum processes with LB depending on available CPUs |
 | `pm2 start app.js -i max` | Same as above, but deprecated                                    |
 | `pm2 scale app +3`        | Scales `app` up by 3 workers                                     |
@@ -26,7 +26,7 @@ updated: 2020-07-14
 ### Listing
 
 | Command          | Description                                      |
-|------------------|--------------------------------------------------|
+| ---------------- | ------------------------------------------------ |
 | `pm2 list`       | Display all processes status                     |
 | `pm2 jlist`      | Print process list in raw JSON                   |
 | `pm2 prettylist` | Print process list in beautified JSON            |
@@ -38,7 +38,7 @@ updated: 2020-07-14
 ### Logs
 
 | Command            | Description                             |
-|--------------------|-----------------------------------------|
+| ------------------ | --------------------------------------- |
 | `pm2 logs [--raw]` | Display all processes logs in streaming |
 | `pm2 flush`        | Empty all log files                     |
 | `pm2 reloadLogs`   | Reload all logs                         |
@@ -46,7 +46,7 @@ updated: 2020-07-14
 ### Actions
 
 | Command           | Description                                  |
-|-------------------|----------------------------------------------|
+| ----------------- | -------------------------------------------- |
 | `pm2 stop all`    | Stop all processes                           |
 | `pm2 restart all` | Restart all processes                        |
 | ---               | ---                                          |
@@ -61,7 +61,7 @@ updated: 2020-07-14
 ### Misc
 
 | Command                             | Description                                                  |
-|-------------------------------------|--------------------------------------------------------------|
+| ----------------------------------- | ------------------------------------------------------------ |
 | `pm2 reset <process>`               | Reset meta data (restarted time...)                          |
 | `pm2 updatePM2`                     | Update in memory pm2                                         |
 | `pm2 ping`                          | Ensure pm2 daemon has been launched                          |
@@ -78,7 +78,7 @@ updated: 2020-07-14
 The ecosystem file tells PM2 how to run/manage your application to simplify working with it. The file by default is called `ecosystem.config.js`, but it can be called anything so long as it ends with `.config.extension`. It also supports JSON and YAML formats:
 
 | Format     | Filename                |
-|------------|-------------------------|
+| ---------- | ----------------------- |
 | JavaScript | `ecosystem.config.js`   |
 | JSON       | `ecosystem.config.json` |
 | YAML       | `ecosystem.config.yaml` |
@@ -89,16 +89,18 @@ The ecosystem file tells PM2 how to run/manage your application to simplify work
 
 ```javascript
 module.exports = {
-  apps : [{
-    name: "app",
-    script: "./app.js",
-    env: {
-      NODE_ENV: "development",
-    },
-    env_production: {
-      NODE_ENV: "production",
+  apps: [
+    {
+      name: 'app',
+      script: './app.js',
+      env: {
+        NODE_ENV: 'development'
+      },
+      env_production: {
+        NODE_ENV: 'production'
+      }
     }
-  }]
+  ]
 }
 ```
 
@@ -106,22 +108,25 @@ module.exports = {
 
 ```javascript
 module.exports = {
-  apps : [{
-    name        : "worker",
-    script      : "./worker.js",
-    watch       : true,
-    env: {
-      "NODE_ENV": "development",
+  apps: [
+    {
+      name: 'worker',
+      script: './worker.js',
+      watch: true,
+      env: {
+        NODE_ENV: 'development'
+      },
+      env_production: {
+        NODE_ENV: 'production'
+      }
     },
-    env_production : {
-       "NODE_ENV": "production"
+    {
+      name: 'api-app',
+      script: './api.js',
+      instances: 4,
+      exec_mode: 'cluster'
     }
-  },{
-    name       : "api-app",
-    script     : "./api.js",
-    instances  : 4,
-    exec_mode  : "cluster"
-  }]
+  ]
 }
 ```
 

@@ -18,13 +18,13 @@ keywords:
 ### Default Keybindings
 
 | Key Binding          | Action       |
-|:---------------------|--------------|
+| :------------------- | ------------ |
 | **Ctrl + Shift + I** | Insert Link  |
 | **Ctrl + Alt + I**   | Insert Image |
 
 ### Default Settings
 
 | Setting Name                    | Value   |
-|:--------------------------------|---------|
+| :------------------------------ | ------- |
 | `enmeti.displayLanguage`        | English |
 | `enmeti.insertOnEmptySelection` | `true`  |

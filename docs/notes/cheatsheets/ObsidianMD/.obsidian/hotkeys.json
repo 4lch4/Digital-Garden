@@ -1,28 +1,20 @@
 {
   "templater-obsidian:insert-templater": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "E"
     }
   ],
   "daily-notes": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Mod", "Shift"],
       "key": "D"
     }
   ],
   "table-editor-obsidian:table-control-bar": [],
   "templater-obsidian:jump-to-next-cursor-location": [
     {
-      "modifiers": [
-        "Ctrl"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "Tab"
     }
   ]

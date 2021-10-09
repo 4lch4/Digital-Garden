@@ -11,12 +11,10 @@ description: |
   Basic cheatsheets for regular expression
 ---
 
-
-
 ### Character classes
 
 | Pattern  | Description                          |
-|----------|--------------------------------------|
+| -------- | ------------------------------------ |
 | `.`      | Any character, except newline        |
 | `\w`     | Word                                 |
 | `\d`     | Digit                                |
@@ -32,14 +30,14 @@ description: |
 ### Anchors
 
 | Pattern | Description      |
-|---------|------------------|
+| ------- | ---------------- |
 | `^abc`  | Start with `abc` |
 | `abc$`  | End with `abc`   |
 
 ### Escaped characters
 
 | Pattern    | Description                            |
-|------------|----------------------------------------|
+| ---------- | -------------------------------------- |
 | `\. \* \\` | Escape special character used by regex |
 | `\t`       | Tab                                    |
 | `\n`       | Newline                                |
@@ -48,13 +46,13 @@ description: |
 ### Groups
 
 | Pattern | Description   |
-|---------|---------------|
+| ------- | ------------- |
 | `(abc)` | Capture group |
 
 ### Quantifiers
 
 | Pattern  | Description           |
-|----------|-----------------------|
+| -------- | --------------------- |
 | `a*`     | Match 0 or more       |
 | `a+`     | Match 1 or more       |
 | `a?`     | Match 0 or 1          |

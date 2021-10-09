@@ -8,3 +8,4 @@ category: Development
 ```
 { name: 'john' }
 { name: { $eq: 'john' } }
+```

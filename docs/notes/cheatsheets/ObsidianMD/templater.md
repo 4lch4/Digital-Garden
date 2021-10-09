@@ -18,7 +18,6 @@ Templater comes with a number of modules that separates the various internal var
 |   [System][5]    | `tp.system`      |
 |     [Web][6]     | `tp.web`         |
 
-
 ## Date Module
 
 ## Front Matter Module

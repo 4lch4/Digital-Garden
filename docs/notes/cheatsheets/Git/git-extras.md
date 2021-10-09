@@ -77,4 +77,4 @@ git obliterate secret.yml   # remove all references to it
 
 ### References
 
-* https://github.com/visionmedia/git-extras
+- https://github.com/visionmedia/git-extras

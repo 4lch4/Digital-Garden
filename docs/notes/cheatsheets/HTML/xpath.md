@@ -17,7 +17,7 @@ Test queries in the Xpath test bed:<br/>
 ### Browser console
 
 ```js
-$x("//div")
+$x('//div')
 ```
 
 Works in Firefox and Chrome.
@@ -27,7 +27,7 @@ Works in Firefox and Chrome.
 ### Descendant selectors
 
 | CSS            | Xpath       | ?              |
-|----------------|-------------|----------------|
+| -------------- | ----------- | -------------- |
 | `h1`           | `//h1`      | [?](#prefixes) |
 | `div p`        | `//div//p`  | [?](#axes)     |
 | `ul > li`      | `//ul/li`   | [?](#axes)     |
@@ -40,9 +40,9 @@ Works in Firefox and Chrome.
 ### Attribute selectors
 
 | CSS                    | Xpath                                                    | ?                      |
-|------------------------|----------------------------------------------------------|------------------------|
+| ---------------------- | -------------------------------------------------------- | ---------------------- |
 | `#id`                  | `//*[@id="id"]`                                          | [?](#predicates)       |
-| `.class`               | `//*[@class="class"]` *...[kinda](#class-check)*         |                        |
+| `.class`               | `//*[@class="class"]` _...[kinda](#class-check)_         |                        |
 | `input[type="submit"]` | `//input[@type="submit"]`                                |                        |
 | `a#abc[for="xyz"]`     | `//a[@id="abc"][@for="xyz"]`                             | [?](#chaining-order)   |
 | `a[rel]`               | `//a[@rel]`                                              |                        |
@@ -50,12 +50,12 @@ Works in Firefox and Chrome.
 | `a[href^='/']`         | `//a[starts-with(@href, '/')]`                           | [?](#string-functions) |
 | `a[href$='pdf']`       | `//a[ends-with(@href, '.pdf')]`                          |                        |
 | `a[href*='://']`       | `//a[contains(@href, '://')]`                            |                        |
-| `a[rel~='help']`       | `//a[contains(@rel, 'help')]` *...[kinda](#class-check)* |                        |
+| `a[rel~='help']`       | `//a[contains(@rel, 'help')]` _...[kinda](#class-check)_ |                        |
 
 ### Order selectors
 
 | CSS                    | Xpath               | ?              |
-|------------------------|---------------------|----------------|
+| ---------------------- | ------------------- | -------------- |
 | `ul > li:first-child`  | `//ul/li[1]`        | [?](#indexing) |
 | `ul > li:nth-child(2)` | `//ul/li[2]`        |                |
 | `ul > li:last-child`   | `//ul/li[last()]`   |                |
@@ -66,7 +66,7 @@ Works in Firefox and Chrome.
 ### Siblings
 
 | CSS        | Xpath                                | ?                |
-|------------|--------------------------------------|------------------|
+| ---------- | ------------------------------------ | ---------------- |
 | `h1 ~ ul`  | `//h1/following-sibling::ul`         | [?](#using-axes) |
 | `h1 + ul`  | `//h1/following-sibling::ul[1]`      |                  |
 | `h1 ~ #id` | `//h1/following-sibling::[@id="id"]` |                  |
@@ -74,7 +74,7 @@ Works in Firefox and Chrome.
 ### jQuery
 
 | CSS                          | Xpath                            | ?                |
-|------------------------------|----------------------------------|------------------|
+| ---------------------------- | -------------------------------- | ---------------- |
 | `$('ul > li').parent()`      | `//ul/li/..`                     | [?](#other-axes) |
 | `$('li').closest('section')` | `//li/ancestor-or-self::section` |                  |
 | `$('a').attr('href')`        | `//a/@href`                      | [?](#steps)      |
@@ -83,7 +83,7 @@ Works in Firefox and Chrome.
 ### Other things
 
 | CSS                     | Xpath                             | ?                       |
-|-------------------------|-----------------------------------|-------------------------|
+| ----------------------- | --------------------------------- | ----------------------- | ------------ |
 | `h1:not([id])`          | `//h1[not(@id)]`                  | [?](#boolean-functions) |
 | Text match              | `//button[text()="Submit"]`       | [?](#operators)         |
 | Text match (substring)  | `//button[contains(text(),"Go")]` |                         |
@@ -91,7 +91,7 @@ Works in Firefox and Chrome.
 | Has children            | `//ul[*]`                         |                         |
 | Has children (specific) | `//ul[li]`                        |                         |
 | Or logic                | `//a[@name or @href]`             | [?](#operators)         |
-| Union (joins results)   | `//a | //div`                     | [?](#unions)            |
+| Union (joins results)   | `//a                              | //div`                  | [?](#unions) |
 
 ```css
 <style>
@@ -111,18 +111,17 @@ Works in Firefox and Chrome.
 
 Xpath doesn't have the "check if part of space-separated list" operator, so this is the workaround ([source](http://pivotallabs.com/xpath-css-class-matching/)).
 
-Expressions
------------
+## Expressions
 
 ### Steps and axes
 
-| `//` | `ul` | `/`  | `a[@id='link']` |
-| Axis | Step | Axis | Step            |
+| `//` | `ul` | `/` | `a[@id='link']` |
+| Axis | Step | Axis | Step |
 
 ### Prefixes
 
 | Prefix | Example               | What     |
-|--------|-----------------------|----------|
+| ------ | --------------------- | -------- |
 | `//`   | `//hr[@class='edge']` | Anywhere |
 | `./`   | `./a`                 | Relative |
 | `/`    | `/html/body/div`      | Root     |
@@ -132,7 +131,7 @@ Begin your expression with any of these.
 ### Axes
 
 | Axis | Example             | What       |
-|------|---------------------|------------|
+| ---- | ------------------- | ---------- |
 | `/`  | `//ul/li/a`         | Child      |
 | `//` | `//[@id="list"]//a` | Descendant |
 
@@ -226,8 +225,7 @@ Order is significant, these two are different.
 
 This returns `<section>` if it has an `<h1>` descendant with `id='hi'`.
 
-Functions
----------
+## Functions
 
 ### Node functions
 
@@ -276,8 +274,7 @@ number()
 boolean()
 ```
 
-Axes
-----
+## Axes
 
 ### Using axes
 
@@ -292,7 +289,7 @@ Axes
 Steps of an expression are separated by `/`, usually used to pick child nodes. That's not always true: you can specify a different "axis" with `::`.
 
 | `//` | `ul` | `/child::` | `li` |
-| Axis | Step | Axis       | Step |
+| Axis | Step | Axis | Step |
 
 ### Child axis
 
@@ -336,7 +333,7 @@ Steps of an expression are separated by `/`, usually used to pick child nodes. T
 ### Other axes
 
 | Axis                 | Abbrev | Notes                                            |
-|----------------------|--------|--------------------------------------------------|
+| -------------------- | ------ | ------------------------------------------------ |
 | `ancestor`           |        |                                                  |
 | `ancestor-or-self`   |        |                                                  |
 | ---                  | ---    | ---                                              |
@@ -364,8 +361,7 @@ There are other axes you can use.
 
 Use `|` to join two expressions.
 
-More examples
--------------
+## More examples
 
 ### Examples
 
@@ -409,7 +405,6 @@ Works like jQuery's `$().closest('.box')`.
 
 Finds `<item>` and check its attributes
 
-References
-----------
+## References
 
-* [Xpath test bed](http://www.whitebeam.org/library/guide/TechNotes/xpathtestbed.rhtm) _(whitebeam.org)_
+- [Xpath test bed](http://www.whitebeam.org/library/guide/TechNotes/xpathtestbed.rhtm) _(whitebeam.org)_

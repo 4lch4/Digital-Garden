@@ -20,9 +20,9 @@ fs.appendFile('output.txt', function(err) { .. });
 ### Watch
 
 ```node
-fs.watch('dir OR file.txt', { persistent: true }, function(event, file) {
-    event; /* rename | change */
-});
+fs.watch('dir OR file.txt', { persistent: true }, function (event, file) {
+  event /* rename | change */
+})
 ```
 
 ### Getting info
@@ -52,16 +52,18 @@ fs.readdir('path', function(err, files) { .. }); /* `files` = array of names */
 ### Path
 
 ```node
-fs.realpath('/etc/passwd', function(err, path) { /* "/private/etc/passwd" */ });
+fs.realpath('/etc/passwd', function (err, path) {
+  /* "/private/etc/passwd" */
+})
 ```
 
 ### Sync
 
 ```node
-data = fs.readFileSync('input.txt');
-fs.writeFileSync('output.txt', data);
-fs.appendFileSync('output.txt', data);
-fs.existsSync('file.txt');
+data = fs.readFileSync('input.txt')
+fs.writeFileSync('output.txt', data)
+fs.appendFileSync('output.txt', data)
+fs.existsSync('file.txt')
 ```
 
 ### References

@@ -46,8 +46,7 @@ git pull --rebase upstream master
 git rebase -i $commit_ref
 ```
 
-Submodules
-----------
+## Submodules
 
 ```bash
 # Import .gitmodules
@@ -61,8 +60,7 @@ git submodule update --init --recursive
 git submodule sync
 ```
 
-Diff
-----
+## Diff
 
 ### Diff with stats
 
@@ -79,8 +77,7 @@ app/b.txt    | 8 ++----
 git diff --summary
 ```
 
-Log options
------------
+## Log options
 
 ```bash
 --oneline
@@ -96,8 +93,7 @@ Log options
   "2 hours ago"
 ```
 
-Misc
-----
+## Misc
 
 ### Cherry pick
 

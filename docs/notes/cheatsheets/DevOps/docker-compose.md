@@ -20,9 +20,9 @@ services:
     context: ./Path
     dockerfile: Dockerfile
     ports:
-     - "5000:5000"
+      - '5000:5000'
     volumes:
-     - .:/code
+      - .:/code
   redis:
     image: redis
 ```
@@ -53,15 +53,15 @@ docker-compose down
 web:
   # build from Dockerfile
   build: .
-  args:     # Add build arguments
+  args: # Add build arguments
     APP_HOME: app
 ```
 
 ```yaml
-  # build from custom Dockerfile
-  build:
-    context: ./dir
-    dockerfile: Dockerfile.dev
+# build from custom Dockerfile
+build:
+  context: ./dir
+  dockerfile: Dockerfile.dev
 ```
 
 ```yaml
@@ -76,14 +76,14 @@ web:
 ### Ports
 
 ```yaml
-  ports:
-    - "3000"
-    - "8000:80"  # guest:host
+ports:
+  - '3000'
+  - '8000:80' # guest:host
 ```
 
 ```yaml
-  # expose ports to linked services (not to host)
-  expose: ["3000"]
+# expose ports to linked services (not to host)
+expose: ['3000']
 ```
 
 ### Commands
@@ -119,32 +119,32 @@ web:
 ### Dependencies
 
 ```yaml
-  # makes the `db` service available as the hostname `database`
-  # (implies depends_on)
-  links:
-    - db:database
-    - redis
+# makes the `db` service available as the hostname `database`
+# (implies depends_on)
+links:
+  - db:database
+  - redis
 ```
 
 ```yaml
-  # make sure `db` is alive before starting
-  depends_on:
-    - db
+# make sure `db` is alive before starting
+depends_on:
+  - db
 ```
 
 ### Other options
 
 ```yaml
-  # make this service extend another
-  extends:
-    file: common.yml  # optional
-    service: webapp
+# make this service extend another
+extends:
+  file: common.yml # optional
+  service: webapp
 ```
 
 ```yaml
-  volumes:
-    - /var/lib/mysql
-    - ./_data:/var/lib/mysql
+volumes:
+  - /var/lib/mysql
+  - ./_data:/var/lib/mysql
 ```
 
 ## Advanced features
@@ -155,7 +155,7 @@ web:
 services:
   web:
     labels:
-      com.example.description: "Accounting web app"
+      com.example.description: 'Accounting web app'
 ```
 
 ### DNS servers
@@ -175,7 +175,7 @@ services:
 services:
   web:
     devices:
-    - "/dev/ttyUSB0:/dev/ttyUSB0"
+      - '/dev/ttyUSB0:/dev/ttyUSB0'
 ```
 
 ### External links
@@ -194,7 +194,7 @@ services:
 services:
   web:
     extra_hosts:
-      - "somehost:192.168.1.100"
+      - 'somehost:192.168.1.100'
 ```
 
 ### Network
