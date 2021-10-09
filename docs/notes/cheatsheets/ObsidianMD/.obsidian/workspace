@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Templater/Modules/Date.md",
+            "file": "Templater/No Idea.md",
             "mode": "source"
           }
         }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templater/Modules/Date.md",
+                "file": "Templater/No Idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templater/Modules/Date.md",
+                "file": "Templater/No Idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templater/Modules/Date.md"
+                "file": "Templater/No Idea.md"
               }
             }
           },
@@ -168,15 +168,15 @@
   },
   "active": "a3457e811a0f9a44",
   "lastOpenFiles": [
+    "Templater/No Idea.md",
+    "Testing/Ehh.md",
+    "Testing/Dates.md",
+    "Templater/Untitled.md",
+    "Testing/Untitled.md",
     "Templater/Modules/Date.md",
     "Testing/Created.md",
-    "Testing/Untitled.md",
     "Templater/Modules/File.md",
-    "Testing/Dates.md",
     "Development/4lch4/Projects/Digital-Garden/Templater-Addition.md",
-    "Development/4lch4/Projects/Digital-Garden/Index - MOC.md",
-    "Development/4lch4/Projects/Digital-Garden/Untitled.md",
-    "Templates/MOC.md",
-    "Daily-Notes/2021-10-08.md"
+    "Development/4lch4/Projects/Digital-Garden/Index - MOC.md"
   ]
 }
