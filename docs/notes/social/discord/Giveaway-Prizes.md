@@ -9,99 +9,99 @@ If you do win, don't hesitate to send me a DM on Discord and I'll send you back 
 ## Available
 
 1. [Armello][0]
-2. [Assault Android Cactus][1]
-3. [Beasts of Maravilla Island][2]
-4. [Command & Conquer: Red Alert 3 - Uprising Origin Key][3]
-5. [Command & Conquer: Red Alert 3 - Uprising Steam Key][4]
-6. [Cosmic Osmo and the Worlds Beyond the Mackerel][5]
-7. [Desert Child][6]
-8. [Duck Game][7]
-9. [Elden: Path of the Forgotten][8]
-10. [Etherborn][9]
-11. [GONNER2][10]
-12. [Guardians of Middle-earth][12]
-13. [Guardians of Middle-earth: Smaug's Treasure DLC][11]
-14. [Hand of Fate 2][13]
-15. [Heal][14]
-16. [Hiveswap Friendsim Complete][15]
-17. [Jack Axe][16]
-18. [LUMINES REMASTERED][17]
-19. [Mars Horizon][18]
-20. [Mosaic][19]
-21. [Myst III: Exile][20]
-22. [Myst IV: Revelation][21]
-23. [Myst V: End of Ages][22]
-24. [Myst: Masterpiece Edition][23]
-25. [Obduction][25]
-26. [Paperbark][26]
-27. [Quest of Dungeons][27]
-28. [realMyst: Masterpiece Edition][24]
-29. [Regular Human Basketball][28]
-30. [Retro Machina][29]
-31. [Rising Dusk][30]
-32. [Riven: The Sequel to MYST][31]
-33. [Spelunx and the Caves of Mr. Seudo][32]
-34. [Super Mutant Alien Assault][33]
-35. [Surviving Mars][34]
-36. [Surviving Mars: Colony Design Set][40]
-37. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
-38. [Surviving Mars: Green Planet][35]
-39. [Surviving Mars: In-Dome Buildings Pack][41]
-40. [Surviving Mars: Mars Lifestyle Radio][36]
-41. [Surviving Mars: Marsvision Song Contest][42]
-42. [Surviving Mars: Project Laika][38]
-43. [Surviving Mars: Space Race][37]
-44. [Surviving Mars: Stellaris Dome Set][43]
-45. [The Adventure Pals][44]
-46. [The Count Lucanor][45]
-47. [The Gardens Between][46]
-48. [The Lord of the Rings Online: Steely Dawn Starter Pack][47]
-49. [The Manhole: Masterpiece Edition][48]
-50. [The Signifier Director's Cut][49]
-51. [Think of the Children][50]
-52. [URU: Complete Chronicles][51]
-53. [We should talk.][52]
-54. [Western Press][53]
-55. [while True: learn() Art Pack][54]
-56. [while True: learn() Chief Technology Officer Edition][55]
-57. [while True: learn() Learn Soundtrack][56]
-58. [while True: learn() Mega Map of Machine Learning][57]
+2. [Beasts of Maravilla Island][2]
+3. [Command & Conquer: Red Alert 3 - Uprising Origin Key][3]
+4. [Cosmic Osmo and the Worlds Beyond the Mackerel][5]
+5. [Desert Child][6]
+6. [Duck Game][7]
+7. [Elden: Path of the Forgotten][8]
+8. [Etherborn][9]
+9.  [GONNER2][10]
+10. [Guardians of Middle-earth][12]
+11. [Guardians of Middle-earth: Smaug's Treasure DLC][11]
+12. [Hand of Fate 2][13]
+13. [Heal][14]
+14. [Hiveswap Friendsim Complete][15]
+15. [Jack Axe][16]
+16. [LUMINES REMASTERED][17]
+17. [Mars Horizon][18]
+18. [Mosaic][19]
+19. [Myst III: Exile][20]
+20. [Myst IV: Revelation][21]
+21. [Myst V: End of Ages][22]
+22. [Myst: Masterpiece Edition][23]
+23. [Obduction][25]
+24. [Paperbark][26]
+25. [Quest of Dungeons][27]
+26. [realMyst: Masterpiece Edition][24]
+27. [Regular Human Basketball][28]
+28. [Retro Machina][29]
+29. [Rising Dusk][30]
+30. [Riven: The Sequel to MYST][31]
+31. [Spelunx and the Caves of Mr. Seudo][32]
+32. [Super Mutant Alien Assault][33]
+33. [Surviving Mars][34]
+34. [Surviving Mars: Colony Design Set][40]
+35. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
+36. [Surviving Mars: Green Planet][35]
+37. [Surviving Mars: In-Dome Buildings Pack][41]
+38. [Surviving Mars: Mars Lifestyle Radio][36]
+39. [Surviving Mars: Marsvision Song Contest][42]
+40. [Surviving Mars: Project Laika][38]
+41. [Surviving Mars: Space Race][37]
+42. [Surviving Mars: Stellaris Dome Set][43]
+43. [The Adventure Pals][44]
+44. [The Count Lucanor][45]
+45. [The Lord of the Rings Online: Steely Dawn Starter Pack][47]
+46. [The Manhole: Masterpiece Edition][48]
+47. [The Signifier Director's Cut][49]
+48. [Think of the Children][50]
+49. [URU: Complete Chronicles][51]
+50. [We should talk.][52]
+51. [Western Press][53]
+52. [while True: learn() Art Pack][54]
+53. [while True: learn() Chief Technology Officer Edition][55]
+54. [while True: learn() Learn Soundtrack][56]
+55. [while True: learn() Mega Map of Machine Learning][57]
 
 ## Claimed
 
-1. ~Batman: Arkham Origins DLC~~
-2. ~Burnout Paradise: The Ultimate Box~~
-3. ~Crawl~~
-4. ~Crysis 2 Maximum Edition~~
-5. ~Dead Space~~
-6. ~Death Squared~~
-7. ~Euro Truck Simulator 2~~
-8. ~Euro Truck Simulator 2: Australia Paint Pack DLC~~
-9. ~F.E.A.R~~
-10. ~Feather~~
-11. ~Framed Collection~~
-12. ~Frog Detective~~
-13. ~Gotham City Impostors: Professional Kit~~
-14. ~Hacknet~~
-15. ~Hacknet Labyrinths DLC~~
-16. ~Hollow Knight~~
-17. ~Machinarium~~
-18. ~Masquerade: The Baubles of Doom~~
-19. ~Medal of Honor~~
-20. ~Mirror's Edge~~
-21. ~Mortal Kombat Kollection~~
-22. ~Mr. Shifty~~
-23. ~Paper Fire Rookie~~
-24. ~Paradigm~~
-25. ~Primal Carnage~~
-26. ~Satellite Reign~~
-27. ~The Sims 3 Date Night~~
-28. ~The Sims 3 High End Loft Stuff~~
-29. ~The Sims 3~~
-30. ~The Sims 3 Late Night~~
-31. ~The Stillness of the Wind~~
-32. ~Tower of Guns~~
-33. ~Void Bastards~~
+1. ~~[Assault Android Cactus][1]~~
+2. ~~Batman: Arkham Origins DLC~~
+3. ~~Burnout Paradise: The Ultimate Box~~
+4. ~~[Command & Conquer: Red Alert 3 - Uprising Steam Key][4]~~
+5. ~~Crawl~~
+6. ~~Crysis 2 Maximum Edition~~
+7. ~~Dead Space~~
+8. ~~Death Squared~~
+9. ~~Euro Truck Simulator 2~~
+10. ~~Euro Truck Simulator 2: Australia Paint Pack DLC~~
+11. ~~F.E.A.R~~
+12. ~~Feather~~
+13. ~~Framed Collection~~
+14. ~~Frog Detective~~
+15. ~~Gotham City Impostors: Professional Kit~~
+16. ~~Hacknet~~
+17. ~~Hacknet Labyrinths DLC~~
+18. ~~Hollow Knight~~
+19. ~~Machinarium~~
+20. ~~Masquerade: The Baubles of Doom~~
+21. ~~Medal of Honor~~
+22. ~~Mirror's Edge~~
+23. ~~Mortal Kombat Kollection~~
+24. ~~Mr. Shifty~~
+25. ~~Paper Fire Rookie~~
+26. ~~Paradigm~~
+27. ~~Primal Carnage~~
+28. ~~Satellite Reign~~
+29. ~~[The Gardens Between][46]~~
+30. ~~The Sims 3 Date Night~~
+31. ~~The Sims 3 High End Loft Stuff~~
+32. ~~The Sims 3~~
+33. ~~The Sims 3 Late Night~~
+34. ~~The Stillness of the Wind~~
+35. ~~Tower of Guns~~
+36. ~~Void Bastards~~
 
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
