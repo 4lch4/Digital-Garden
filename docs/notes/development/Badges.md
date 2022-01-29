@@ -7,7 +7,6 @@ Here be a collection of badges to use in a project README. The vast majority are
 
 ## Activity
 
-- GitHub All Contributors
 - Last Commit (`main`)
   - ![GitHub last commit](https://img.shields.io/github/last-commit/4lch4/Digital-Garden)
   - `![GitHub last commit](https://img.shields.io/github/last-commit/4lch4/Digital-Garden)`
@@ -104,41 +103,41 @@ Here be a collection of badges to use in a project README. The vast majority are
 
 ## For Fun
 
-- [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/ages-18.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/ages-18.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/approved-by-veridian-dynamics.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/approved-by-veridian-dynamics.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/as-seen-on-tv.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/as-seen-on-tv.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/built-by-hipsters.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/built-by-hipsters.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/built-by-neckbeards.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/built-by-neckbeards.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/built-with-grammas-recipe.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/built-with-grammas-recipe.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)`
-- [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
-  - `[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/ages-18.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/ages-18.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/approved-by-veridian-dynamics.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/approved-by-veridian-dynamics.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/as-seen-on-tv.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/as-seen-on-tv.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/built-by-hipsters.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/built-by-hipsters.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/built-by-neckbeards.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/built-by-neckbeards.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/built-with-grammas-recipe.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/built-with-grammas-recipe.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/no-ragrets.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)`
+- [![ForTheBadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)`
 
 [0]: https://forthebadge.com
