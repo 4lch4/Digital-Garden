@@ -16,7 +16,7 @@ If you do win, don't hesitate to send me a DM on Discord and I'll send you back 
 6. [Guardians of Middle-earth][12]
 7. [Guardians of Middle-earth: Smaug's Treasure DLC][11]
 8. [Heal][14]
-9.  [Hiveswap Friendsim Complete][15]
+9. [Hiveswap Friendsim Complete][15]
 10. [Jack Axe][16]
 11. [Mars Horizon][18]
 12. [Mosaic][19]
