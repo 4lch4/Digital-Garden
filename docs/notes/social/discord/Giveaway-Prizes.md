@@ -6,8 +6,6 @@ I tend to host regular giveaways on the [HazbinLore Discord server][HazbinLore-I
 
 If you do win, don't hesitate to send me a DM on Discord and I'll send you back the key ^\_^ I make sure to keep this updated as I give prizes away so if you see it under the [available header](#available), then it's available! If you happen to request a game and it turns out I _don't_ have it available, I'll purchase a copy just for you.
 
-## Status
-
 ## Available
 
 1. [Armello][0]
