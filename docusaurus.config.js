@@ -23,22 +23,22 @@ module.exports = {
       items: [
         // Left Side
         {
-          to: '/tils/index',
+          to: '/tils',
           label: 'TILs',
           position: 'left'
         },
         {
-          to: '/notes/index',
+          to: '/notes',
           label: 'Notes',
           position: 'left'
         },
         {
-          to: '/notes/cheatsheets/index',
+          to: '/notes/cheatsheets',
           label: 'Cheatsheets',
           position: 'left'
         },
         {
-          to: '/finds/index',
+          to: '/finds',
           label: 'Finds',
           position: 'left'
         },
@@ -68,18 +68,18 @@ module.exports = {
           items: [
             {
               label: 'TILs',
-              to: 'tils/index'
+              to: 'tils'
             },
             {
               label: 'Notes',
-              to: 'notes/index'
+              to: 'notes'
             },
             {
               label: 'Cheatsheets',
-              to: 'notes/cheatsheets/index'
+              to: 'notes/cheatsheets'
             },
             {
-              to: '/finds/index',
+              to: '/finds',
               label: 'Finds',
               position: 'left'
             }
