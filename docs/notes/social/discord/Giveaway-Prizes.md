@@ -44,19 +44,18 @@ If you do win, don't hesitate to send me a DM on Discord and I'll send you back 
 34. [Surviving Mars: Project Laika][38]
 35. [Surviving Mars: Space Race][37]
 36. [Surviving Mars: Stellaris Dome Set][43]
-37. [The Adventure Pals][44]
-38. [The Count Lucanor][45]
-39. [The Lord of the Rings Online: Steely Dawn Starter Pack][47]
-40. [The Manhole: Masterpiece Edition][48]
-41. [The Signifier Director's Cut][49]
-42. [Think of the Children][50]
-43. [URU: Complete Chronicles][51]
-44. [We should talk.][52]
-45. [Western Press][53]
-46. [while True: learn() Art Pack][54]
-47. [while True: learn() Chief Technology Officer Edition][55]
-48. [while True: learn() Learn Soundtrack][56]
-49. [while True: learn() Mega Map of Machine Learning][57]
+37. [The Count Lucanor][45]
+38. [The Lord of the Rings Online: Steely Dawn Starter Pack][47]
+39. [The Manhole: Masterpiece Edition][48]
+40. [The Signifier Director's Cut][49]
+41. [Think of the Children][50]
+42. [URU: Complete Chronicles][51]
+43. [We should talk.][52]
+44. [Western Press][53]
+45. [while True: learn() Art Pack][54]
+46. [while True: learn() Chief Technology Officer Edition][55]
+47. [while True: learn() Learn Soundtrack][56]
+48. [while True: learn() Mega Map of Machine Learning][57]
 
 ## Claimed
 
@@ -68,7 +67,7 @@ If you do win, don't hesitate to send me a DM on Discord and I'll send you back 
 6. ~~[Cosmic Osmo and the Worlds Beyond the Mackerel][5]~~
 7. ~~Crawl~~
 8. ~~Crysis 2 Maximum Edition~~
-9. ~~Dead Space~~
+9.  ~~Dead Space~~
 10. ~~Death Squared~~
 11. ~~[Duck Game][7]~~
 12. ~~Euro Truck Simulator 2~~
@@ -94,14 +93,15 @@ If you do win, don't hesitate to send me a DM on Discord and I'll send you back 
 32. ~~Primal Carnage~~
 33. ~~[Quest of Dungeons][27]~~
 34. ~~Satellite Reign~~
-35. ~~[The Gardens Between][46]~~
-36. ~~The Sims 3 Date Night~~
-37. ~~The Sims 3 High End Loft Stuff~~
-38. ~~The Sims 3~~
-39. ~~The Sims 3 Late Night~~
-40. ~~The Stillness of the Wind~~
-41. ~~Tower of Guns~~
-42. ~~Void Bastards~~
+35. ~~[The Adventure Pals][44]~~
+36. ~~[The Gardens Between][46]~~
+37. ~~The Sims 3 Date Night~~
+38. ~~The Sims 3 High End Loft Stuff~~
+39. ~~The Sims 3~~
+40. ~~The Sims 3 Late Night~~
+41. ~~The Stillness of the Wind~~
+42. ~~Tower of Guns~~
+43. ~~Void Bastards~~
 
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
