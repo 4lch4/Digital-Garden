@@ -4,7 +4,18 @@ title: Giveaway Prizes
 
 I tend to host regular giveaways on the [HazbinLore Discord server][HazbinLore-Invite], in the [#giveaways channel][HazbinLore-Giveaways] duh 😜, and this is the list of games (and other prizes if any) that are available to choose from and the ones that have already been claimed.
 
-If you do win, don't hesitate to send me a DM on Discord and I'll send you back the key ^\_^ I make sure to keep this updated as I give prizes away so if you see it under the [available header](#available), then it's available! If you happen to request a game and it turns out I _don't_ have it available, I'll purchase a copy just for you.
+If you do win, don't hesitate to send me a DM on Discord and I'll send you back the key ^\_^
+
+## When (And How) Is This List Updated?
+
+After each giveaway is completed I update the list and remove whatever game(s) is/are claimed by the winner(s). If you request a game listed under the [available header](#available), there are two possible outcomes:
+
+- The game you requested was taken by one of the other winners.
+  - If this happens, please choose another game to receive.
+- The game you requested was mistakenly listed under available, and I don't actually have a code available.
+  - If this happens, I will personally purchase you a copy of this game as it was my ow mistake for the confusion.
+
+<!-- I make sure to keep this updated as I give prizes away so if you see it under the [available header](#available), then it's available! If you happen to request a game and it turns out I _don't_ have it available, I'll purchase a copy just for you. -->
 
 ## Available
 
