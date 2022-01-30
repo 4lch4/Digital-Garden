@@ -8,100 +8,100 @@ If you do win, don't hesitate to send me a DM on Discord and I'll send you back 
 
 ## Available
 
-1. [Beasts of Maravilla Island][2]
-2. [Command & Conquer: Red Alert 3 - Uprising Origin Key][3]
-3. [Desert Child][6]
-4. [Etherborn][9]
-5. [GONNER2][10]
-6. [Guardians of Middle-earth][12]
-7. [Guardians of Middle-earth: Smaug's Treasure DLC][11]
-8. [Heal][14]
-9. [Hiveswap Friendsim Complete][15]
-10. [Jack Axe][16]
-11. [Mars Horizon][18]
-12. [Mosaic][19]
-13. [Myst III: Exile][20]
-14. [Myst IV: Revelation][21]
-15. [Myst V: End of Ages][22]
-16. [Myst: Masterpiece Edition][23]
-17. [Obduction][25]
-18. [Paperbark][26]
-19. [realMyst: Masterpiece Edition][24]
-20. [Regular Human Basketball][28]
-21. [Retro Machina][29]
-22. [Rising Dusk][30]
-23. [Riven: The Sequel to MYST][31]
-24. [Spelunx and the Caves of Mr. Seudo][32]
-25. [Super Mutant Alien Assault][33]
-26. [Surviving Mars][34]
-27. [Surviving Mars: Colony Design Set][40]
-28. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
-29. [Surviving Mars: In-Dome Buildings Pack][41]
-30. [Surviving Mars: Mars Lifestyle Radio][36]
-31. [Surviving Mars: Marsvision Song Contest][42]
-32. [Surviving Mars: Project Laika][38]
-33. [Surviving Mars: Space Race][37]
-34. [Surviving Mars: Stellaris Dome Set][43]
-35. [The Count Lucanor][45]
-36. [The Lord of the Rings Online: Steely Dawn Starter Pack][47]
-37. [The Manhole: Masterpiece Edition][48]
-38. [The Signifier Director's Cut][49]
-39. [Think of the Children][50]
-40. [URU: Complete Chronicles][51]
-41. [We should talk.][52]
-42. [Western Press][53]
-43. [while True: learn() Art Pack][54]
-44. [while True: learn() Chief Technology Officer Edition][55]
-45. [while True: learn() Learn Soundtrack][56]
-46. [while True: learn() Mega Map of Machine Learning][57]
+1. [Command & Conquer: Red Alert 3 - Uprising Origin Key][3]
+2. [Desert Child][6]
+3. [Etherborn][9]
+4. [GONNER2][10]
+5. [Guardians of Middle-earth][12]
+6. [Guardians of Middle-earth: Smaug's Treasure DLC][11]
+7. [Heal][14]
+8. [Hiveswap Friendsim Complete][15]
+9. [Jack Axe][16]
+10. [Mars Horizon][18]
+11. [Mosaic][19]
+12. [Myst III: Exile][20]
+13. [Myst IV: Revelation][21]
+14. [Myst V: End of Ages][22]
+15. [Myst: Masterpiece Edition][23]
+16. [Obduction][25]
+17. [Paperbark][26]
+18. [realMyst: Masterpiece Edition][24]
+19. [Regular Human Basketball][28]
+20. [Retro Machina][29]
+21. [Rising Dusk][30]
+22. [Riven: The Sequel to MYST][31]
+23. [Spelunx and the Caves of Mr. Seudo][32]
+24. [Super Mutant Alien Assault][33]
+25. [Surviving Mars][34]
+26. [Surviving Mars: Colony Design Set][40]
+27. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
+28. [Surviving Mars: In-Dome Buildings Pack][41]
+29. [Surviving Mars: Mars Lifestyle Radio][36]
+30. [Surviving Mars: Marsvision Song Contest][42]
+31. [Surviving Mars: Project Laika][38]
+32. [Surviving Mars: Space Race][37]
+33. [Surviving Mars: Stellaris Dome Set][43]
+34. [The Count Lucanor][45]
+35. [The Lord of the Rings Online: Steely Dawn Starter Pack][47]
+36. [The Manhole: Masterpiece Edition][48]
+37. [The Signifier Director's Cut][49]
+38. [Think of the Children][50]
+39. [URU: Complete Chronicles][51]
+40. [Western Press][53]
+41. [while True: learn() Art Pack][54]
+42. [while True: learn() Chief Technology Officer Edition][55]
+43. [while True: learn() Learn Soundtrack][56]
+44. [while True: learn() Mega Map of Machine Learning][57]
 
 ## Claimed
 
 1. ~~[Armello][0]~~
 2. ~~[Assault Android Cactus][1]~~
 3. ~~Batman: Arkham Origins DLC~~
-4. ~~Burnout Paradise: The Ultimate Box~~
-5. ~~[Command & Conquer: Red Alert 3 - Uprising Steam Key][4]~~
-6. ~~[Cosmic Osmo and the Worlds Beyond the Mackerel][5]~~
-7. ~~Crawl~~
-8. ~~Crysis 2 Maximum Edition~~
-9. ~~Dead Space~~
-10. ~~Death Squared~~
-11. ~~[Duck Game][7]~~
-12. ~~[Elden: Path of the Forgotten][8]~~
-13. ~~Euro Truck Simulator 2~~
-14. ~~Euro Truck Simulator 2: Australia Paint Pack DLC~~
-15. ~~F.E.A.R~~
-16. ~~Feather~~
-17. ~~Framed Collection~~
-18. ~~Frog Detective~~
-19. ~~Gotham City Impostors: Professional Kit~~
-20. ~~Hacknet~~
-21. ~~Hacknet Labyrinths DLC~~
-22. ~~[Hand of Fate 2][13]~~
-23. ~~Hollow Knight~~
-24. ~~[LUMINES REMASTERED][17]~~
-25. ~~Machinarium~~
-26. ~~Masquerade: The Baubles of Doom~~
-27. ~~Medal of Honor~~
-28. ~~Mirror's Edge~~
-29. ~~Mortal Kombat Kollection~~
-30. ~~Mr. Shifty~~
-31. ~~Paper Fire Rookie~~
-32. ~~Paradigm~~
-33. ~~Primal Carnage~~
-34. ~~[Quest of Dungeons][27]~~
-35. ~~Satellite Reign~~
-36. ~~[Surviving Mars: Green Planet][35]~~
-37. ~~[The Adventure Pals][44]~~
-38. ~~[The Gardens Between][46]~~
-39. ~~The Sims 3 Date Night~~
-40. ~~The Sims 3 High End Loft Stuff~~
-41. ~~The Sims 3~~
-42. ~~The Sims 3 Late Night~~
-43. ~~The Stillness of the Wind~~
-44. ~~Tower of Guns~~
-45. ~~Void Bastards~~
+4. ~~[Beasts of Maravilla Island][2]~~
+5. ~~Burnout Paradise: The Ultimate Box~~
+6. ~~[Command & Conquer: Red Alert 3 - Uprising Steam Key][4]~~
+7. ~~[Cosmic Osmo and the Worlds Beyond the Mackerel][5]~~
+8. ~~Crawl~~
+9.  ~~Crysis 2 Maximum Edition~~
+10. ~~Dead Space~~
+11. ~~Death Squared~~
+12. ~~[Duck Game][7]~~
+13. ~~[Elden: Path of the Forgotten][8]~~
+14. ~~Euro Truck Simulator 2~~
+15. ~~Euro Truck Simulator 2: Australia Paint Pack DLC~~
+16. ~~F.E.A.R~~
+17. ~~Feather~~
+18. ~~Framed Collection~~
+19. ~~Frog Detective~~
+20. ~~Gotham City Impostors: Professional Kit~~
+21. ~~Hacknet~~
+22. ~~Hacknet Labyrinths DLC~~
+23. ~~[Hand of Fate 2][13]~~
+24. ~~Hollow Knight~~
+25. ~~[LUMINES REMASTERED][17]~~
+26. ~~Machinarium~~
+27. ~~Masquerade: The Baubles of Doom~~
+28. ~~Medal of Honor~~
+29. ~~Mirror's Edge~~
+30. ~~Mortal Kombat Kollection~~
+31. ~~Mr. Shifty~~
+32. ~~Paper Fire Rookie~~
+33. ~~Paradigm~~
+34. ~~Primal Carnage~~
+35. ~~[Quest of Dungeons][27]~~
+36. ~~Satellite Reign~~
+37. ~~[Surviving Mars: Green Planet][35]~~
+38. ~~[The Adventure Pals][44]~~
+39. ~~[The Gardens Between][46]~~
+40. ~~The Sims 3 Date Night~~
+41. ~~The Sims 3 High End Loft Stuff~~
+42. ~~The Sims 3~~
+43. ~~The Sims 3 Late Night~~
+44. ~~The Stillness of the Wind~~
+45. ~~Tower of Guns~~
+46. ~~Void Bastards~~
+47. ~~[We should talk.][52]~~
 
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
