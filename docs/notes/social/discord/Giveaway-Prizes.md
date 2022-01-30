@@ -112,8 +112,6 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 48. ~~Void Bastards~~
 49. ~~[We should talk.][52]~~
 
-## Further Details
-
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
 [0]: https://store.steampowered.com/app/290340/Armello/
