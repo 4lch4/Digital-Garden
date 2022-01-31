@@ -25,40 +25,38 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 6. [Guardians of Middle-earth: Smaug's Treasure DLC][11]
 7. [Heal][14]
 8. [Hiveswap Friendsim Complete][15]
-9. [Jack Axe][16]
-10. [Mars Horizon][18]
-11. [Mosaic][19]
-12. [Myst IV: Revelation][21]
-13. [Myst V: End of Ages][22]
-14. [Myst: Masterpiece Edition][23]
-15. [Obduction][25]
-16. [Paperbark][26]
-17. [realMyst: Masterpiece Edition][24]
-18. [Regular Human Basketball][28]
-19. [Retro Machina][29]
-20. [Rising Dusk][30]
-21. [Riven: The Sequel to MYST][31]
-22. [Spelunx and the Caves of Mr. Seudo][32]
-23. [Super Mutant Alien Assault][33]
-24. [Surviving Mars][34]
-25. [Surviving Mars: Colony Design Set][40]
-26. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
-27. [Surviving Mars: In-Dome Buildings Pack][41]
-28. [Surviving Mars: Mars Lifestyle Radio][36]
-29. [Surviving Mars: Marsvision Song Contest][42]
-30. [Surviving Mars: Project Laika][38]
-31. [Surviving Mars: Space Race][37]
-32. [Surviving Mars: Stellaris Dome Set][43]
-33. [The Lord of the Rings Online: Steely Dawn Starter Pack][47]
-34. [The Manhole: Masterpiece Edition][48]
-35. [The Signifier Director's Cut][49]
-36. [Think of the Children][50]
-37. [URU: Complete Chronicles][51]
-38. [Western Press][53]
-39. [while True: learn() Art Pack][54]
-40. [while True: learn() Chief Technology Officer Edition][55]
-41. [while True: learn() Learn Soundtrack][56]
-42. [while True: learn() Mega Map of Machine Learning][57]
+9.  [Mars Horizon][18]
+10. [Mosaic][19]
+11. [Myst IV: Revelation][21]
+12. [Myst V: End of Ages][22]
+13. [Myst: Masterpiece Edition][23]
+14. [Paperbark][26]
+15. [realMyst: Masterpiece Edition][24]
+16. [Regular Human Basketball][28]
+17. [Retro Machina][29]
+18. [Rising Dusk][30]
+19. [Riven: The Sequel to MYST][31]
+20. [Spelunx and the Caves of Mr. Seudo][32]
+21. [Super Mutant Alien Assault][33]
+22. [Surviving Mars][34]
+23. [Surviving Mars: Colony Design Set][40]
+24. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
+25. [Surviving Mars: In-Dome Buildings Pack][41]
+26. [Surviving Mars: Mars Lifestyle Radio][36]
+27. [Surviving Mars: Marsvision Song Contest][42]
+28. [Surviving Mars: Project Laika][38]
+29. [Surviving Mars: Space Race][37]
+30. [Surviving Mars: Stellaris Dome Set][43]
+31. [The Lord of the Rings Online: Steely Dawn Starter Pack][47]
+32. [The Manhole: Masterpiece Edition][48]
+33. [The Signifier Director's Cut][49]
+34. [Think of the Children][50]
+35. [URU: Complete Chronicles][51]
+36. [Western Press][53]
+37. [while True: learn() Art Pack][54]
+38. [while True: learn() Chief Technology Officer Edition][55]
+39. [while True: learn() Learn Soundtrack][56]
+40. [while True: learn() Mega Map of Machine Learning][57]
 
 ## Claimed
 
@@ -86,31 +84,33 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 22. ~~Hacknet Labyrinths DLC~~
 23. ~~[Hand of Fate 2][13]~~
 24. ~~Hollow Knight~~
-25. ~~[LUMINES REMASTERED][17]~~
-26. ~~Machinarium~~
-27. ~~Masquerade: The Baubles of Doom~~
-28. ~~Medal of Honor~~
-29. ~~Mirror's Edge~~
-30. ~~Mortal Kombat Kollection~~
-31. ~~Mr. Shifty~~
-32. ~~[Myst III: Exile][20]~~
-33. ~~Paper Fire Rookie~~
-34. ~~Paradigm~~
-35. ~~Primal Carnage~~
-36. ~~[Quest of Dungeons][27]~~
-37. ~~Satellite Reign~~
-38. ~~[Surviving Mars: Green Planet][35]~~
-39. ~~[The Adventure Pals][44]~~
-40. ~~[The Count Lucanor][45]~~
-41. ~~[The Gardens Between][46]~~
-42. ~~The Sims 3 Date Night~~
-43. ~~The Sims 3 High End Loft Stuff~~
-44. ~~The Sims 3~~
-45. ~~The Sims 3 Late Night~~
-46. ~~The Stillness of the Wind~~
-47. ~~Tower of Guns~~
-48. ~~Void Bastards~~
-49. ~~[We should talk.][52]~~
+25. ~~[Jack Axe][16]~~
+26. ~~[LUMINES REMASTERED][17]~~
+27. ~~Machinarium~~
+28. ~~Masquerade: The Baubles of Doom~~
+29. ~~Medal of Honor~~
+30. ~~Mirror's Edge~~
+31. ~~Mortal Kombat Kollection~~
+32. ~~Mr. Shifty~~
+33. ~~[Myst III: Exile][20]~~
+34. ~~[Obduction][25]~~
+35. ~~Paper Fire Rookie~~
+36. ~~Paradigm~~
+37. ~~Primal Carnage~~
+38. ~~[Quest of Dungeons][27]~~
+39. ~~Satellite Reign~~
+40. ~~[Surviving Mars: Green Planet][35]~~
+41. ~~[The Adventure Pals][44]~~
+42. ~~[The Count Lucanor][45]~~
+43. ~~[The Gardens Between][46]~~
+44. ~~The Sims 3 Date Night~~
+45. ~~The Sims 3 High End Loft Stuff~~
+46. ~~The Sims 3~~
+47. ~~The Sims 3 Late Night~~
+48. ~~The Stillness of the Wind~~
+49. ~~Tower of Guns~~
+50. ~~Void Bastards~~
+51. ~~[We should talk.][52]~~
 
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
