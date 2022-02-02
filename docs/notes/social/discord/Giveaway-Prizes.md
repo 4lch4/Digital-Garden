@@ -25,7 +25,7 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 6. [Guardians of Middle-earth: Smaug's Treasure DLC][11]
 7. [Heal][14]
 8. [Hiveswap Friendsim Complete][15]
-9.  [Mosaic][19]
+9. [Mosaic][19]
 10. [Myst IV: Revelation][21]
 11. [Myst V: End of Ages][22]
 12. [Paperbark][26]
@@ -47,13 +47,12 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 28. [The Lord of the Rings Online: Steely Dawn Starter Pack][47]
 29. [The Manhole: Masterpiece Edition][48]
 30. [The Signifier Director's Cut][49]
-31. [Think of the Children][50]
-32. [URU: Complete Chronicles][51]
-33. [Western Press][53]
-34. [while True: learn() Art Pack][54]
-35. [while True: learn() Chief Technology Officer Edition][55]
-36. [while True: learn() Learn Soundtrack][56]
-37. [while True: learn() Mega Map of Machine Learning][57]
+31. [URU: Complete Chronicles][51]
+32. [Western Press][53]
+33. [while True: learn() Art Pack][54]
+34. [while True: learn() Chief Technology Officer Edition][55]
+35. [while True: learn() Learn Soundtrack][56]
+36. [while True: learn() Mega Map of Machine Learning][57]
 
 ## Claimed
 
@@ -108,9 +107,10 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 49. ~~The Sims 3~~
 50. ~~The Sims 3 Late Night~~
 51. ~~The Stillness of the Wind~~
-52. ~~Tower of Guns~~
-53. ~~Void Bastards~~
-54. ~~[We should talk.][52]~~
+52. ~~[Think of the Children][50]~~
+53. ~~Tower of Guns~~
+54. ~~Void Bastards~~
+55. ~~[We should talk.][52]~~
 
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
