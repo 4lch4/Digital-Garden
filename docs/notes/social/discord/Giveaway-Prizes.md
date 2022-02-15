@@ -46,8 +46,7 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 27. [Western Press][53]
 28. [while True: learn() Art Pack][54]
 29. [while True: learn() Chief Technology Officer Edition][55]
-30. [while True: learn() Learn Soundtrack][56]
-31. [while True: learn() Mega Map of Machine Learning][57]
+30. [while True: learn() Mega Map of Machine Learning][57]
 
 ## Claimed
 
@@ -111,6 +110,7 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 58. ~~Tower of Guns~~
 59. ~~Void Bastards~~
 60. ~~[We should talk.][52]~~
+61. ~~[while True: learn() Learn Soundtrack][56]~~
 
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
