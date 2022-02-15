@@ -12,6 +12,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: OrgName, // Usually your GitHub org/user name.
+  scripts: ['https://dt-ruxit.4lch4.workers.dev/'],
   projectName: ProjectName, // Usually your repo name.
   themeConfig: {
     navbar: {
