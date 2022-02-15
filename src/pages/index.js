@@ -3,7 +3,6 @@ import Layout from '@theme/Layout'
 import classnames from 'classnames'
 import React from 'react'
 import Feature from '../components/Feature'
-import useScript from '../hooks/useScript'
 import styles from './styles.module.css'
 import features from '../components/Features'
 import Link from '@docusaurus/Link'
@@ -11,7 +10,6 @@ import Link from '@docusaurus/Link'
 function Home() {
   const context = useDocusaurusContext()
   const { siteConfig = {} } = context
-  useScript()
 
   return (
     <Layout description={siteConfig.tagline}>
