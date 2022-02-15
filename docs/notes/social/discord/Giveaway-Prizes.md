@@ -23,32 +23,31 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 4. [Guardians of Middle-earth][12]
 5. [Guardians of Middle-earth: Smaug's Treasure DLC][11]
 6. [Heal][14]
-7. [Mosaic][19]
-8. [Myst IV: Revelation][21]
-9. [Myst V: End of Ages][22]
-10. [Paperbark][26]
-11. [realMyst: Masterpiece Edition][24]
-12. [Rising Dusk][30]
-13. [Riven: The Sequel to MYST][31]
-14. [Spelunx and the Caves of Mr. Seudo][32]
-15. [Super Mutant Alien Assault][33]
-16. [Surviving Mars: Colony Design Set][40]
-17. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
-18. [Surviving Mars: In-Dome Buildings Pack][41]
-19. [Surviving Mars: Mars Lifestyle Radio][36]
-20. [Surviving Mars: Marsvision Song Contest][42]
-21. [Surviving Mars: Project Laika][38]
-22. [Surviving Mars: Space Race][37]
-23. [Surviving Mars: Stellaris Dome Set][43]
-24. [The Lord of the Rings Online: Steely Dawn Starter Pack][47]
-25. [The Manhole: Masterpiece Edition][48]
-26. [The Signifier Director's Cut][49]
-27. [URU: Complete Chronicles][51]
-28. [Western Press][53]
-29. [while True: learn() Art Pack][54]
-30. [while True: learn() Chief Technology Officer Edition][55]
-31. [while True: learn() Learn Soundtrack][56]
-32. [while True: learn() Mega Map of Machine Learning][57]
+7. [Myst IV: Revelation][21]
+8. [Myst V: End of Ages][22]
+9. [Paperbark][26]
+10. [realMyst: Masterpiece Edition][24]
+11. [Rising Dusk][30]
+12. [Riven: The Sequel to MYST][31]
+13. [Spelunx and the Caves of Mr. Seudo][32]
+14. [Super Mutant Alien Assault][33]
+15. [Surviving Mars: Colony Design Set][40]
+16. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
+17. [Surviving Mars: In-Dome Buildings Pack][41]
+18. [Surviving Mars: Mars Lifestyle Radio][36]
+19. [Surviving Mars: Marsvision Song Contest][42]
+20. [Surviving Mars: Project Laika][38]
+21. [Surviving Mars: Space Race][37]
+22. [Surviving Mars: Stellaris Dome Set][43]
+23. [The Lord of the Rings Online: Steely Dawn Starter Pack][47]
+24. [The Manhole: Masterpiece Edition][48]
+25. [The Signifier Director's Cut][49]
+26. [URU: Complete Chronicles][51]
+27. [Western Press][53]
+28. [while True: learn() Art Pack][54]
+29. [while True: learn() Chief Technology Officer Edition][55]
+30. [while True: learn() Learn Soundtrack][56]
+31. [while True: learn() Mega Map of Machine Learning][57]
 
 ## Claimed
 
@@ -86,31 +85,32 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 32. ~~Medal of Honor~~
 33. ~~Mirror's Edge~~
 34. ~~Mortal Kombat Kollection~~
-35. ~~Mr. Shifty~~
-36. ~~[Myst: Masterpiece Edition][23]~~
-37. ~~[Myst III: Exile][20]~~
-38. ~~[Obduction][25]~~
-39. ~~Paper Fire Rookie~~
-40. ~~Paradigm~~
-41. ~~Primal Carnage~~
-42. ~~[Quest of Dungeons][27]~~
-43. ~~[Regular Human Basketball][28]~~
-44. ~~[Retro Machina][29]~~
-45. ~~Satellite Reign~~
-46. ~~[Surviving Mars][34]~~
-47. ~~[Surviving Mars: Green Planet][35]~~
-48. ~~[The Adventure Pals][44]~~
-49. ~~[The Count Lucanor][45]~~
-50. ~~[The Gardens Between][46]~~
-51. ~~The Sims 3 Date Night~~
-52. ~~The Sims 3 High End Loft Stuff~~
-53. ~~The Sims 3~~
-54. ~~The Sims 3 Late Night~~
-55. ~~The Stillness of the Wind~~
-56. ~~[Think of the Children][50]~~
-57. ~~Tower of Guns~~
-58. ~~Void Bastards~~
-59. ~~[We should talk.][52]~~
+35. ~~[Mosaic][19]~~
+36. ~~Mr. Shifty~~
+37. ~~[Myst: Masterpiece Edition][23]~~
+38. ~~[Myst III: Exile][20]~~
+39. ~~[Obduction][25]~~
+40. ~~Paper Fire Rookie~~
+41. ~~Paradigm~~
+42. ~~Primal Carnage~~
+43. ~~[Quest of Dungeons][27]~~
+44. ~~[Regular Human Basketball][28]~~
+45. ~~[Retro Machina][29]~~
+46. ~~Satellite Reign~~
+47. ~~[Surviving Mars][34]~~
+48. ~~[Surviving Mars: Green Planet][35]~~
+49. ~~[The Adventure Pals][44]~~
+50. ~~[The Count Lucanor][45]~~
+51. ~~[The Gardens Between][46]~~
+52. ~~The Sims 3 Date Night~~
+53. ~~The Sims 3 High End Loft Stuff~~
+54. ~~The Sims 3~~
+55. ~~The Sims 3 Late Night~~
+56. ~~The Stillness of the Wind~~
+57. ~~[Think of the Children][50]~~
+58. ~~Tower of Guns~~
+59. ~~Void Bastards~~
+60. ~~[We should talk.][52]~~
 
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
