@@ -4,6 +4,7 @@ import classnames from 'classnames'
 import React from 'react'
 import Feature from '../components/Feature'
 import styles from './styles.module.css'
+import Head from '@docusaurus/Head'
 import features from '../components/Features'
 import Link from '@docusaurus/Link'
 
@@ -13,6 +14,9 @@ function Home() {
 
   return (
     <Layout description={siteConfig.tagline}>
+      <Head>
+        <script type="text/javascript" src="https://js-cdn.dynatrace.com/jstag/16362cc0dec/bf48922oxv/4b6329f719b105fd_complete.js" crossorigin="anonymous"></script>
+      </Head>
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
