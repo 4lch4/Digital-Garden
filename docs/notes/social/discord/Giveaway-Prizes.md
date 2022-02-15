@@ -25,23 +25,22 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 6. [Myst IV: Revelation][21]
 7. [Myst V: End of Ages][22]
 8. [Paperbark][26]
-9. [realMyst: Masterpiece Edition][24]
-10. [Rising Dusk][30]
-11. [Riven: The Sequel to MYST][31]
-12. [Spelunx and the Caves of Mr. Seudo][32]
-13. [Super Mutant Alien Assault][33]
-14. [Surviving Mars: Colony Design Set][40]
-15. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
-16. [Surviving Mars: In-Dome Buildings Pack][41]
-17. [Surviving Mars: Mars Lifestyle Radio][36]
-18. [Surviving Mars: Marsvision Song Contest][42]
-19. [Surviving Mars: Project Laika][38]
-20. [Surviving Mars: Space Race][37]
-21. [Surviving Mars: Stellaris Dome Set][43]
-22. [The Manhole: Masterpiece Edition][48]
-23. [The Signifier Director's Cut][49]
-24. [URU: Complete Chronicles][51]
-25. [Western Press][53]
+9. [Rising Dusk][30]
+10. [Riven: The Sequel to MYST][31]
+11. [Spelunx and the Caves of Mr. Seudo][32]
+12. [Super Mutant Alien Assault][33]
+13. [Surviving Mars: Colony Design Set][40]
+14. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
+15. [Surviving Mars: In-Dome Buildings Pack][41]
+16. [Surviving Mars: Mars Lifestyle Radio][36]
+17. [Surviving Mars: Marsvision Song Contest][42]
+18. [Surviving Mars: Project Laika][38]
+19. [Surviving Mars: Space Race][37]
+20. [Surviving Mars: Stellaris Dome Set][43]
+21. [The Manhole: Masterpiece Edition][48]
+22. [The Signifier Director's Cut][49]
+23. [URU: Complete Chronicles][51]
+24. [Western Press][53]
 
 ## Claimed
 
@@ -89,28 +88,29 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 42. ~~Paradigm~~
 43. ~~Primal Carnage~~
 44. ~~[Quest of Dungeons][27]~~
-45. ~~[Regular Human Basketball][28]~~
-46. ~~[Retro Machina][29]~~
-47. ~~Satellite Reign~~
-48. ~~[Surviving Mars][34]~~
-49. ~~[Surviving Mars: Green Planet][35]~~
-50. ~~[The Adventure Pals][44]~~
-51. ~~[The Count Lucanor][45]~~
-52. ~~[The Gardens Between][46]~~
-53. ~~[The Lord of the Rings Online: Steely Dawn Starter Pack][47]~~
-54. ~~The Sims 3 Date Night~~
-55. ~~The Sims 3 High End Loft Stuff~~
-56. ~~The Sims 3~~
-57. ~~The Sims 3 Late Night~~
-58. ~~The Stillness of the Wind~~
-59. ~~[Think of the Children][50]~~
-60. ~~Tower of Guns~~
-61. ~~Void Bastards~~
-62. ~~[We should talk.][52]~~
-63. ~~[while True: learn() Art Pack][54]~~
-64. ~~[while True: learn() Chief Technology Officer Edition][55]~~
-65. ~~[while True: learn() Learn Soundtrack][56]~~
-66. ~~[while True: learn() Mega Map of Machine Learning][57]~~
+45. ~~[realMyst: Masterpiece Edition][24]~~
+46. ~~[Regular Human Basketball][28]~~
+47. ~~[Retro Machina][29]~~
+48. ~~Satellite Reign~~
+49. ~~[Surviving Mars][34]~~
+50. ~~[Surviving Mars: Green Planet][35]~~
+51. ~~[The Adventure Pals][44]~~
+52. ~~[The Count Lucanor][45]~~
+53. ~~[The Gardens Between][46]~~
+54. ~~[The Lord of the Rings Online: Steely Dawn Starter Pack][47]~~
+55. ~~The Sims 3 Date Night~~
+56. ~~The Sims 3 High End Loft Stuff~~
+57. ~~The Sims 3~~
+58. ~~The Sims 3 Late Night~~
+59. ~~The Stillness of the Wind~~
+60. ~~[Think of the Children][50]~~
+61. ~~Tower of Guns~~
+62. ~~Void Bastards~~
+63. ~~[We should talk.][52]~~
+64. ~~[while True: learn() Art Pack][54]~~
+65. ~~[while True: learn() Chief Technology Officer Edition][55]~~
+66. ~~[while True: learn() Learn Soundtrack][56]~~
+67. ~~[while True: learn() Mega Map of Machine Learning][57]~~
 
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
