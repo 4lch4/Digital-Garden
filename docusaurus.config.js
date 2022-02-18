@@ -13,6 +13,9 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: OrgName, // Usually your GitHub org/user name.
   projectName: ProjectName, // Usually your repo name.
+  scripts: [
+    { src: 'https://countly.4lch4.cloud/sdk/web/countly.min.js', defer: true }
+  ],
   themeConfig: {
     navbar: {
       title: `${ProjectName}`,
