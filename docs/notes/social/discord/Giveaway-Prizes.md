@@ -35,9 +35,8 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 16. [Surviving Mars: Space Race][37]
 17. [Surviving Mars: Stellaris Dome Set][43]
 18. [The Manhole: Masterpiece Edition][48]
-19. [The Signifier Director's Cut][49]
-20. [URU: Complete Chronicles][51]
-21. [Western Press][53]
+19. [URU: Complete Chronicles][51]
+20. [Western Press][53]
 
 ## Claimed
 
@@ -98,19 +97,20 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 55. ~~[The Count Lucanor][45]~~
 56. ~~[The Gardens Between][46]~~
 57. ~~[The Lord of the Rings Online: Steely Dawn Starter Pack][47]~~
-58. ~~The Sims 3 Date Night~~
-59. ~~The Sims 3 High End Loft Stuff~~
-60. ~~The Sims 3~~
-61. ~~The Sims 3 Late Night~~
-62. ~~The Stillness of the Wind~~
-63. ~~[Think of the Children][50]~~
-64. ~~Tower of Guns~~
-65. ~~Void Bastards~~
-66. ~~[We should talk.][52]~~
-67. ~~[while True: learn() Art Pack][54]~~
-68. ~~[while True: learn() Chief Technology Officer Edition][55]~~
-69. ~~[while True: learn() Learn Soundtrack][56]~~
-70. ~~[while True: learn() Mega Map of Machine Learning][57]~~
+58. ~~[The Signifier Director's Cut][49]~~
+59. ~~The Sims 3 Date Night~~
+60. ~~The Sims 3 High End Loft Stuff~~
+61. ~~The Sims 3~~
+62. ~~The Sims 3 Late Night~~
+63. ~~The Stillness of the Wind~~
+64. ~~[Think of the Children][50]~~
+65. ~~Tower of Guns~~
+66. ~~Void Bastards~~
+67. ~~[We should talk.][52]~~
+68. ~~[while True: learn() Art Pack][54]~~
+69. ~~[while True: learn() Chief Technology Officer Edition][55]~~
+70. ~~[while True: learn() Learn Soundtrack][56]~~
+71. ~~[while True: learn() Mega Map of Machine Learning][57]~~
 
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
