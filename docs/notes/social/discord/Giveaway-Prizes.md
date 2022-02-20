@@ -18,25 +18,23 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 ## Available
 
 1. [Command & Conquer: Red Alert 3 - Uprising Origin Key][3]
-2. [Guardians of Middle-earth][12]
-3. [Guardians of Middle-earth: Smaug's Treasure DLC][11]
-4. [Myst IV: Revelation][21]
-5. [Myst V: End of Ages][22]
-6. [Rising Dusk][30]
-7. [Riven: The Sequel to MYST][31]
-8. [Spelunx and the Caves of Mr. Seudo][32]
-9. [Super Mutant Alien Assault][33]
-10. [Surviving Mars: Colony Design Set][40]
-11. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
-12. [Surviving Mars: In-Dome Buildings Pack][41]
-13. [Surviving Mars: Mars Lifestyle Radio][36]
-14. [Surviving Mars: Marsvision Song Contest][42]
-15. [Surviving Mars: Project Laika][38]
-16. [Surviving Mars: Space Race][37]
-17. [Surviving Mars: Stellaris Dome Set][43]
-18. [The Manhole: Masterpiece Edition][48]
-19. [URU: Complete Chronicles][51]
-20. ~~[Western Press][53]~~
+2. [Myst IV: Revelation][21]
+3. [Myst V: End of Ages][22]
+4. [Rising Dusk][30]
+5. [Riven: The Sequel to MYST][31]
+6. [Spelunx and the Caves of Mr. Seudo][32]
+7. [Super Mutant Alien Assault][33]
+8. [Surviving Mars: Colony Design Set][40]
+9. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
+10. [Surviving Mars: In-Dome Buildings Pack][41]
+11. [Surviving Mars: Mars Lifestyle Radio][36]
+12. [Surviving Mars: Marsvision Song Contest][42]
+13. [Surviving Mars: Project Laika][38]
+14. [Surviving Mars: Space Race][37]
+15. [Surviving Mars: Stellaris Dome Set][43]
+16. [The Manhole: Masterpiece Edition][48]
+17. [URU: Complete Chronicles][51]
+18. ~~[Western Press][53]~~
 
 ## Claimed
 
@@ -63,54 +61,56 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 21. ~~Frog Detective~~
 22. ~~[GONNER2][10]~~
 23. ~~Gotham City Impostors: Professional Kit~~
-24. ~~Hacknet~~
-25. ~~Hacknet Labyrinths DLC~~
-26. ~~[Hand of Fate 2][13]~~
-27. ~~[Heal][14]~~
-28. ~~[Hiveswap Friendsim Complete][15]~~
-29. ~~Hollow Knight~~
-30. ~~[Jack Axe][16]~~
-31. ~~[LUMINES REMASTERED][17]~~
-32. ~~Machinarium~~
-33. ~~[Mars Horizon][18]~~
-34. ~~Masquerade: The Baubles of Doom~~
-35. ~~Medal of Honor~~
-36. ~~Mirror's Edge~~
-37. ~~Mortal Kombat Kollection~~
-38. ~~[Mosaic][19]~~
-39. ~~Mr. Shifty~~
-40. ~~[Myst: Masterpiece Edition][23]~~
-41. ~~[Myst III: Exile][20]~~
-42. ~~[Obduction][25]~~
-43. ~~Paper Fire Rookie~~
-44. ~~[Paperbark][26]~~
-45. ~~Paradigm~~
-46. ~~Primal Carnage~~
-47. ~~[Quest of Dungeons][27]~~
-48. ~~[realMyst: Masterpiece Edition][24]~~
-49. ~~[Regular Human Basketball][28]~~
-50. ~~[Retro Machina][29]~~
-51. ~~Satellite Reign~~
-52. ~~[Surviving Mars][34]~~
-53. ~~[Surviving Mars: Green Planet][35]~~
-54. ~~[The Adventure Pals][44]~~
-55. ~~[The Count Lucanor][45]~~
-56. ~~[The Gardens Between][46]~~
-57. ~~[The Lord of the Rings Online: Steely Dawn Starter Pack][47]~~
-58. ~~[The Signifier Director's Cut][49]~~
-59. ~~The Sims 3 Date Night~~
-60. ~~The Sims 3 High End Loft Stuff~~
-61. ~~The Sims 3~~
-62. ~~The Sims 3 Late Night~~
-63. ~~The Stillness of the Wind~~
-64. ~~[Think of the Children][50]~~
-65. ~~Tower of Guns~~
-66. ~~Void Bastards~~
-67. ~~[We should talk.][52]~~
-68. ~~[while True: learn() Art Pack][54]~~
-69. ~~[while True: learn() Chief Technology Officer Edition][55]~~
-70. ~~[while True: learn() Learn Soundtrack][56]~~
-71. ~~[while True: learn() Mega Map of Machine Learning][57]~~
+24. ~~[Guardians of Middle-earth][12]~~
+25. ~~[Guardians of Middle-earth: Smaug's Treasure DLC][11]~~
+26. ~~Hacknet~~
+27. ~~Hacknet Labyrinths DLC~~
+28. ~~[Hand of Fate 2][13]~~
+29. ~~[Heal][14]~~
+30. ~~[Hiveswap Friendsim Complete][15]~~
+31. ~~Hollow Knight~~
+32. ~~[Jack Axe][16]~~
+33. ~~[LUMINES REMASTERED][17]~~
+34. ~~Machinarium~~
+35. ~~[Mars Horizon][18]~~
+36. ~~Masquerade: The Baubles of Doom~~
+37. ~~Medal of Honor~~
+38. ~~Mirror's Edge~~
+39. ~~Mortal Kombat Kollection~~
+40. ~~[Mosaic][19]~~
+41. ~~Mr. Shifty~~
+42. ~~[Myst: Masterpiece Edition][23]~~
+43. ~~[Myst III: Exile][20]~~
+44. ~~[Obduction][25]~~
+45. ~~Paper Fire Rookie~~
+46. ~~[Paperbark][26]~~
+47. ~~Paradigm~~
+48. ~~Primal Carnage~~
+49. ~~[Quest of Dungeons][27]~~
+50. ~~[realMyst: Masterpiece Edition][24]~~
+51. ~~[Regular Human Basketball][28]~~
+52. ~~[Retro Machina][29]~~
+53. ~~Satellite Reign~~
+54. ~~[Surviving Mars][34]~~
+55. ~~[Surviving Mars: Green Planet][35]~~
+56. ~~[The Adventure Pals][44]~~
+57. ~~[The Count Lucanor][45]~~
+58. ~~[The Gardens Between][46]~~
+59. ~~[The Lord of the Rings Online: Steely Dawn Starter Pack][47]~~
+60. ~~[The Signifier Director's Cut][49]~~
+61. ~~The Sims 3 Date Night~~
+62. ~~The Sims 3 High End Loft Stuff~~
+63. ~~The Sims 3~~
+64. ~~The Sims 3 Late Night~~
+65. ~~The Stillness of the Wind~~
+66. ~~[Think of the Children][50]~~
+67. ~~Tower of Guns~~
+68. ~~Void Bastards~~
+69. ~~[We should talk.][52]~~
+70. ~~[while True: learn() Art Pack][54]~~
+71. ~~[while True: learn() Chief Technology Officer Edition][55]~~
+72. ~~[while True: learn() Learn Soundtrack][56]~~
+73. ~~[while True: learn() Mega Map of Machine Learning][57]~~
 
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
