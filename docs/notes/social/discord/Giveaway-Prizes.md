@@ -36,7 +36,7 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 17. [Surviving Mars: Stellaris Dome Set][43]
 18. [The Manhole: Masterpiece Edition][48]
 19. [URU: Complete Chronicles][51]
-20. [Western Press][53]
+20. ~~[Western Press][53]~~
 
 ## Claimed
 
