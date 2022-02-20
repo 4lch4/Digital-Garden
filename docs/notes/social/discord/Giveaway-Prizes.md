@@ -17,24 +17,31 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 
 ## Available
 
-1. [Command & Conquer: Red Alert 3 - Uprising Origin Key][3]
-2. [Myst IV: Revelation][21]
-3. [Myst V: End of Ages][22]
-4. [Rising Dusk][30]
-5. [Riven: The Sequel to MYST][31]
-6. [Spelunx and the Caves of Mr. Seudo][32]
-7. [Super Mutant Alien Assault][33]
-8. [Surviving Mars: Colony Design Set][40]
-9. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
-10. [Surviving Mars: In-Dome Buildings Pack][41]
-11. [Surviving Mars: Mars Lifestyle Radio][36]
-12. [Surviving Mars: Marsvision Song Contest][42]
-13. [Surviving Mars: Project Laika][38]
-14. [Surviving Mars: Space Race][37]
-15. [Surviving Mars: Stellaris Dome Set][43]
-16. [The Manhole: Masterpiece Edition][48]
-17. [URU: Complete Chronicles][51]
-18. ~~[Western Press][53]~~
+1. [Before We Leave][63]
+2. [Black Book][60]
+3. [Borderlands 3][58]
+4. [Borderlands 3 - Director's Cut][59]
+5. [Command & Conquer: Red Alert 3 - Uprising Origin Key][3]
+6. [Everhood][65]
+7. [Just Die Already][62]
+8. [Myst IV: Revelation][21]
+9. [Myst V: End of Ages][22]
+10. [Per Aspera][61]
+11. [Paradise Lost][64]
+12. [Rising Dusk][30]
+13. [Riven: The Sequel to MYST][31]
+14. [Spelunx and the Caves of Mr. Seudo][32]
+15. [Super Mutant Alien Assault][33]
+16. [Surviving Mars: Colony Design Set][40]
+17. [Surviving Mars: Deluxe Edition Upgrade Pack][39]
+18. [Surviving Mars: In-Dome Buildings Pack][41]
+19. [Surviving Mars: Mars Lifestyle Radio][36]
+20. [Surviving Mars: Marsvision Song Contest][42]
+21. [Surviving Mars: Project Laika][38]
+22. [Surviving Mars: Space Race][37]
+23. [Surviving Mars: Stellaris Dome Set][43]
+24. [The Manhole: Masterpiece Edition][48]
+25. [URU: Complete Chronicles][51]
 
 ## Claimed
 
@@ -107,10 +114,11 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 67. ~~Tower of Guns~~
 68. ~~Void Bastards~~
 69. ~~[We should talk.][52]~~
-70. ~~[while True: learn() Art Pack][54]~~
-71. ~~[while True: learn() Chief Technology Officer Edition][55]~~
-72. ~~[while True: learn() Learn Soundtrack][56]~~
-73. ~~[while True: learn() Mega Map of Machine Learning][57]~~
+70. ~~[Western Press][53]~~
+71. ~~[while True: learn() Art Pack][54]~~
+72. ~~[while True: learn() Chief Technology Officer Edition][55]~~
+73. ~~[while True: learn() Learn Soundtrack][56]~~
+74. ~~[while True: learn() Mega Map of Machine Learning][57]~~
 
 [HazbinLore-Invite]: https://discord.gg/73v24Z6nGA
 [HazbinLore-Giveaways]: https://discord.com/channels/825459536994893846/923368900513640488
@@ -172,3 +180,11 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 [55]: https://store.steampowered.com/bundle/10114/while_True_learn_Chief_Technology_Officer_Edition/
 [56]: https://store.steampowered.com/app/1019360/while_True_learn_Soundtrack/
 [57]: https://store.steampowered.com/app/1026800/while_True_learn_Mega_Map_of_Machine_Learning/
+[58]: https://store.steampowered.com/app/397540/Borderlands_3/
+[59]: https://store.steampowered.com/app/1361831/Borderlands_3_Directors_Cut/
+[60]: https://store.steampowered.com/app/1138660/Black_Book/
+[61]: https://store.steampowered.com/app/803050/Per_Aspera/
+[62]: https://store.steampowered.com/app/979070/Just_Die_Already/
+[63]: https://store.steampowered.com/app/1073910/Before_We_Leave/
+[64]: https://store.steampowered.com/app/982720/Paradise_Lost/
+[65]: https://store.steampowered.com/app/1229380/Everhood/
