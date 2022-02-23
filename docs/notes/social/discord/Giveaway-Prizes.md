@@ -72,8 +72,8 @@ After each giveaway is completed I update the list and remove whatever game(s) i
 25. ~~[Guardians of Middle-earth: Smaug's Treasure DLC][11]~~
 26. ~~Hacknet~~
 27. ~~Hacknet Labyrinths DLC~~
-28. ~~[Heal][14]~~
-29. ~~[Hand of Fate 2][13]~~
+28. ~~[Hand of Fate 2][13]~~
+29. ~~[Heal][14]~~
 30. ~~[Hiveswap Friendsim Complete][15]~~
 31. ~~Hollow Knight~~
 32. ~~[Jack Axe][16]~~
