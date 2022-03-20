@@ -46,7 +46,7 @@
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
-    "np": "^7.6.0",
+    "np": "^7.6.1",
     "prettier": "^2.5.1"
   },
   "browserslist": {
