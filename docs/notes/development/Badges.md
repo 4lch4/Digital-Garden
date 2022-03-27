@@ -3,7 +3,12 @@ id: development-badges
 title: Badges
 ---
 
-Here be a collection of badges to use in a project README. The vast majority are lifted from shields.io and [ForTheBadge][0] whereas the others come from a smattering of source.
+Here be a collection of badges to use in a project README. The vast majority are lifted from [shields.io][2] and [ForTheBadge][0] whereas the others come from a smattering of source.
+
+## Sources
+
+- [shields.io][2]
+- [ForTheBadge][0]
 
 ## Activity
 
@@ -32,6 +37,15 @@ Here be a collection of badges to use in a project README. The vast majority are
 - Prettier
   - [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
   - `[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)`
+
+## Countly
+
+For sites that utilize [Countly][1] for analytics.
+
+- [![Dark-Theme](https://count.ly/badges/dark.svg)](https://count.ly/f/badge)
+  - `[![Dark-Theme](https://count.ly/badges/dark.svg)](https://count.ly/f/badge)`
+- [![Light-Theme](https://count.ly/badges/light.svg)](https://count.ly/f/badge)
+  - `[![Light-Theme](https://count.ly/badges/light.svg)](https://count.ly/f/badge)`
 
 ## Dependencies
 
@@ -141,3 +155,6 @@ Here be a collection of badges to use in a project README. The vast majority are
   - `[![ForTheBadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)`
 
 [0]: https://forthebadge.com
+[1]: https://count.ly
+[2]: https://shields.io/
+[3]: https://count.ly/f/badge
