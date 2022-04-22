@@ -4,7 +4,7 @@
   "description": "This project is my Digital Garden, which is a collection of all sorts of information that I've gathered during my years online.",
   "publisher": "4lch4 Industries, LLC.",
   "version": "0.7.0",
-  "license": "GPL-2.0-only",
+  "license": "GPL-3.0-only",
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
