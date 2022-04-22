@@ -5,10 +5,31 @@ title: Badges
 
 Here be a collection of badges to use in a project README. The vast majority are lifted from [shields.io][2] and [ForTheBadge][0] whereas the others come from a smattering of source.
 
+!!! info
+
+    Since I've been having trouble getting `shields.io` badge images to load, I've looked for a backup and found `badgen.net`. I'll be creating two versions of each badge (where possible): One using `shields.io` and one that uses `badgen.net`.
+
 ## Sources
 
-- [shields.io][2]
+- [badgen.net][2]
+- [shields.io][4]
 - [ForTheBadge][0]
+
+## badgen.net
+
+### GitHub
+
+- Latest Release
+  - ![Latest Release](https://badgen.net/github/release/4lch4/Digital-Garden)
+  - `![Latest Release](https://badgen.net/github/release/4lch4/Digital-Garden)`
+- Last Commit (`main`)
+  - ![Last Commit (`main`)](https://badgen.net/github/last-commit/4lch4/Digital-Garden)
+  - `![Last Commit (`main`)](https://badgen.net/github/last-commit/4lch4/Digital-Garden)`
+- Last Commit (`<branch-name>`)
+  - ![Last Commit (`develop`)](https://badgen.net/github/last-commit/4lch4/Digital-Garden/develop)
+  - ![Last Commit (`develop`)](https://badgen.net/github/last-commit/4lch4/Digital-Garden/develop)
+
+## shields.io
 
 ## Activity
 
@@ -19,12 +40,12 @@ Here be a collection of badges to use in a project README. The vast majority are
   - ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/4lch4/Digital-Garden/develop)
   - `![GitHub last commit (branch)](https://img.shields.io/github/last-commit/4lch4/Digital-Garden/develop)`
 - Commit Activity
-  - ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/4lch4/Digital-Garden)
-  - `![GitHub commit activity](https://img.shields.io/github/commit-activity/w/4lch4/Digital-Garden)`
-  - ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/4lch4/Digital-Garden)
-  - `![GitHub commit activity](https://img.shields.io/github/commit-activity/m/4lch4/Digital-Garden)`
-  - ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/4lch4/Digital-Garden)
-  - `![GitHub commit activity](https://img.shields.io/github/commit-activity/y/4lch4/Digital-Garden)`
+  - ![GitHub Weekly Commit Activity](https://img.shields.io/github/commit-activity/w/4lch4/Digital-Garden)
+  - `![GitHub Weekly Commit Activity](https://img.shields.io/github/commit-activity/w/4lch4/Digital-Garden)`
+  - ![GitHub Monthly Commit Activity](https://img.shields.io/github/commit-activity/m/4lch4/Digital-Garden)
+  - `![GitHub Monthly Commit Activity](https://img.shields.io/github/commit-activity/m/4lch4/Digital-Garden)`
+  - ![GitHub Yearly Commit Activity](https://img.shields.io/github/commit-activity/y/4lch4/Digital-Garden)
+  - `![GitHub Yearly Commit Activity](https://img.shields.io/github/commit-activity/y/4lch4/Digital-Garden)`
 
 ## Chat
 
@@ -156,5 +177,6 @@ For sites that utilize [Countly][1] for analytics.
 
 [0]: https://forthebadge.com
 [1]: https://count.ly
-[2]: https://shields.io/
+[2]: https://badgen.net
 [3]: https://count.ly/f/badge
+[4]: https://shields.io
