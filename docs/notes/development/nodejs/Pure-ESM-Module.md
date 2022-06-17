@@ -1,4 +1,17 @@
-# Pure ESM package
+---
+title: Pure ESM Package
+keywords:
+  - typescript
+  - node.js
+  - javascript
+  - console
+  - esm
+date: 2022-06-17T11:23:58-05:00
+lastmod: 2022-06-17T11:23:58-05:00
+slug: pure-esm-package
+# image: https://assets.4lch4.cloud/projects/digital-garden/tils/nodejs-console-features/Console-Output-0.jpeg
+source: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c
+---
 
 The package linked to from here is now pure [ESM][0]. It cannot be `require()`'d from CommonJS.
 
