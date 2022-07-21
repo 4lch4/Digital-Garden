@@ -46,7 +46,7 @@
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
-    "@algolia/client-search": "^4.13.0",
+    "@algolia/client-search": "^4.14.1",
     "@types/react": "^17.0.44",
     "np": "^7.6.1",
     "prettier": "^2.6.2",
