@@ -1,0 +1,45 @@
+version: '3'
+
+vars:
+  DEBUG: false
+
+tasks:
+  build:
+    desc: Builds the codebase by transpiling the TypeScript code to JavaScript.
+    aliases:
+      - b
+    cmds:
+      # Build website using MkDocs Docker Image.
+      - docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
+
+  clean:
+    desc: |
+      Cleans up the project directory by deleting things such as the
+      node_modules/dist directories and any lock files (such as pnpm-lock or
+      yarn.lock).
+    silent: true
+    aliases:
+      - c
+    cmds:
+      - npx rimraf site
+
+  pretty:
+    desc: Uses the Prettier CLI application to format the codebase.
+    aliases:
+      - p
+    cmds:
+      # Execute prettier to clean up codebase if necessary.
+      - prettier --write .
+
+  start:
+    desc: |
+      Starts the website by first making sure the site was built using the
+      MkDocs Docker Image and then starts a Caddy server that serves the built
+      website.
+    deps:
+      - build
+    aliases:
+      - s
+    cmds:
+      - caddy run
+

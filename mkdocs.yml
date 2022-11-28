@@ -1,0 +1,128 @@
+# Project information
+site_name: 4lch4's Digital Garden
+site_url: https://4lch4.garden
+site_author: Devin Leaman (@4lch4)
+site_description: |
+  My Digital Garden, Knowledge Base, collection TILs, whatever you wanna call
+  it. I store the tidbits of knowledge that I've gathered over the years, in
+  this repository.
+
+# Repository
+repo_name: squidfunk/mkdocs-material
+repo_url: https://github.com/squidfunk/mkdocs-material
+
+# Copyright
+copyright: Copyright &copy; 2022 Devin Leaman (@4lch4)
+
+# dev_addr: "127.0.0.1:8000"
+
+# Customization
+extra:
+  tags:
+    Software/CLI: software-cli
+    Software/App: software-app
+    Index: index
+    GraphQL: graphql
+    API: api
+  social:
+    - icon: fontawesome/brands/github
+      link: https://git.4lch4.io/4lch4/Digital-Garden
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/4lch4
+
+# Theme Settings
+theme:
+  name: material
+  icon:
+    tag:
+      software-cli: octicons/terminal-24
+      software-app: simple/visualstudiocode
+      index: material/table-of-contents
+      graphql: material/graphql
+      api: material/api
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.expand
+    # - navigation.sections
+    - navigation.top
+    - toc.follow
+    - toc.integrate
+    # - content.code.annotate
+
+# Plugins
+plugins:
+  - search
+  - tags:
+      tags_file: Tags.md
+  - minify:
+      minify_html: true
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page Tree/Navigation
+nav:
+  - Home: index.md
+  - Notes:
+      - Index: notes/index.md
+      - API:
+          - Index: notes/API/index.md
+          - HTTP Status Codes: notes/API/HTTP-Status.md
+          - RESTful API: notes/API/RESTful-API.md
+          - GraphQL:
+              - Intro: notes/API/GraphQL/Intro.md
+              - Over HTTP: notes/API/GraphQL/Over-HTTP.md
+              - Schema: notes/API/GraphQL/Schema.md
+      - Software:
+          - Index: notes/Software/index.md
+          - CLI:
+              - Index: notes/Software/CLI/index.md
+              - ADB: notes/Software/CLI/ADB.md
+              - bash: notes/Software/CLI/bash.md
+              - cron: notes/Software/CLI/cron.md
+              - curl: notes/Software/CLI/curl.md
+              - Homebrew: notes/Software/CLI/Homebrew.md
+          - VSCode:
+              - Extensions: notes/Software/VSCode/Extensions.md
+              - Shortcuts: notes/Software/VSCode/Shortcuts.md
+            
+  - Tags: Tags.md
