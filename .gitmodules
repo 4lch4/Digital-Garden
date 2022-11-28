@@ -1,0 +1,3 @@
+[submodule "sources/axios-docs"]
+	path = sources/axios-docs
+	url = git@github.com:axios/axios-docs.git
