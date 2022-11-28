@@ -47,11 +47,11 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
-    - navigation.expand
-    # - navigation.sections
     - navigation.top
     - toc.follow
     - toc.integrate
+    # - navigation.expand
+    # - navigation.sections
     # - content.code.annotate
 
 # Plugins
@@ -115,6 +115,7 @@ nav:
               - Intro: notes/API/GraphQL/Intro.md
               - Over HTTP: notes/API/GraphQL/Over-HTTP.md
               - Schema: notes/API/GraphQL/Schema.md
+              - Visual: notes/API/GraphQL/Visual.md
       - Software:
           - Index: notes/Software/index.md
           - CLI:
@@ -124,8 +125,23 @@ nav:
               - cron: notes/Software/CLI/cron.md
               - curl: notes/Software/CLI/curl.md
               - Homebrew: notes/Software/CLI/Homebrew.md
-          - VSCode:
-              - Extensions: notes/Software/VSCode/Extensions.md
-              - Shortcuts: notes/Software/VSCode/Shortcuts.md
-            
+              - httpie: notes/Software/CLI/httpie.md
+              - pm2: notes/Software/CLI/pm2.md
+              - tmux: notes/Software/CLI/tmux.md
+              - zsh: notes/Software/CLI/zsh.md
+              - Doppler: notes/Software/CLI/Doppler.md
+          - Apps:
+              - Index: notes/Software/Apps/index.md
+              - VSCode:
+                  - Index: notes/Software/Apps/VSCode/index.md
+                  - Extensions: notes/Software/Apps/VSCode/Extensions.md
+                  - Shortcuts: notes/Software/Apps/VSCode/Shortcuts.md
+          - Packages:
+              - Index: notes/Software/Packages/index.md
+              - Axios:
+                  - Index: notes/Software/Packages/Axios/index.md
+                  - Intro: notes/Software/Packages/Axios/Intro.md
+              - Cosmiconfig: notes/Software/Packages/Cosmiconfig.md
+              - DotEnv: notes/Software/Packages/DotEnv.md
+
   - Tags: Tags.md
