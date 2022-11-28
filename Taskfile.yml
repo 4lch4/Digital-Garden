@@ -31,6 +31,11 @@ tasks:
       # Execute prettier to clean up codebase if necessary.
       - prettier --write .
 
+  run:
+    desc: Runs the website using the mkdocs-material Docker Image.
+    cmds:
+      - docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+
   start:
     desc: |
       Starts the website by first making sure the site was built using the
