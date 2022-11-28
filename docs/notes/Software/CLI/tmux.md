@@ -22,7 +22,7 @@ tags:
   - [Windows](#windows-1)
   - [Detach/attach](#detachattach)
   - [Niceties](#niceties)
-- [Status formats](#status-formats)
+  - [Status formats](#status-formats)
   - [Attribute/colors](#attributecolors)
   - [Colors](#colors)
   - [Attributes](#attributes)
@@ -114,7 +114,7 @@ $ tmux attach
 C-b t    # Time
 ```
 
-# Status formats
+## Status formats
 
 ```text
 setw -g window-status-format `#[fg=8,bg=default]#I`
