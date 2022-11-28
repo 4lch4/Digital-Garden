@@ -112,11 +112,14 @@ WebDAV is an extension of HTTP that allows clients to perform remote Web content
 
 <!-- #region Response Code URLs -->
 <!-- #region Informational Responses -->
+
 [100]: https://httpstatuses.com/100
 [101]: https://httpstatuses.com/101
+
 <!-- #endregion Informational Responses -->
 
 <!-- #region Success Responses -->
+
 [200]: https://httpstatuses.com/200
 [201]: https://httpstatuses.com/201
 [202]: https://httpstatuses.com/202
@@ -125,10 +128,11 @@ WebDAV is an extension of HTTP that allows clients to perform remote Web content
 [205]: https://httpstatuses.com/205
 [206]: https://httpstatuses.com/206
 [226]: https://httpstatuses.com/226
+
 <!-- #endregion Success Responses -->
 
-
 <!-- #region Redirection Responses -->
+
 [300]: https://httpstatuses.com/300
 [301]: https://httpstatuses.com/301
 [302]: https://httpstatuses.com/302
@@ -138,10 +142,11 @@ WebDAV is an extension of HTTP that allows clients to perform remote Web content
 [306]: https://httpstatusdogs.com/306-switch-proxy
 [307]: https://httpstatuses.com/307
 [308]: https://httpstatuses.com/308
+
 <!-- #endregion Redirection Responses -->
 
-
 <!-- #region Client Error Responses -->
+
 [400]: https://httpstatuses.com/400
 [401]: https://httpstatuses.com/401
 [402]: https://httpstatuses.com/402
@@ -167,9 +172,11 @@ WebDAV is an extension of HTTP that allows clients to perform remote Web content
 [429]: https://httpstatuses.com/429
 [431]: https://httpstatuses.com/431
 [451]: https://httpstatuses.com/451
+
 <!-- #endregion Client Error Responses -->
 
 <!-- #region Server Error Responses -->
+
 [500]: https://httpstatuses.com/500
 [501]: https://httpstatuses.com/501
 [502]: https://httpstatuses.com/502
@@ -179,9 +186,11 @@ WebDAV is an extension of HTTP that allows clients to perform remote Web content
 [506]: https://httpstatuses.com/506
 [510]: https://httpstatuses.com/510
 [511]: https://httpstatuses.com/511
+
 <!-- #endregion Server Error Responses -->
 
 <!-- #region WebDAV Status Codes -->
+
 [102]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#102
 [207]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#207
 [208]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#208
@@ -190,6 +199,6 @@ WebDAV is an extension of HTTP that allows clients to perform remote Web content
 [424]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#424
 [507]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#507
 [508]: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#508
+
 <!-- #endregion WebDAV Status Codes -->
 <!-- #endregion Response Code URLs -->
-
