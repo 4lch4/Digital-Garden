@@ -116,6 +116,8 @@ nav:
               - Over HTTP: notes/API/GraphQL/Over-HTTP.md
               - Schema: notes/API/GraphQL/Schema.md
               - Visual: notes/API/GraphQL/Visual.md
+      - Meta:
+          - Index: notes/meta/index.md
       - Software:
           - Index: notes/Software/index.md
           - CLI:
