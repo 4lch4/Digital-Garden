@@ -1,20 +1,23 @@
 ---
-# layout: 2017/sheet
-# weight: -3
-# category: 
 tags:
   - Software
   - Software/CLI
 ---
 
+# Homebrew
+
+!!! info Source
+This note was originally found in the [rstacrus/cheatsheets](https://github.com/rstacruz/cheatsheets) GitHub repository.
+
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [Commands](#commands)
-- [More package commands](#more-package-commands)
-- [Global commands](#global-commands)
-- [Brew Cask commands](#brew-cask-commands)
-- [Also see](#also-see)
+- [Homebrew](#homebrew)
+  - [Table of Contents](#table-of-contents)
+  - [Commands](#commands)
+  - [More package commands](#more-package-commands)
+  - [Global commands](#global-commands)
+  - [Brew Cask commands](#brew-cask-commands)
+  - [Also see](#also-see)
 
 ## Commands
 

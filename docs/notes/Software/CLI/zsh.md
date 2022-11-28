@@ -1,0 +1,53 @@
+---
+tags:
+  - Software/CLI
+---
+
+# zsh
+
+!!! note Source
+    This note was originally found in the [rstacrus/cheatsheets](https://github.com/rstacruz/cheatsheets) GitHub repository.
+
+## Table of Contents
+
+- [zsh](#zsh)
+  - [Table of Contents](#table-of-contents)
+  - [Expressions](#expressions)
+  - [Change default shell](#change-default-shell)
+  - [Process Substitution](#process-substitution)
+  - [Also see](#also-see)
+
+## Expressions
+
+| Expression        | Example             | Description                             |
+| ----------------- | ------------------- | --------------------------------------- |
+| `!!`              | `sudo !!`           | Last command (`sudo !!`)                |
+| ---               | ---                 | ---                                     |
+| `!*`              | `vim !*`            | Last command's parameters (`vim !*`)    |
+| `!^`              |                     | Last command's first parameter          |
+| `!$`              |                     | Last command's last parameter           |
+| ---               | ---                 | ---                                     |
+| `!?ls` `<tab>`    | `sudo !?mv` `<tab>` | Command and params of last `ls` command |
+| `!?ls?:*` `<tab>` |                     | Params of last `ls` command             |
+| ---               | ---                 | ---                                     |
+| `*(m0)`           | `rm *(m0)`          | Last modified today                     |
+| `*(m-4)`          |                     | Last modified <4 days ago               |
+
+## Change default shell
+
+```bash
+chsh -s `which zsh`
+```
+
+## Process Substitution
+
+| Expression   | Example                                       | Description                                                             |
+| ------------ | --------------------------------------------- | ----------------------------------------------------------------------- |
+| `<(COMMAND)` | `grep "needle" <(curl "https://haystack.io")` | Replace argument with _named pipe/FIFO_ (read-only) with command output |
+| `=(COMMAND)` | `vim =(curl "https://haystack.io")`           | Replace argument with _file_ (writable) containing command output       |
+
+## Also see
+
+- [Bash cheatsheet](bash.md)
+
+Zsh is mostly compatible with Bash, so most everything in Bash's cheatsheet also applies.

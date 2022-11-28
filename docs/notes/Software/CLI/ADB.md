@@ -6,6 +6,21 @@ tags:
 
 # ADB
 
+!!! info Source
+This note was originally found in the [rstacrus/cheatsheets](https://github.com/rstacruz/cheatsheets) GitHub repository.
+
+## Table of Contents
+
+- [ADB](#adb)
+  - [Table of Contents](#table-of-contents)
+  - [Device Basics](#device-basics)
+    - [Examples](#examples)
+  - [Logcat](#logcat)
+    - [Examples](#examples-1)
+  - [File Management](#file-management)
+    - [Examples](#examples-2)
+  - [Remote Shell](#remote-shell)
+
 ## Device Basics
 
 | Command                 | Description                                 |

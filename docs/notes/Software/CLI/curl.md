@@ -6,6 +6,20 @@ tags:
 
 # curl
 
+!!! info Source
+This note was originally found in the [rstacrus/cheatsheets](https://github.com/rstacruz/cheatsheets) GitHub repository.
+
+## Table of Contents
+
+- [curl](#curl)
+  - [Table of Contents](#table-of-contents)
+  - [Options](#options)
+    - [Request](#request)
+    - [Data](#data)
+    - [Headers](#headers)
+    - [SSL](#ssl)
+  - [Examples](#examples)
+
 ## Options
 
 ```bash
