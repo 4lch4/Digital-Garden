@@ -6,6 +6,25 @@ tags:
 
 # Intro
 
+## Table of Contents
+
+- [Intro](#intro)
+  - [Table of Contents](#table-of-contents)
+  - [Queries](#queries)
+    - [Basic query](#basic-query)
+    - [Nesting](#nesting)
+    - [Lists](#lists)
+    - [Lookups](#lookups)
+    - [Aliases](#aliases)
+    - [Operation names and variables](#operation-names-and-variables)
+      - [Query](#query)
+      - [Variables](#variables)
+    - [Mutations](#mutations)
+      - [Query](#query-1)
+      - [Variables](#variables-1)
+    - [Multiple types](#multiple-types)
+  - [References](#references)
+
 ## Queries
 
 ### Basic query
@@ -16,7 +35,7 @@ tags:
 }
 ```
 
-![Arrow][Arrow-Img]
+![Arrow][arrow-img]
 
 ```graphql
 {
@@ -27,10 +46,15 @@ tags:
 ### Nesting
 
 ```graphql
-{ hero { name height } }
+{
+  hero {
+    name
+    height
+  }
+}
 ```
 
-![Arrow][Arrow-Img]
+![Arrow][arrow-img]
 
 ```graphql
 { hero:
@@ -41,10 +65,14 @@ tags:
 ### Lists
 
 ```graphql
-{ friends { name } }
+{
+  friends {
+    name
+  }
+}
 ```
 
-![Arrow][Arrow-Img]
+![Arrow][arrow-img]
 
 ```graphql
 {
@@ -58,11 +86,14 @@ GraphQL queries look the same for both single items or lists of items.
 
 ```graphql
 {
-  hero(id: "1000") { id name }
+  hero(id: "1000") {
+    id
+    name
+  }
 }
 ```
 
-![Arrow][Arrow-Img]
+![Arrow][arrow-img]
 
 ```graphql
 { hero:
@@ -74,12 +105,16 @@ GraphQL queries look the same for both single items or lists of items.
 
 ```graphql
 {
-  luke: hero(id: "1000") { name }
-  han: hero(id: "1001") { name }
+  luke: hero(id: "1000") {
+    name
+  }
+  han: hero(id: "1001") {
+    name
+  }
 }
 ```
 
-![Arrow][Arrow-Img]
+![Arrow][arrow-img]
 
 ```graphql
 { luke:
@@ -94,7 +129,9 @@ GraphQL queries look the same for both single items or lists of items.
 
 ```graphql
 query FindHero($id: String!) {
-  hero(id: $id) { name }
+  hero(id: $id) {
+    name
+  }
 }
 ```
 
@@ -126,7 +163,7 @@ Just to make things less ambiguous. Also, to use variables, you need an operatio
 }
 ```
 
-![Arrow][Arrow-Img]
+![Arrow][arrow-img]
 
 ```graphql
 {
@@ -144,8 +181,15 @@ Mutations are just fields that do something when queried.
 {
   search(q: "john") {
     id
-    ... on User { name }
-    ... on Comment { body author { name } }
+    ... on User {
+      name
+    }
+    ... on Comment {
+      body
+      author {
+        name
+      }
+    }
   }
 }
 ```
@@ -156,4 +200,4 @@ Great for searching.
 
 - <http://graphql.org/learn/queries/>
 
-[Arrow-Img]: ../../../assets/img/up-down-arrow.png
+[arrow-img]: ../../../assets/img/Up-Down-Arrow.png

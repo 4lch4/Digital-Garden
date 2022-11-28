@@ -23,4 +23,3 @@ fetch('http://myapi/graphql', {
   })
 })
 ```
-

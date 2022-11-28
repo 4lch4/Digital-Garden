@@ -6,7 +6,7 @@ tags:
 
 # Schema
 
-### Basic schemas
+## Basic schemas
 
 ```js
 type Query {
@@ -22,9 +22,9 @@ type User {
 
 See: [sogko/graphql-shorthand-notation-cheat-sheet](https://raw.githubusercontent.com/sogko/graphql-shorthand-notation-cheat-sheet/master/graphql-shorthand-notation-cheat-sheet.png)
 
-### Built in types
+## Built in types
 
-#### Scalar types
+### Scalar types
 
 | `Int` | Integer |
 | `Float` | Float |
@@ -32,7 +32,7 @@ See: [sogko/graphql-shorthand-notation-cheat-sheet](https://raw.githubuserconten
 | `Boolean` | Boolean |
 | `ID` | ID |
 
-#### Type definitions
+### Type definitions
 
 | `scalar` | Scalar type |
 | `type` | Object type |
@@ -41,7 +41,7 @@ See: [sogko/graphql-shorthand-notation-cheat-sheet](https://raw.githubuserconten
 | `enum` | Enumerable type |
 | `input` | Input object type |
 
-#### Type modifiers
+### Type modifiers
 
 | `String` | Nullable string |
 | `String!` | Required string |
@@ -49,7 +49,7 @@ See: [sogko/graphql-shorthand-notation-cheat-sheet](https://raw.githubuserconten
 | `[String]!` | Required list of strings |
 | `[String!]!` | Required list of required strings |
 
-### Mutations
+## Mutations
 
 ```js
 type Mutation {
@@ -57,7 +57,7 @@ type Mutation {
 }
 ```
 
-### Interfaces
+## Interfaces
 
 ```js
 interface Entity {
@@ -70,7 +70,7 @@ type User implements Entity {
 }
 ```
 
-### Enums
+## Enums
 
 ```js
 enum DIRECTION {
@@ -83,7 +83,7 @@ type Root {
 }
 ```
 
-### Unions
+## Unions
 
 ```js
 type Artist { ··· }
