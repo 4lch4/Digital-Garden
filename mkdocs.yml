@@ -61,6 +61,12 @@ plugins:
       tags_file: Tags.md
   - minify:
       minify_html: true
+  - git-revision-date-localized:
+      type: timeago
+  - mkdocs-new-features-notifier
+  - mkdocs-newsletter
+  - section-index
+  - autolinks
 
 # Extensions
 markdown_extensions:
@@ -72,6 +78,7 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+      baselevel: 2
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -145,5 +152,4 @@ nav:
                   - Intro: notes/Software/Packages/Axios/Intro.md
               - Cosmiconfig: notes/Software/Packages/Cosmiconfig.md
               - DotEnv: notes/Software/Packages/DotEnv.md
-
   - Tags: Tags.md
