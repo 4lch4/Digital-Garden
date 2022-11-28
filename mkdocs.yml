@@ -63,7 +63,6 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       type: timeago
-  - mkdocs-new-features-notifier
   - mkdocs-newsletter
   - section-index
   - autolinks
