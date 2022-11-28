@@ -33,7 +33,10 @@ extra:
 # Theme Settings
 theme:
   name: material
+  favicon: assets/img/Garden.svg
+  logo: assets/img/Garden.svg
   icon:
+    logo: Soil
     tag:
       software-cli: octicons/terminal-24
       software-app: simple/visualstudiocode
