@@ -1,7 +1,30 @@
-# Index/TOC
+---
+tags:
+  - Index
+---
 
-This section serves as a table of contents for the various sections that make up my notes.
+# Index
 
+This section is where I store all of my public notes/cheatsheets. Some of them have been pulled from existing sources and will have a link to their original source.
+
+<!-- ## Glossary
+
+There are some terms used throughout this website that make understanding the content rather difficult if you're not familiar with them. So, I've created the following "glossary/legend" to help when you find a term you're unfamiliar with.
+
+|   Word    | Description/Definition                                                                                                   |
+| :-------: | ------------------------------------------------------------------------------------------------------------------------ |
+| **Index** | A page that serves as the start of a section, sometimes with a table of contents or links to content within the section. | -->
+
+<!-- This section serves as a table of contents for the various sub-sections that make up my notes.
+
+- [API](API/index.md)
+- [Software](Software/index.md)
+  - [CLI](Software/CLI/index.md)
+  - [Apps](Software/Apps/index.md)
+    - [VSCode Extensions](Software/Apps/VSCode/Extensions.md)
+    - [VSCode Shortcuts](Software/Apps/VSCode/Shortcuts.md) -->
+
+<!--
 - Development
   - [Badges][57]
 - [Cheatsheets][56] - Roughly one page of tips/tricks for a wide variety of topics.
@@ -131,4 +154,4 @@ This section serves as a table of contents for the various sections that make up
 [54]: /notes/infrastructure/index.md
 [55]: /notes/infrastructure/blog/new-post.md
 [56]: /notes/cheatsheets/index.md
-[57]: /notes/development/Badges.md
+[57]: /notes/development/Badges.md -->
