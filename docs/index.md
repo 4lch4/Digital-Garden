@@ -10,8 +10,6 @@ If this is your first time hearing of a Digital Garden, I find the following quo
 
 If you'd like more information, [A Brief History & Ethos of the Digital Garden][3] by [Maggie Appleton][4] was the article that initially got me started down this path.
 
-## Sections
-
 - [Tags][5]
 - [Notes][6]
 
