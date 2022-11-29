@@ -16,7 +16,10 @@ copyright: Copyright &copy; 2022 Devin Leaman (@4lch4)
 
 # dev_addr: "127.0.0.1:8000"
 
-# Customization
+extra_css:
+  - assets/css/hint.css
+
+# Extra Customization
 extra:
   tags:
     Software/CLI: software-cli
@@ -33,10 +36,11 @@ extra:
 # Theme Settings
 theme:
   name: material
-  favicon: flat-color/Garden
-  logo: flat-color/Garden
+  favicon: assets/img/Garden.svg
+  logo: assets/img/Garden.svg
+  custom_dir: overrides
   icon:
-    logo: Soil
+    logo: flat-color/Soil
     tag:
       software-cli: octicons/terminal-24
       software-app: simple/visualstudiocode
@@ -63,11 +67,18 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       type: timeago
-  - mkdocs-newsletter
   - section-index
   - autolinks
+  - img2fig
+  - tooltips
+  # To get the social plugin working there are a number of different
+  # dependencies that must also be installed. Refer to the following link for
+  # further details:
+  #
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/
+  - social
 
-# Extensions
+# Markdown Extensions
 markdown_extensions:
   - abbr
   - admonition
@@ -112,9 +123,9 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Notes:
-      - Index: notes/index.md
+      - notes/index.md
       - API:
-          - Index: notes/API/index.md
+          - notes/API/index.md
           - HTTP Status Codes: notes/API/HTTP-Status.md
           - RESTful API: notes/API/RESTful-API.md
           - GraphQL:
@@ -123,11 +134,12 @@ nav:
               - Schema: notes/API/GraphQL/Schema.md
               - Visual: notes/API/GraphQL/Visual.md
       - Meta:
-          - Index: notes/meta/index.md
+          - notes/meta/index.md
+          - Digital Garden: notes/meta/Digital-Garden.md
       - Software:
-          - Index: notes/Software/index.md
+          - notes/Software/index.md
           - CLI:
-              - Index: notes/Software/CLI/index.md
+              - notes/Software/CLI/index.md
               - ADB: notes/Software/CLI/ADB.md
               - bash: notes/Software/CLI/bash.md
               - cron: notes/Software/CLI/cron.md
@@ -139,15 +151,15 @@ nav:
               - zsh: notes/Software/CLI/zsh.md
               - Doppler: notes/Software/CLI/Doppler.md
           - Apps:
-              - Index: notes/Software/Apps/index.md
+              - notes/Software/Apps/index.md
               - VSCode:
-                  - Index: notes/Software/Apps/VSCode/index.md
+                  - notes/Software/Apps/VSCode/index.md
                   - Extensions: notes/Software/Apps/VSCode/Extensions.md
                   - Shortcuts: notes/Software/Apps/VSCode/Shortcuts.md
           - Packages:
-              - Index: notes/Software/Packages/index.md
+              - notes/Software/Packages/index.md
               - Axios:
-                  - Index: notes/Software/Packages/Axios/index.md
+                  - notes/Software/Packages/Axios/index.md
                   - Intro: notes/Software/Packages/Axios/Intro.md
               - Cosmiconfig: notes/Software/Packages/Cosmiconfig.md
               - DotEnv: notes/Software/Packages/DotEnv.md

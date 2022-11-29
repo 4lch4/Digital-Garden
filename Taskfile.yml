@@ -1,16 +1,22 @@
 version: '3'
 
 vars:
+  PORT: 8000
   DEBUG: false
+  VERSION_TAG: v0.0.1
+  DOCKER_CONTAINER_NAME: digital-garden
+  DOCKER_IMAGE_NAME: 4lch4/{{ .DOCKER_CONTAINER_NAME }}
 
 tasks:
+  #region Original Tasks
   build:
     desc: Builds the codebase by transpiling the TypeScript code to JavaScript.
     aliases:
       - b
     cmds:
-      # Build website using MkDocs Docker Image.
-      - docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
+      # # Build website using MkDocs Docker Image.
+      # - docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
+      - docker build -t {{ .DOCKER_IMAGE_NAME }}:latest -t {{ .DOCKER_IMAGE_NAME }}:{{ .VERSION_TAG }} .
 
   clean:
     desc: |
@@ -18,10 +24,13 @@ tasks:
       node_modules/dist directories and any lock files (such as pnpm-lock or
       yarn.lock).
     silent: true
+    deps:
+      - stop
     aliases:
       - c
     cmds:
       - npx rimraf site
+      - docker rm {{ .DOCKER_CONTAINER_NAME }}
 
   pretty:
     desc: Uses the Prettier CLI application to format the codebase.
@@ -48,4 +57,31 @@ tasks:
     aliases:
       - s
     cmds:
-      - caddy run
+      # - caddy run
+      - docker run -d -p {{ .PORT }}:{{ .PORT }} --name {{ .DOCKER_CONTAINER_NAME }} {{ .DOCKER_IMAGE_NAME }}:{{ .VERSION_TAG }}
+  #endregion Original Tasks
+
+  #region New Tasks
+  display-variables:
+    desc: Echoes all important environment variables to the console.
+    silent: true
+    aliases:
+      - dv
+      - vars
+    cmds:
+      - echo 'DEBUG = {{ .DEBUG }}'
+      - echo 'VERSION_TAG = {{ .VERSION_TAG }}'
+      - echo 'DOCKER_CONTAINER_NAME = {{ .DOCKER_CONTAINER_NAME }}'
+      - echo 'DOCKER_IMAGE_NAME = {{ .DOCKER_IMAGE_NAME }}'
+
+  stop:
+    cmds:
+      - docker stop {{ .DOCKER_CONTAINER_NAME }}
+
+  install-plugins:
+    desc: Installs the mkdocs plugins that are used by the website.
+    aliases:
+      - ip
+    cmds:
+      - pip install mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-section-index mkdocs-autolinks-plugin
+  #endregion New Tasks
