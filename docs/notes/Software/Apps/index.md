@@ -4,7 +4,7 @@ tags:
   - Index
 ---
 
-# Apps
+# Index
 
 This section contains notes on various applications that I use, such as Visual Studio Code, Cyberduck, Alfred, etc.
 

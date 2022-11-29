@@ -5,10 +5,8 @@ tags:
   - Tools/HTTP
 ---
 
-# Axios
-
 !!! info Source
-All of the notes on Axios use [the official Axios Documentation][2] as the source of information.
+    All of the notes on Axios use [the official Axios Documentation][2] as the source of information.
 
 > Axios is a simple promise based HTTP client for the browser and node.js. Axios provides a simple to use library in a small package with a very extensible interface.
 >

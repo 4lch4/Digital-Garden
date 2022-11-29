@@ -3,5 +3,3 @@ tags:
   - Meta
   - Index
 ---
-
-# Index

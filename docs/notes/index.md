@@ -3,8 +3,6 @@ tags:
   - Index
 ---
 
-# Index
-
 This section is where I store all of my public notes/cheatsheets. Some of them have been pulled from existing sources and will have a link to their original source.
 
 <!-- ## Glossary

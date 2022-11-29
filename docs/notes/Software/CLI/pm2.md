@@ -9,7 +9,7 @@ tags:
 > PM2 is a daemon process manager that will help you manage and keep your application online 24/7.
 
 !!! info Source
-This note was originally found in the [rstacrus/cheatsheets](https://github.com/rstacruz/cheatsheets) GitHub repository.
+    This note was originally found in the [rstacrus/cheatsheets](https://github.com/rstacruz/cheatsheets) GitHub repository.
 
 ## Table of Contents
 

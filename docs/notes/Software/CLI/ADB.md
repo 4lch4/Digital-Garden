@@ -7,7 +7,7 @@ tags:
 # ADB
 
 !!! info Source
-This note was originally found in the [rstacrus/cheatsheets](https://github.com/rstacruz/cheatsheets) GitHub repository.
+    This note was originally found in the [rstacrus/cheatsheets](https://github.com/rstacruz/cheatsheets) GitHub repository.
 
 ## Table of Contents
 

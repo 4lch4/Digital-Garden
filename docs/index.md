@@ -1,5 +1,3 @@
-# Home
-
 First off, welcome to my Digital Garden!
 
 If this is your first time hearing of a Digital Garden, I find the following quote to be one of the best definitions/descriptions I've come across:

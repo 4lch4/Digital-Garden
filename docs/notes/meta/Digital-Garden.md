@@ -4,8 +4,6 @@ tags:
   - Websites
 ---
 
-# Digital Garden
-
 This file provides notes on how to manage, operate, etc., the [Digital Garden][0] itself.
 
 ## Key Links
@@ -24,6 +22,8 @@ When it comes to creating a new note for the Digital Garden, there's a couple th
   - [ ] `- NoteName: notes/<path-to-file>.md`
 
 ## Plugins
+
+I've added a few of the available plugins
 
 [0]: https://4lch4.garden
 [1]: https://github.com/4lch4/Digital-Garden
