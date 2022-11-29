@@ -57,7 +57,6 @@ tasks:
     aliases:
       - s
     cmds:
-      # - caddy run
       - docker run -d -p {{ .PORT }}:{{ .PORT }} --name {{ .DOCKER_CONTAINER_NAME }} {{ .DOCKER_IMAGE_NAME }}:{{ .VERSION_TAG }}
   #endregion Original Tasks
 
@@ -77,6 +76,13 @@ tasks:
   stop:
     cmds:
       - docker stop {{ .DOCKER_CONTAINER_NAME }}
+
+  deploy:
+    desc: Deploys the website as a Docker Image to Fly.io.
+    aliases:
+      - d
+    cmds:
+      - fly deploy
 
   install-plugins:
     desc: Installs the mkdocs plugins that are used by the website.
