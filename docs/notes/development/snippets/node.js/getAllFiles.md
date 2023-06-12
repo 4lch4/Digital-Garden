@@ -27,10 +27,7 @@ import { join } from 'path'
  * @param files An array of files that have been found so far.
  * @returns A string array of all files & folders in the directory.
  */
-async function getAllFiles(
-  dirPath: string,
-  files: string[] = []
-): Promise<string[]> {
+async function getAllFiles(dirPath: string, files: string[] = []): Promise<string[]> {
   // Iterate through all files in the directory.
   for (const file of await readdir(dirPath)) {
     // Check if the file is a directory.

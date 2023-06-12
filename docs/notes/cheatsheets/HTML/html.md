@@ -18,10 +18,7 @@ sidebar_position: 0
 ```html
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0" />
 <meta name="viewport" content="width=device-width" />
-<meta
-  name="viewport"
-  content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-/>
+<meta name="viewport" content="width=320, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <!-- full example -->
 ```
 
@@ -44,8 +41,7 @@ sidebar_position: 0
   ;(WebFontConfig = {}),
     (function (a, b) {
       var c = a.createElement(b)
-      ;(c.src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'),
-        (c.async = 1)
+      ;(c.src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'), (c.async = 1)
       var d = a.getElementsByTagName(b)[0]
       d.parentNode.insertBefore(c, d)
     })(document, 'script')
@@ -65,8 +61,7 @@ sidebar_position: 0
         d = a.getElementsByTagName(b)[0]
       ;(c.async = 1),
         (c.src =
-          ('https:' == location.protocol ? '//ssl' : '//www') +
-          '.google-analytics.com/ga.js'),
+          ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'),
         d.parentNode.insertBefore(c, d)
     })(document, 'script'))
 </script>
@@ -82,7 +77,7 @@ sidebar_position: 0
       appId: '___APPIDGOESHERE___',
       status: true,
       cookie: true,
-      xfbml: true
+      xfbml: true,
     })
   }
   !(function (d, s, id) {
@@ -145,26 +140,10 @@ sidebar_position: 0
 ```html
 <link rel="shortcut icon" type="image/png" href="favicon.png" />
 <link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
-<link
-  href="apple-touch-icon-57x57-precomposed.png"
-  size="57x57"
-  rel="apple-touch-icon"
-/>
-<link
-  href="apple-touch-icon-72x72-precomposed.png"
-  size="72x72"
-  rel="apple-touch-icon"
-/>
-<link
-  href="apple-touch-icon-114x114-precomposed.png"
-  size="114x114"
-  rel="apple-touch-icon"
-/>
-<link
-  href="apple-touch-icon-144x144-precomposed.png"
-  size="144x144"
-  rel="apple-touch-icon"
-/>
+<link href="apple-touch-icon-57x57-precomposed.png" size="57x57" rel="apple-touch-icon" />
+<link href="apple-touch-icon-72x72-precomposed.png" size="72x72" rel="apple-touch-icon" />
+<link href="apple-touch-icon-114x114-precomposed.png" size="114x114" rel="apple-touch-icon" />
+<link href="apple-touch-icon-144x144-precomposed.png" size="144x144" rel="apple-touch-icon" />
 ```
 
 Only do this if you're not placing the site in the root!
@@ -196,13 +175,9 @@ Only do this if you're not placing the site in the root!
     <strong> You are using an outdated browser. </strong>
     <span>
       Please
-      <a class="upgrade-browser" href="http://browsehappy.com/">
-        upgrade your browser</a
-      >
+      <a class="upgrade-browser" href="http://browsehappy.com/"> upgrade your browser</a>
       or
-      <a
-        class="chrome-frame"
-        href="http://www.google.com/chromeframe/?redirect=true"
+      <a class="chrome-frame" href="http://www.google.com/chromeframe/?redirect=true"
         >activate Google Chrome Frame</a
       >
       to improve your experience.

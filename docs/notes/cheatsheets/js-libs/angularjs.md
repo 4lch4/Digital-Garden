@@ -59,7 +59,7 @@ App.service('NameService', function ($http) {
   return {
     get: function () {
       return $http.get(url)
-    }
+    },
   }
 })
 ```
@@ -77,7 +77,7 @@ App.controller('controllerName', function (NameService) {
 ```js
 App.directive('name', function () {
   return {
-    template: '<h1>Hello</h1>'
+    template: '<h1>Hello</h1>',
   }
 })
 ```

@@ -1,7 +1,7 @@
 ---
 id: index
-title: Index / Overview
-sidebar_label: Index
+title: TILs
+sidebar_label: TILs
 sidebar_position: 0
 ---
 

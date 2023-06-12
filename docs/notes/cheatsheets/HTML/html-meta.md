@@ -53,8 +53,7 @@ weight: -3
 ### More opengraph
 
 ```html
-<meta property="og:site_name" content="···" />
-<meta property="og:type" content="website" />
+<meta property="og:site_name" content="···" /> <meta property="og:type" content="website" />
 ```
 
 ```html
@@ -131,16 +130,8 @@ See: [Manifest](https://developers.google.com/web/fundamentals/engage-and-retain
 <!-- Apple -->
 <link rel="apple-touch-icon" href="touch-icon-iphone.png" />
 <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png" />
-<link
-  rel="apple-touch-icon"
-  sizes="120x120"
-  href="touch-icon-iphone-retina.png"
-/>
-<link
-  rel="apple-touch-icon"
-  sizes="152x152"
-  href="touch-icon-ipad-retina.png"
-/>
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png" />
 ```
 
 ```html

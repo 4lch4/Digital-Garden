@@ -1,62 +1,46 @@
-# @4lch4/Digital-Garden
+# Digital Garden
 
-[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=ae0d8b2c003f&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+This repository is home to my Digital Garden (built w/ [Docusaurus 2][0]), as the title may have suggested. A Digital Garden is a place where I can share my thoughts and ideas, and where I can learn in public. It is a place where I can grow my knowledge and skills, and where I can share my journey with others.
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-![GitHub deployments](https://img.shields.io/github/deployments/4lch4/Digital-Garden/production?label=vercel&logo=vercel)
-![GitHub](https://img.shields.io/github/license/4lch4/Digital-Garden)
+It's also simply a place for me to store things such as style guides, rules, etc., to be used throughout my various projects.
 
-What's a Digital Garden and why do I have one? Well, I stumbled upon an article that discussed "Learning in Public" and how to use a Digital Garden to cultivate learning over time.
+## Installation
 
-## Purpose
+```bash
+npm i
+```
 
-> **Question:** So, what's the actual purpose of this project?
->
-> **Answer:** To put it simply and at risk of sounding lame, this site serves as my digital garden/tertiary brain. I understand that likely doesn't help much, so I'll try and explain in further detail below.
+## Local Development
 
-To expand on that, my personal goal with this **DG** is two-fold:
+```bash
+npm start
+```
 
-1. Serve as a landing page of sorts that contains all of my informative/valuable bits of information.
-   1. This would be a combination of the tertiary brain and digital garden that I mentioned above.
-   2. As I learn new things or relearn old things I've since forgotten, I'll add them here in a TIL, find, or something else I've not yet decided 😅
-   3. Ultimately, this makes it possible to do things like pull up the syntax of a command I used in the past.
-2. Serve as a location where I can "learn in public."
-   1. Learning in public is something I stumbled upon recently that clicks with me, so I want to do it more.
-   2. To help understand what learning in public is, consider the following scenario:
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Not Learning in Public
+## Build
 
-> You're trying to learn how to create a website in React, so you use the create-react-app tool
-> and build out a sample project.
->
-> Once you finish the sample project, you either leave it on your PC or push it to a private
-> repo and only ever look at it when you try and build a site with React again.
->
-> At that point, you have to try and dig up the old project and hope it's not been so long
-> that it's completely outdated.
+```bash
+npm run build
+```
 
-### Learning in Public
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-> Now, take the above scenario and imagine you're doing it with the plan to "learn in public." Once
-> you get to building the demo, you would make an effort to perform small commits that follow the
-> [conventional commits specification][conventional-commits].
->
-> Once you get the demo app working and in a good enough state that you'd be willing to show it to someone, you push the code to a public repository with your GitHub account. You add some extra files such as the `CONTRIBUTING.md` and some issue templates if someone manages to find a bug.
+## Deployment
 
-## Origin
+Using SSH:
 
-One day I was browsing [dev.to][dev-to] for stuff to read when I came across an article by [Josh Branchaud][jbranchaud] called ["The Digital Garden"][digital-garden]. This sent me down a rabbit hole of sorts that exposed me to not just the concept of a Digital Garden, maintaining an investment mindset, learning in public, and a few other things. Because of this rabbit hole, I have created this site and intend on growing it over a long period of time.
+```bash
+USE_SSH=true npm run deploy
+```
 
-That said, the simplest way I can think of to describe this project is it serves as a collection of my "public knowledge," which consists of just about everything I learn. I'm just starting this repository out, so as of writing this, I only have a couple of TILs and some cheatsheets I've collected over the years.
+Not using SSH:
 
-## View Website
+```bash
+GIT_USER=<Your GitHub username> npm run deploy
+```
 
-The actual website is [hosted here][garden-home] by [Vercel][vercel-home]. At some point, I'll likely convert it so it runs on [GitHub Pages][github-pages] instead since that's what I use for my other SSG sites.
+If you are using [GitHub Pages][1] for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
-[garden-home]: https://kba.4lch4.dev
-[vercel-home]: https://vercel.com
-[github-pages]: https://pages.github.com/
-[dev-to]: https://dev.to
-[digital-garden]: https://dev.to/jbranchaud/the-digital-garden-l10
-[jbranchaud]: https://dev.to/jbranchaud
-[conventional-commits]: https://www.conventionalcommits.org/en/v1.0.0/
+[0]: https://docusaurus.io
+[1]: https://pages.github.com

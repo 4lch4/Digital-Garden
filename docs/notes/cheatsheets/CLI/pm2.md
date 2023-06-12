@@ -94,13 +94,13 @@ module.exports = {
       name: 'app',
       script: './app.js',
       env: {
-        NODE_ENV: 'development'
+        NODE_ENV: 'development',
       },
       env_production: {
-        NODE_ENV: 'production'
-      }
-    }
-  ]
+        NODE_ENV: 'production',
+      },
+    },
+  ],
 }
 ```
 
@@ -114,19 +114,19 @@ module.exports = {
       script: './worker.js',
       watch: true,
       env: {
-        NODE_ENV: 'development'
+        NODE_ENV: 'development',
       },
       env_production: {
-        NODE_ENV: 'production'
-      }
+        NODE_ENV: 'production',
+      },
     },
     {
       name: 'api-app',
       script: './api.js',
       instances: 4,
-      exec_mode: 'cluster'
-    }
-  ]
+      exec_mode: 'cluster',
+    },
+  ],
 }
 ```
 

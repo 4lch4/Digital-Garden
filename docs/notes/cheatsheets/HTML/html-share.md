@@ -16,10 +16,7 @@ Facebook:
 Twitter:
 
 ```html
-<a
-  href="https://twitter.com/intent/tweet?text=DESCRIPTION+URL"
-  target="share"
-></a>
+<a href="https://twitter.com/intent/tweet?text=DESCRIPTION+URL" target="share"></a>
 ```
 
 Google Plus:

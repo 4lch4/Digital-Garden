@@ -14,13 +14,9 @@ module.exports = function (app) {
       headers: {
         'Access-Control-Allow-Origin': 'https://ackee.4lch4.cloud',
         'Access-Control-Allow-Methods': ['GET', 'POST', 'PATCH', 'OPTIONS'],
-        'Access-Control-Allow-Headers': [
-          'Content-Type',
-          'Authorization',
-          'Time-Zone'
-        ],
-        'Access-Control-Allow-Credentials': 'true'
-      }
+        'Access-Control-Allow-Headers': ['Content-Type', 'Authorization', 'Time-Zone'],
+        'Access-Control-Allow-Credentials': 'true',
+      },
     })
   )
 }

@@ -1,7 +1,7 @@
-import React from 'react'
-import classnames from 'classnames'
-import useBaseUrl from '@docusaurus/useBaseUrl'
 import styles from '../pages/styles.module.css'
+import useBaseUrl from '@docusaurus/useBaseUrl'
+import classnames from 'classnames'
+import React from 'react'
 
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl)

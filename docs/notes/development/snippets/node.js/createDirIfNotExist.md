@@ -17,8 +17,7 @@ Use `fs.existsSync()` to check if the directory exists, `fs.mkdirSync()` to crea
 ```javascript
 const fs = require('fs')
 
-const createDirIfNotExists = dir =>
-  !fs.existsSync(dir) ? fs.mkdirSync(dir) : undefined
+const createDirIfNotExists = dir => (!fs.existsSync(dir) ? fs.mkdirSync(dir) : undefined)
 
 createDirIfNotExists('test')
 // creates the directory 'test', if it doesn't exist
@@ -27,8 +26,7 @@ createDirIfNotExists('test')
 ```typescript
 import { existsSync, mkdirSync } from 'fs'
 
-const createDirIfNotExists = (dir: string) =>
-  !existsSync(dir) ? mkdirSync(dir) : undefined
+const createDirIfNotExists = (dir: string) => (!existsSync(dir) ? mkdirSync(dir) : undefined)
 
 createDirIfNotExists('test')
 // creates the directory 'test', if it doesn't exist

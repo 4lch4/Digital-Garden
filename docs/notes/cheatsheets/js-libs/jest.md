@@ -131,10 +131,7 @@ expect(value)
 ### Objects
 
 ```js
-expect(value)
-  .toBeInstanceOf(Class)
-  .toMatchObject(object)
-  .toHaveProperty(keyPath, value)
+expect(value).toBeInstanceOf(Class).toMatchObject(object).toHaveProperty(keyPath, value)
 ```
 
 ### Objects
@@ -201,9 +198,7 @@ import renderer from 'react-test-renderer'
 
 ```jsx
 it('works', () => {
-  const tree = renderer
-    .create(<Link page="http://www.facebook.com">Facebook</Link>)
-    .toJSON()
+  const tree = renderer.create(<Link page="http://www.facebook.com">Facebook</Link>).toJSON()
 
   expect(tree).toMatchSnapshot()
 })

@@ -82,7 +82,7 @@ st.on('data' /*...*/)
 function clock() {
   const stream = new Readable({
     objectMode: true,
-    read() {}
+    read() {},
   })
 
   setInterval(() => {
@@ -108,7 +108,7 @@ function xformer() {
     objectMode: true,
     transform: (data, _, done) => {
       done(null, { ...data, index: count++ })
-    }
+    },
   })
 }
 ```
@@ -124,7 +124,7 @@ function renderer() {
     write: (data, _, done) => {
       console.log('<-', data)
       done()
-    }
+    },
   })
 }
 ```

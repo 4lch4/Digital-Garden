@@ -1,13 +1,13 @@
+import Feature from '../components/Feature'
+import features from '../components/Features'
+import styles from './styles.module.css'
+import Head from '@docusaurus/Head'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import classnames from 'classnames'
 import React from 'react'
-import Feature from '../components/Feature'
-import styles from './styles.module.css'
-import Head from '@docusaurus/Head'
-import features from '../components/Features'
-import Link from '@docusaurus/Link'
 
+// import Link from '@docusaurus/Link'
 
 function Home() {
   const context = useDocusaurusContext()
@@ -16,7 +16,11 @@ function Home() {
   return (
     <Layout description={siteConfig.tagline}>
       <Head>
-        <script async src="https://ackee.4lch4.cloud/tracker.js" data-ackee-server="https://ackee.4lch4.cloud" data-ackee-domain-id="b8bd5e0d-20ac-458e-9b30-7ea2d23fd1fb"></script>
+        <script
+          async
+          src="https://ackee.4lch4.cloud/tracker.js"
+          data-ackee-server="https://ackee.4lch4.cloud"
+          data-ackee-domain-id="50c39dd7-cfce-41d4-9f62-345e2b940aa1"></script>
       </Head>
 
       <header className={classnames('hero hero--primary', styles.heroBanner)}>

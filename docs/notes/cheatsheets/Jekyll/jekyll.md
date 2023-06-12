@@ -193,10 +193,9 @@ See: [Variables](http://jekyllrb.com/docs/variables/)
 ### Page
 
 ```html
-{{ page.content }} - un-rendered content {{ page.title }} {{ page.excerpt }} -
-un-rendered excerpt {{ page.url }} {{ page.date }} {{ page.id }} - unique id for
-RSS feeds {{ page.categories }} {{ page.tags }} {{ page.path }} {{ page.dir }}
-{{ page.excerpt | remove: '
+{{ page.content }} - un-rendered content {{ page.title }} {{ page.excerpt }} - un-rendered excerpt
+{{ page.url }} {{ page.date }} {{ page.id }} - unique id for RSS feeds {{ page.categories }} {{
+page.tags }} {{ page.path }} {{ page.dir }} {{ page.excerpt | remove: '
 <p>' | remove: '</p>
 ' }} {{ page.excerpt | strip_html }}
 ```
