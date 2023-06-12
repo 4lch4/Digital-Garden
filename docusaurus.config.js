@@ -148,9 +148,9 @@ const config = {
             position: 'left',
           },
           {
-            to: 'https://4lch4.blog',
+            to: '/blog',
             label: 'Blog',
-            position: 'right',
+            position: 'left',
           },
           // Right Side
           {

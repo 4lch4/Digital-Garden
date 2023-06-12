@@ -1,11 +1,14 @@
 ---
 title: Hello World in PowerShell
+description: A brief look at PowerShell and a Hello World script.
+date: 2018-05-31
 authors:
   name: 4lch4
   title: Some Guy
   url: https://4lch4.com
   image_url: https://github.com/4lch4.png
 tags: [powershell, windows, console, terminal]
+slug: hello-world-in-powershell
 ---
 
 _The following is a blog post I wrote for [The Renegade Coder][8]'s [sample-programs][9] repository._
