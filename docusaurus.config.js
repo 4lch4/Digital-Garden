@@ -9,34 +9,6 @@ const OrgName = pkg.author.name
 const ProjectName = pkg.displayName
 const RepoURL = pkg.homepage
 
-/*
-<script async defer data-website-id="a984e28e-2d77-4522-b5e1-814e5653fa03" src="https://umami.4lch4.cloud/umami.js"></script>
-*/
-
-// const UmamiPlugin = async (context, options) => {
-//   return {
-//     name: 'docusaurus-plugin-umami',
-
-//     injectHtmlTags() {
-//       console.debug(`[${this.name}#injectHtmlTags]: Injecting Umami script...`)
-
-//       return {
-//         headTags: [
-//           {
-//             tagName: 'script',
-//             attributes: {
-//               async: true,
-//               defer: true,
-//               'data-website-id': 'a984e28e-2d77-4522-b5e1-814e5653fa03',
-//               src: 'https://umami.4lch4.cloud/umami.js',
-//             },
-//           },
-//         ],
-//       }
-//     },
-//   }
-// }
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: ProjectName,
@@ -106,6 +78,10 @@ const config = {
         blog: {
           showReadingTime: true,
           editUrl: `${RepoURL}/edit/main`,
+          blogTitle: "4lch4's Blog",
+          blogDescription:
+            'A blog about my life in the world of software and anything I find interesting.',
+          blogSidebarCount: 'ALL',
         },
         // theme: {
         //   customCss: require.resolve('./src/css/custom.css'),
@@ -198,7 +174,11 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/4lch4/Digital-Garden',
+              },
+              {
+                label: 'Links',
+                href: 'https://4lch4.links',
               },
             ],
           },
