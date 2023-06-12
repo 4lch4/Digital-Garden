@@ -14,7 +14,7 @@ export enum Colors {
   bgBlue = '\x1b[44m',
   bgMagenta = '\x1b[45m',
   bgCyan = '\x1b[46m',
-  bgWhite = '\x1b[47m'
+  bgWhite = '\x1b[47m',
 }
 
 export const fg = {
@@ -25,7 +25,7 @@ export const fg = {
   blue: (...args: string[]) => `${Colors.blue}${args.join(' ')}`,
   magenta: (...args: string[]) => `${Colors.magenta}${args.join(' ')}`,
   cyan: (...args: string[]) => `${Colors.cyan}${args.join(' ')}`,
-  white: (...args: string[]) => `${Colors.white}${args.join(' ')}`
+  white: (...args: string[]) => `${Colors.white}${args.join(' ')}`,
 }
 
 export const bg = {
@@ -36,7 +36,7 @@ export const bg = {
   blue: (...args: string[]) => `${Colors.bgBlue}${args.join(' ')}\x1b[0m`,
   magenta: (...args: string[]) => `${Colors.bgMagenta}${args.join(' ')}\x1b[0m`,
   cyan: (...args: string[]) => `${Colors.bgCyan}${args.join(' ')}\x1b[0m`,
-  white: (...args: string[]) => `${Colors.bgWhite}${args.join(' ')}\x1b[0m`
+  white: (...args: string[]) => `${Colors.bgWhite}${args.join(' ')}\x1b[0m`,
 }
 
 function testForegroundColors() {

@@ -21,7 +21,7 @@ description: |
 Min:
 
 ```scss
-@media (min-width: @screen-sm-min) // >= 768px (small tablet) @media (min-width: @screen-md-min) // >= 992px (medium laptop) @media (min-width: @screen-lg-min); // >= 1200px (large desktop)
+@media (min-width: @screen-sm-min); // >= 768px (small tablet) @media (min-width: @screen-md-min) // >= 992px (medium laptop) @media (min-width: @screen-lg-min); // >= 1200px (large desktop)
 ```
 
 Max:
@@ -133,11 +133,7 @@ Mixins:
 ### Tooltip
 
 ```html
-<span
-  data-toggle="tooltip"
-  title="tooltip"
-  data-placement="left|top|bottom|right"
-></span>
+<span data-toggle="tooltip" title="tooltip" data-placement="left|top|bottom|right"></span>
 ```
 
 ```js

@@ -197,7 +197,7 @@ const [first, last] = ['Nikola', 'Tesla']
 ```js
 let { title, author } = {
   title: 'The Silkworm',
-  author: 'R. Galbraith'
+  author: 'R. Galbraith',
 }
 ```
 
@@ -286,7 +286,7 @@ Extract some keys individually and remaining keys in the object using rest (...)
 ```js
 const options = {
   ...defaults,
-  visible: true
+  visible: true,
 }
 ```
 
@@ -372,7 +372,7 @@ numbers.map(n => n * 2)
 // No curly braces = implicit return
 // Same as: numbers.map(function (n) { return n * 2 })
 numbers.map(n => ({
-  result: n * 2
+  result: n * 2,
 }))
 // Implicitly returning objects requires parentheses around the object
 ```
@@ -397,7 +397,7 @@ See: [Object literal enhancements](https://babeljs.io/learn-es2015/#enhanced-obj
 const App = {
   start() {
     console.log('running')
-  }
+  },
 }
 // Same as: App = { start: function () {···} }
 ```
@@ -413,7 +413,7 @@ const App = {
   },
   set closed(value) {
     this.status = value ? 'closed' : 'open'
-  }
+  },
 }
 ```
 
@@ -424,7 +424,7 @@ See: [Object literal enhancements](https://babeljs.io/learn-es2015/#enhanced-obj
 ```js
 let event = 'click'
 let handlers = {
-  [`on${event}`]: true
+  [`on${event}`]: true,
 }
 // Same as: handlers = { 'onclick': true }
 ```
@@ -448,26 +448,31 @@ Object.entries(fatherJS)
 
 ```js
 import 'helpers'
+
 // aka: require('···')
 ```
 
 ```js
 import Express from 'express'
+
 // aka: const Express = require('···').default || require('···')
 ```
 
 ```js
 import { indent } from 'helpers'
+
 // aka: const indent = require('···').indent
 ```
 
 ```js
 import * as Helpers from 'helpers'
+
 // aka: const Helpers = require('···')
 ```
 
 ```js
 import { indentSpaces as indent } from 'helpers'
+
 // aka: const indent = require('···').indentSpaces
 ```
 

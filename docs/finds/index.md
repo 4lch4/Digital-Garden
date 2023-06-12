@@ -1,7 +1,7 @@
 ---
 id: index
-title: Index
-sidebar_label: Index
+title: Finds
+sidebar_label: Finds
 sidebar_position: 0
 ---
 

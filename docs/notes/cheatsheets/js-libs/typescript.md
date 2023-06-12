@@ -30,7 +30,7 @@ never  /* unreachable */
 enum Color {
   Red,
   Green,
-  Blue = 4
+  Blue = 4,
 }
 let c: Color = Color.Green
 ```

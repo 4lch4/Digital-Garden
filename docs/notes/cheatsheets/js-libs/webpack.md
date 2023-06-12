@@ -17,8 +17,8 @@ module.exports = {
   entry: 'src/app.js',
   output: {
     path: __dirname + '/public',
-    filename: 'app.js'
-  }
+    filename: 'app.js',
+  },
 }
 ```
 
@@ -42,12 +42,12 @@ This compiles `src/app.js` into `public/app.js`. (Note: you may need to use `./n
 module.exports = {
   entry: {
     app: 'src/app.js',
-    vendor: 'src/vendor.js'
+    vendor: 'src/vendor.js',
   },
   output: {
     path: __dirname + '/public',
-    filename: '[name].js'
-  }
+    filename: '[name].js',
+  },
 }
 ```
 
@@ -127,6 +127,7 @@ module.exports = {
 
 ```js
 import './styles.css'
+
 // or:
 require('./styles.css')
 ```
@@ -161,7 +162,7 @@ npm install --save-dev \
 
 ```js
 module.exports = {
-  plugins: [require('postcss-cssnext')()]
+  plugins: [require('postcss-cssnext')()],
 }
 ```
 

@@ -1,3 +1,15 @@
+# Directories
 node_modules
 .docusaurus
-build
+.obsidian
+.github
+.vscode
+.trash
+.git
+dist
+
+# Files
+.env
+.gitignore
+pnpm-lock.yaml
+tsconfig.json

@@ -1,7 +1,7 @@
 ---
 title: Fancy Directory and File Creation
 keywords: ['Tricks', 'Terminal']
-description: "TL;DR: `mkdir -p src/{interfaces,lib,operations} && touch src/index.ts src/{interfaces,lib,operations}/index.ts`"
+description: 'TL;DR: `mkdir -p src/{interfaces,lib,operations} && touch src/index.ts src/{interfaces,lib,operations}/index.ts`'
 slug: fancy-directory-and-file-creation
 image: https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif
 ---

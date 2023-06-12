@@ -24,13 +24,7 @@ overflow-y: auto;
 ### Gradient text
 
 ```css
-background: -webkit-gradient(
-  linear,
-  left top,
-  left bottom,
-  from(#eee),
-  to(#333)
-);
+background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#333));
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 ```
